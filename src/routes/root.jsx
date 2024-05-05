@@ -1,44 +1,38 @@
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 export default function Root() {
     return (
-      <>
-        <div id="sidebar">
-          <h1>Example Basic Framework</h1>
-          <div>
-            <form id="search-form" role="search">
-              <input
-                id="q"
-                aria-label="Search contacts"
-                placeholder="Search"
-                type="search"
-                name="q"
-              />
-              <div
-                id="search-spinner"
-                aria-hidden
-                hidden={true}
-              />
-              <div
-                className="sr-only"
-                aria-live="polite"
-              ></div>
-            </form>
-            <form method="post">
-              <button type="submit">New</button>
-            </form>
-          </div>
-          <nav>
-            <ul>
-              <li>
-                <a href={`/contacts/1`}>Your Name</a>
-              </li>
-              <li>
-                <a href={`/contacts/2`}>Your Friend</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div id="detail"></div>
-      </>
+        <>
+            <Navbar expand="lg" className="bg-body-tertiary">
+                <Container fluid>
+                    <Navbar.Brand href="#">t4tclt</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="navbarScroll" />
+                    <Navbar.Collapse id="navbarScroll">
+                        <Nav
+                            className="me-auto my-2 my-lg-0"
+                            style={{ maxHeight: '100px' }}
+                            navbarScroll
+                        >
+                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#about_us">About Us</Nav.Link>
+                            <Nav.Link href="#events_calendar">Events Calendar</Nav.Link>
+                            <NavDropdown title="Resources" id="navbarScrollingDropdown">
+                                <NavDropdown.Item href="#action4">
+                                    Placeholder 1
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="#action5">
+                                    Placeholder 2
+                                </NavDropdown.Item>
+                            </NavDropdown>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+        </>
     );
-  }
-  
+}
