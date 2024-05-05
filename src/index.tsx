@@ -11,13 +11,30 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Root from "./routes/root";
+import Home from './routes/Home';
+import About from './routes/About';
+import Events from './routes/Events';
+import Resources from './routes/Resources';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root/>,
+    element: <Home/>,
+  },
+  {
+    path: "/about",
+    element: <About/>,
+  },
+  {
+    path: "/events",
+    element: <Events/>,
+  },
+  {
+    path: "/resources",
+    element: <Resources/>,
   },
 ]);
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -28,6 +45,8 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
