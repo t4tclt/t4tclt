@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './Events.css';
 
-function App() {
+function Events() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Events
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="events-container">
+      <h1 className="events-title">Upcoming Events</h1>
+      
+
+        <div className="eventbrite-container">
+          <h2>Register for Events</h2>
+          {/* Eventbrite embed code would go here */}
+          <div className="eventbrite-placeholder">
+            Eventbrite Widget
+          </div>
+        </div>
+      </div>
   );
 }
 
-export default App;
+export default Events;
