@@ -1,6 +1,9 @@
 import React from 'react';
 import './Home.css';
 import T4TLogo from '../T4T_WebsiteLogo.svg';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { SiEventbrite } from 'react-icons/si';
+import { MdEmail } from 'react-icons/md';
 
 function Home() {
   return (
@@ -8,6 +11,20 @@ function Home() {
       <div className="pattern-background"></div>
       <div className="logo-container">
         <img src={T4TLogo} alt="T4T Logo" className="main-logo" />
+      </div>
+      <div className="socials">
+        <a href="https://www.facebook.com/groups/t4tclt" target="_blank" rel="noopener noreferrer" className="social-link">
+          <FaFacebook size={32}/>
+        </a>
+        <a href="https://instagram.com/t4tclt" target="_blank" rel="noopener noreferrer" className="social-link">
+          <FaInstagram size={32}/>
+        </a>
+        <a href="https://www.eventbrite.com/o/t4t-charlotte-104039617821" target="_blank" rel="noopener noreferrer" className="social-link">
+          <SiEventbrite size={32}/>
+        </a>
+        <a href="mailto:t4tcharlottenc@gmail.com" className="social-link">
+          <MdEmail size={32}/>
+        </a>
       </div>
       <div className="info-section">
         <div className="info-content">
