@@ -49,6 +49,42 @@ function Home() {
           </button>
         </div>
       </div>
+      <div className="summary-section">
+        <div className="summary-item left">
+          <div className="summary-title">Clothes Swaps</div>
+          <div className="summary-content">
+            Providing space for folx to get rid of their old clothes and find gender affirming clothes
+          </div>
+        </div>
+        
+        <div className="summary-item right">
+          <div className="summary-title">Monthly Board Game Night</div>
+          <div className="summary-content">
+            Come join us for casual board games at Summit Eastover every Third Friday
+          </div>
+        </div>
+        
+        <div className="summary-item left">
+          <div className="summary-title">Verified Discord Community</div>
+          <div className="summary-content">
+            Connect with over 300 local trans folx and join our weekly game nights
+          </div>
+        </div>
+        
+        <div className="summary-item right">
+          <div className="summary-title">Mutual Aid Opportunities</div>
+          <div className="summary-content">
+            We use discord to coordinate our community into asking for and offering each other help
+          </div>
+        </div>
+        
+        <div className="summary-item left">
+          <div className="summary-title">And More!</div>
+          <div className="summary-content">
+            Speed Friending, Picnics, Craft Nights, Movie Nights, Co-working, Potlucks, Restaurant outings
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
