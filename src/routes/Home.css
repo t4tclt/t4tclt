@@ -25,7 +25,7 @@ body {
   height: 33vh;
   background-image: url('../T4T_RepeatedPattern.svg');
   background-repeat: repeat;
-  background-size: 110%;
+  background-size: 2000px 288px;
   background-position: center;
   background-color: grey;
 }
@@ -161,6 +161,30 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 4px var(--shadow-color);
   line-height: 1.5;
+}
+
+.events-section {
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.events-section h2 {
+  text-align: center;
+  color: var(--primary-blue);
+  margin-bottom: 1.5rem;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#eventbrite-widget {
+  min-height: 425px;
+  width: 100%;
 }
 
 @media (max-width: 768px) {

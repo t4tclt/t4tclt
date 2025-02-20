@@ -1,4 +1,3 @@
-import React from 'react';
 import './Home.css';
 import T4TLogo from '../T4T_WebsiteLogo.svg';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
@@ -44,7 +43,7 @@ function Home() {
             events they'd like to see and how we can best serve the community. 
             Click the button below to give us some feedback or make requests!
           </p>
-          <button className="feedback-button">
+          <button className="feedback-button" onClick={() => window.open('https://forms.gle/pgP5rvp77m9g9LP97', '_blank')}>
             Give Feedback
           </button>
         </div>
