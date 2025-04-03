@@ -1,0 +1,305 @@
+.skill-request-form {
+  padding: 24px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.skills-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.suggest-skill-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border: none;
+  background: none;
+  color: #3498db;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.suggest-skill-link:hover {
+  opacity: 0.8;
+}
+
+.suggest-skill-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.suggest-skill-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+.suggest-skill-button,
+.suggest-skill-cancel {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.suggest-skill-button {
+  background-color: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+.suggest-skill-button:hover {
+  background-color: #2980b9;
+}
+
+.suggest-skill-cancel {
+  background-color: white;
+}
+
+.suggest-skill-cancel:hover {
+  background-color: #f8f9fa;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.skills-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.skill-category-group {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #f8f9fa;
+  cursor: pointer;
+}
+
+.category-header h3 {
+  margin: 0;
+  font-size: 1em;
+  color: #2c3e50;
+}
+
+.category-toggle {
+  transition: transform 0.2s ease;
+}
+
+.category-toggle.expanded {
+  transform: rotate(180deg);
+}
+
+.skill-options {
+  display: none;
+  padding: 12px;
+  background: white;
+}
+
+.skill-options.expanded {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 8px;
+}
+
+.skill-button {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.skill-button.selected {
+  background-color: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+.urgency-options {
+  display: flex;
+  gap: 8px;
+}
+
+.urgency-button {
+  flex: 1;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.urgency-button.selected {
+  color: white;
+}
+
+.urgency-button.low.selected {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.urgency-button.medium.selected {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #000;
+}
+
+.urgency-button.high.selected {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.days-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+}
+
+.day-button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1em;
+  text-align: center;
+}
+
+.day-button.selected {
+  background-color: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+.time-options {
+  display: flex;
+  gap: 8px;
+}
+
+.time-button {
+  flex: 1;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.time-button.selected {
+  background-color: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.cancel-button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cancel-button:hover {
+  background-color: #f8f9fa;
+}
+
+.submit-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+
+.submit-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .skill-request-form {
+    padding: 16px;
+  }
+
+  .urgency-options,
+  .time-options {
+    flex-direction: column;
+  }
+
+  .days-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .suggest-skill-form {
+    flex-direction: column;
+  }
+
+  .suggest-skill-button,
+  .suggest-skill-cancel {
+    width: 100%;
+  }
+} 

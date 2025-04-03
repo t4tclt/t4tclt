@@ -13,6 +13,11 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Events from './routes/Events';
 import Resources from './routes/Resources';
+import Profile from './routes/Profile';
+import SuggestSkill from './routes/SuggestSkill';
+import SkillRequests from './routes/SkillRequests';
+import RequestDetails from './routes/RequestDetails';
+import Notification from './routes/Notifications';
 
 const router = createBrowserRouter([
   {
@@ -31,8 +36,31 @@ const router = createBrowserRouter([
     path: "/resources",
     element: <Resources/>,
   },
+  {
+    path: "/profile",
+    element: <Profile/>,
+  },
+  {
+    path: "/profile/:username",
+    element: <Profile/>,
+  },
+  {
+    path: "/suggest-skill",
+    element: <SuggestSkill/>,
+  },
+  {
+    path: "/requests",
+    element: <SkillRequests/>,
+  },
+  {
+    path: "/requests/:id",
+    element: <RequestDetails/>,
+  },
+  {
+    path: "/notifications",
+    element: <Notification/>,
+  },
 ]);
-
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -43,8 +71,6 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

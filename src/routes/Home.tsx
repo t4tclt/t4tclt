@@ -1,12 +1,16 @@
 import './Home.css';
 import T4TLogo from '../T4T_WebsiteLogo.svg';
-import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaUser } from 'react-icons/fa';
 import { SiEventbrite } from 'react-icons/si';
 import { MdEmail } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
     <div className="home-container">
+      <Link to="/profile" className="profile-link">
+        <FaUser size={24} />
+      </Link>
       <div className="pattern-background"></div>
       <div className="logo-container">
         <img src={T4TLogo} alt="T4T Logo" className="main-logo" />
@@ -31,7 +35,7 @@ function Home() {
             T4Tclt is a group dedicated to transgender inclusivity in Charlotte, NC.
           </p>
           <p>
-            We have a monthly board game night at Summit Coffee Eastover, a quarterly 
+            We have a monthly board game night at Hattie's, a quarterly 
             clothes swap, a discord and other events.
           </p>
           <p>
@@ -59,7 +63,7 @@ function Home() {
         <div className="summary-item right">
           <div className="summary-title">Monthly Board Game Night</div>
           <div className="summary-content">
-            Come join us for casual board games at Summit Eastover every Third Friday
+            Come join us for casual board games at Hattie's every Third Friday
           </div>
         </div>
         
