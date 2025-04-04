@@ -196,6 +196,10 @@ body {
     height: 25vh;
   }
 
+  .pattern-background {
+    background-size: 280%;
+  }
+
   .info-section {
     margin-top: calc(25vh + 8rem);
   }
