@@ -3,7 +3,7 @@ import T4TLogo from '../T4T_WebsiteLogo.svg';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { SiEventbrite } from 'react-icons/si';
 import { MdEmail } from 'react-icons/md';
-import { Link } from 'react-router-dom';
+
 function Home() {
   return (
     <div className="home-container">
