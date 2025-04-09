@@ -29,7 +29,8 @@ function Home() {
       <div className="info-section">
         <div className="info-content">
           <p>
-            T4Tclt is a group dedicated to transgender inclusivity in Charlotte, NC.
+          T4Tclt is a trans-led organization committed to building gender expansive community in Charlotte. 
+          We focus on mutual aid, transformative justice and cultivating safe community spaces. 
           </p>
           <p>
             We have a monthly board game night at Hattie's, Craft Night, Social Supper, quarterly 
@@ -69,7 +70,7 @@ function Home() {
         <div className="summary-item right">
           <div className="summary-title">Monthly Board Game Night</div>
           <div className="summary-content">
-            Come join us for casual board games at Summit Eastover every Third Friday
+            Come join us for casual board games at Hattie's every Third Friday, Craft Night every Second Saturday and Social Supper every First Saturday
           </div>
         </div>
         
