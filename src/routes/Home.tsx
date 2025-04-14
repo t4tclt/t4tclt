@@ -45,7 +45,7 @@ function Home() {
             events they'd like to see and how we can best serve the community. 
             Click the button below to give us some feedback or make requests!
           </p>
-          <button className="feedback-button" onClick={() => window.open('https://forms.gle/pgP5rvp77m9g9LP97', '_blank')}>
+          <button className="feedback-button" onClick={() => window.open('https://forms.gle/XhcRF7fgDSY7pu2p8', '_blank')}>
             Give Feedback
           </button>
         </div>
@@ -98,7 +98,7 @@ function Home() {
       <div className="help-section">
         <h2 className="help-title">Need Help?</h2>
         <div className="help-content">
-          <p>Looking for support or resources? Click the button to fill out our form and we'll get back to you as soon as possible.</p>
+          <p>Looking for support or resources? Check out our <a href="https://docs.google.com/document/d/1L0MP5RohGWxOJIDB83y_LOS3ucYIFYm4U7YtH4l7ETk/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">resource guide</a> and click the button to fill out our form and we'll get back to you as soon as possible.</p>
           <a 
             href="https://docs.google.com/forms/d/e/1FAIpQLSfFXQzEQlNzwmB6pIowRXtq44etKOKZVrIs4wBof55f_gz_Jg/viewform" 
             target="_blank" 
