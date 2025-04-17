@@ -294,6 +294,71 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.zine-section {
+  width: 100%;
+  background-color: white;
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.zine-content {
+  max-width: 800px;
+  width: 90%;
+}
+
+.zine-title {
+  color: #51c6f1;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.zine-buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.zine-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.zine-button.digital {
+  background-color: #f5b0be;
+  color: white;
+}
+
+.zine-button.print {
+  background-color: #51c6f1;
+  color: white;
+}
+
+.zine-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: white;
+}
+
+.zine-button.digital:hover {
+  background-color: #f39bac;
+}
+
+.zine-button.print:hover {
+  background-color: #3ab4e7;
+}
+
 .help-section {
   width: 100%;
   background-color: #51c6f1;
@@ -509,6 +574,24 @@ body {
   }
 
   .newsletter-buttons {
+    gap: 1rem;
+  }
+
+  .zine-section {
+    padding: 3rem 1rem;
+  }
+
+  .zine-title {
+    font-size: 2rem;
+  }
+
+  .zine-button {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.1rem;
+    width: 100%;
+  }
+
+  .zine-buttons {
     gap: 1rem;
   }
 }

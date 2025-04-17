@@ -55,6 +55,35 @@ function Home() {
           height="600"
         ></iframe>
       </div>
+
+      <div className="zine-section">
+        <div className="zine-content">
+          <h2 className="zine-title">Check out our zine!</h2>
+          <p>We're excited to share our first zine with you! It's a collection of essays, poems, and art from the trans+ community in Charlotte. We hope you enjoy it! 
+            If you'd like to print a copy (or several to distribute), you can download the PDF below or read the digital version.
+            If you'd like to contribute to the next issue of the zine, please get in touch with us on discord.
+          </p>
+          <div className="zine-buttons">
+            <a 
+              href="/assets/T4T1-Spreads.pdf" 
+              className="zine-button digital" 
+              download="T4T Zine Issue 1 Spreads.pdf"
+              rel="noopener noreferrer"
+            >
+              Digital Version
+            </a>
+            <a 
+              href="/assets/T4T1-Booklet.pdf" 
+              className="zine-button print" 
+              download="T4T Zine Issue 1 Booklet.pdf"
+              rel="noopener noreferrer"
+            >
+              Print Version
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="summary-section">
         <h2 className="summary-title-main">About Us</h2>
         <div className="summary-item left">
