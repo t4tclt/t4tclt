@@ -67,7 +67,7 @@ function Home() {
             <a 
               href="/assets/T4T1-Spreads.pdf" 
               className="zine-button digital" 
-              download="T4T Zine Issue 1 Spreads.pdf"
+              download="T4T-Zine.Issue-1.Digital-Version.pdf"
               rel="noopener noreferrer"
             >
               Digital Version
@@ -75,7 +75,7 @@ function Home() {
             <a 
               href="/assets/T4T1-Booklet.pdf" 
               className="zine-button print" 
-              download="T4T Zine Issue 1 Booklet.pdf"
+              download="T4T-Zine.Issue-1.Print-Version.pdf"
               rel="noopener noreferrer"
             >
               Print Version
