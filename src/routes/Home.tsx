@@ -29,19 +29,16 @@ function Home() {
       <div className="info-section">
         <div className="info-content">
           <p>
-          T4Tclt is a trans-led organization committed to building gender expansive community in Charlotte. 
-          We focus on mutual aid, transformative justice and cultivating safe community spaces. 
+          T4Tclt is a trans-led organization committed to building gender expansive community in Charlotte.
+           We focus on cultivating safe community spaces as well as supporting the community through mutual
+            aid and transformative justice. 
           </p>
           <p>
-            We have a monthly board game night at Hattie's, Craft Night, Social Supper, quarterly 
-            clothes swap, discord community of over 300 local trans folx and other events.
+          Not sure if T4Tclt is right for you? Everyone is always welcome at our events, 
+          so come see if the vibe feels right! For lists of upcoming events, check out the calendar or monthly newsletter below. 
           </p>
           <p>
-            Our focus is creating community with our trans siblings and building 
-            spaces for us by us.
-          </p>
-          <p>
-            Which is why we're always looking to hear from folx on what type of 
+            We're always looking to hear from folx on what type of 
             events they'd like to see and how we can best serve the community. 
             Click the button below to give us some feedback or make requests!
           </p>
@@ -58,6 +55,35 @@ function Home() {
           height="600"
         ></iframe>
       </div>
+
+      <div className="zine-section">
+        <div className="zine-content">
+          <h2 className="zine-title">Check out our zine!</h2>
+          <p>We're excited to share our first zine with you! It's a collection of essays, poems, and art from the trans+ community in Charlotte. We hope you enjoy it! 
+            If you'd like to print a copy (or several to distribute), you can download the PDF below or read the digital version.
+            If you'd like to contribute to the next issue of the zine, please get in touch with us on discord.
+          </p>
+          <div className="zine-buttons">
+            <a 
+              href="/assets/T4T1-Spreads.pdf" 
+              className="zine-button digital" 
+              download="T4T-Zine.Issue-1.Digital-Version.pdf"
+              rel="noopener noreferrer"
+            >
+              Digital Version
+            </a>
+            <a 
+              href="/assets/T4T1-Booklet.pdf" 
+              className="zine-button print" 
+              download="T4T-Zine.Issue-1.Print-Version.pdf"
+              rel="noopener noreferrer"
+            >
+              Print Version
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="summary-section">
         <h2 className="summary-title-main">About Us</h2>
         <div className="summary-item left">
@@ -92,6 +118,18 @@ function Home() {
           <div className="summary-title">And More!</div>
           <div className="summary-content">
             Speed Friending, Picnics, Craft Nights, Movie Nights, Co-working, Potlucks, Restaurant outings
+          </div>
+        </div>
+      </div>
+      <div className="newsletter-section">
+        <div className="newsletter-content">
+          <h2 className="newsletter-title">Our Newsletter</h2>
+          <p>Stay updated with our latest news, events, and community highlights! Every month we send out a newsletter with all the upcoming events and a recap of the previous month's events.</p>
+          <p>Check out the <a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" target="_blank" rel="noopener noreferrer"> March Newsletter</a></p>
+          <div className="newsletter-buttons">
+            <a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" className="newsletter-button current" target="_blank" rel="noopener noreferrer">
+              Read April's Newsletter
+            </a>
           </div>
         </div>
       </div>
