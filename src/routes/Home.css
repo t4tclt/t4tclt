@@ -468,7 +468,9 @@ body {
   .logo-container {
     top: calc(33vh - 12.5vh);
   }
-  
+  .email-signup iframe{
+    width: 420px;
+  }
   .main-logo {
     height: 25vh;
   }
