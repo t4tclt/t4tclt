@@ -1,8 +1,8 @@
 import './Home.css';
 import T4TLogo from '../T4T_WebsiteLogo.svg';
-import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { SiEventbrite } from 'react-icons/si';
 import { MdEmail } from 'react-icons/md';
+import { FaFacebook, FaInstagram, FaBluesky } from 'react-icons/fa6';
 
 function Home() {
   return (
@@ -17,6 +17,9 @@ function Home() {
         </a>
         <a href="https://instagram.com/t4tclt" target="_blank" rel="noopener noreferrer" className="social-link">
           <FaInstagram size={32}/>
+        </a>
+        <a href="https://bsky.app/profile/t4tclt.com" target="_blank" rel="noopener noreferrer" className="social-link">
+          <FaBluesky size={32}/>
         </a>
         <a href="https://www.eventbrite.com/o/t4t-charlotte-104039617821" target="_blank" rel="noopener noreferrer" className="social-link">
           <SiEventbrite size={32}/>
