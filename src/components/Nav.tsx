@@ -4,6 +4,7 @@ import './Nav.css';
 
 function Nav() {
   const [isVisible, setIsVisible] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,6 +21,7 @@ function Nav() {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
+      setIsMenuOpen(false); // Close menu after clicking
     }
   };
 
@@ -28,8 +30,27 @@ function Nav() {
   return (
     <nav className={`nav-container ${isVisible ? 'visible' : ''}`}>
       <div className="nav-content">
-        <img src={T4TLogo} alt="T4T Logo" className="nav-logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} />
-        <div className="nav-links">
+        <img 
+          src={T4TLogo} 
+          alt="T4T Logo" 
+          className="nav-logo" 
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            setIsMenuOpen(false);
+          }} 
+        />
+        
+        <button 
+          className={`hamburger ${isMenuOpen ? 'open' : ''}`}
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
           <button onClick={() => scrollToSection('events')}>Events</button>
           <button onClick={() => scrollToSection('zine')}>Zine</button>
           <button onClick={() => scrollToSection('about')}>About</button>
