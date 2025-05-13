@@ -282,6 +282,7 @@ body {
   align-items: center;
   gap: 1rem;
   scroll-margin-top: 80px;
+  width: 100%
 }
 
 .calendar-title {
