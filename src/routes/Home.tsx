@@ -59,6 +59,35 @@ function Home() {
           src="https://calendar.google.com/calendar/embed?src=dc8fd8df8554e9e4e5d34ea13918977ac6b9c3e617d5f701073d9af220df680e%40group.calendar.google.com&ctz=America%2FNew_York" 
           height="600"
         ></iframe>
+        
+        <div className="flyer-section">
+          <div className="flyer-content">
+            <img 
+              src="/assets/T4TVarietyShow.png" 
+              alt="T4T Variety Show Fundraiser Flyer" 
+              className="flyer-image"
+            />
+            <div className="flyer-text">
+              <h3 className="flyer-title">T4T Variety Show Fundraiser</h3>
+              <div className="flyer-description">
+                <p>
+                  Come one, come all to the most delightfully queer fundraiser of the summer! Join us at NoDa Collective for an evening of talent, laughter, and community care at our T4T Variety Show Fundraiser. Expect everything from drag and poetry to live music, comedy, and unexpected performances — all brought to you by our community. <a href="https://forms.gle/iwNRBH9mWjUMpnVj9" target='_blank' rel="noopener noreferrer">Sign up to perform here!</a>
+                </p>
+                <p>
+                  All proceeds go directly toward supporting T4Tclt's mutual aid efforts, event supplies, and sustaining affirming space for our people. Bring your friends, your dollars, and your loudest cheers — and don't forget to tip the performers!
+                </p>
+                <a 
+            href="https://opencollective.com/t4t-charlotte" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="donate-button"
+          >
+            Donate Now!
+          </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="zine" className="zine-section">
