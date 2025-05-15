@@ -63,26 +63,26 @@ function Home() {
         <div className="flyer-section">
           <div className="flyer-content">
             <img 
-              src="/assets/T4TVarietyShow.png" 
+              src="/assets/Mutual aid Raffle.png" 
               alt="T4T Variety Show Fundraiser Flyer" 
               className="flyer-image"
             />
             <div className="flyer-text">
-              <h3 className="flyer-title">T4T Variety Show Fundraiser</h3>
+              <h3 className="flyer-title">T4T Mutual Aid Raffle</h3>
               <div className="flyer-description">
                 <p>
-                  Come one, come all to the most delightfully queer fundraiser of the summer! Join us at NoDa Collective for an evening of talent, laughter, and community care at our T4T Variety Show Fundraiser. Expect everything from drag and poetry to live music, comedy, and unexpected performances — all brought to you by our community. <a href="https://forms.gle/iwNRBH9mWjUMpnVj9" target='_blank' rel="noopener noreferrer">Sign up to perform here!</a>
+                  T4T regularly holds raffles for various mutual aid needs. Currently, we are raffling off the blacklight reactive art piece shown here for a community member's top surgery expenses.
                 </p>
                 <p>
-                  All proceeds go directly toward supporting T4Tclt's mutual aid efforts, event supplies, and sustaining affirming space for our people. Bring your friends, your dollars, and your loudest cheers — and don't forget to tip the performers!
+                  The art was made by one of our many talented community members, Nebulae!
                 </p>
                 <a 
-            href="https://opencollective.com/t4t-charlotte" 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfFq_ks3VvOI5vlk33B-RvM14u9mDSQGSZAtELyRX3xde6F9w/viewform?usp=header" 
             target="_blank" 
             rel="noopener noreferrer"
             className="donate-button"
           >
-            Donate Now!
+            Enter the Raffle!
           </a>
               </div>
             </div>
