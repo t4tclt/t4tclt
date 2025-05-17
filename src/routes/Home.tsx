@@ -179,7 +179,8 @@ function Home() {
           </a>
           
           <p id ='surgeons'>Other Resources we've found: <a href="https://docs.google.com/spreadsheets/d/1zMl4i4fyOanl-Au_tUUpWYzWDyTrbdfz79aGTEav2gs/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer">Spreadsheet of NC Gender Affirming Surgeons</a></p>
-
+          <p><a href="https://docs.google.com/document/d/1U5cxmHfuz-9mLM7tsXgQSRhtNpXd1BpKzW2ILhXMq8M/edit?usp=sharing"target="_blank" rel="noopener noreferrer">SS Name and Gender Marker Change Walkthrough - NC</a></p>
+          <p><a href="https://docs.google.com/document/d/1arceK5ZsxXCTe8hDDSWS-TM4XRIREvVAjfzYhK-4-c4/edit?usp=sharing"target="_blank" rel="noopener noreferrer">NC Name Change - Checklist/Pricelist</a></p>
         </div>
       </div>
 
