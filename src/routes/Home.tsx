@@ -86,33 +86,7 @@ function Home() {
           </a>
               </div>
             </div>
-          </div>
-        <div className="flyer-content">
-            <img 
-              src="/assets/Mutual aid Raffle.png" 
-              alt="T4T Variety Show Fundraiser Flyer" 
-              className="flyer-image"
-            />
-            <div className="flyer-text">
-              <h3 className="flyer-title">T4T Mutual Aid Raffle</h3>
-              <div className="flyer-description">
-                <p>
-                  T4T regularly holds raffles for various mutual aid needs. Currently, we are raffling off the blacklight reactive art piece shown here for a community member's top surgery expenses.
-                </p>
-                <p>
-                  The art was made by one of our many talented community members, Nebulae!
-                </p>
-                <a 
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfFq_ks3VvOI5vlk33B-RvM14u9mDSQGSZAtELyRX3xde6F9w/viewform?usp=header" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="donate-button"
-          >
-            Enter the Raffle!
-          </a>
-              </div>
-            </div>
-          </div>
+          </div>   
         </div>
         </div>
 
