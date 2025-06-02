@@ -63,6 +63,32 @@ function Home() {
         <div className="flyer-section">
           <div className="flyer-content">
             <img 
+              src="/assets/T4TVarietyShow.png" 
+              alt="T4T Variety Show Fundraiser Flyer" 
+              className="flyer-image"
+            />
+            <div className="flyer-text">
+              <h3 className="flyer-title">T4T Variety Show Fundraiser</h3>
+              <div className="flyer-description">
+                <p>
+                  Come one, come all to the most delightfully queer fundraiser of the summer! Join us at NoDa Collective for an evening of talent, laughter, and community care at our T4T Variety Show Fundraiser. Expect everything from drag and poetry to live music, comedy, and unexpected performances — all brought to you by our community. <a href="https://forms.gle/iwNRBH9mWjUMpnVj9" target='_blank' rel="noopener noreferrer">Sign up to perform here!</a>
+                </p>
+                <p>
+                  All proceeds go directly toward supporting T4Tclt's mutual aid efforts, event supplies, and sustaining affirming space for our people. Bring your friends, your dollars, and your loudest cheers — and don't forget to tip the performers!
+                </p>
+                <a 
+            href="https://opencollective.com/t4t-charlotte/events/fundraiser-variety-show-fdd88ecc" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="donate-button"
+          >
+            Get Tickets Now!
+          </a>
+              </div>
+            </div>
+          </div>
+        <div className="flyer-content">
+            <img 
               src="/assets/Mutual aid Raffle.png" 
               alt="T4T Variety Show Fundraiser Flyer" 
               className="flyer-image"
@@ -88,7 +114,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+        </div>
 
       <div id="zine" className="zine-section">
         <div className="zine-content">
@@ -137,18 +163,23 @@ function Home() {
         <div className="summary-item left">
           <div className="summary-title">Verified Discord Community</div>
           <div className="summary-content">
-            Connect with over 300 local trans folx and join our weekly game nights
+            Connect with over 400 local trans folx with location subsections and join our discord game nights
           </div>
         </div>
         
         <div className="summary-item right">
           <div className="summary-title">Mutual Aid Opportunities</div>
           <div className="summary-content">
-            We use discord to coordinate our community into asking for and offering each other help
+            We use discord to coordinate our community into asking for and offering each other help as well as coordinate aid for our community
           </div>
         </div>
-        
         <div className="summary-item left">
+          <div className="summary-title">Zine</div>
+          <div className="summary-content">
+            We have a quarterly creative zine that folks can submit to, see above for a download! We also have a resource zine for the area
+          </div>
+        </div>
+        <div className="summary-item right">
           <div className="summary-title">And More!</div>
           <div className="summary-content">
             Speed Friending, Picnics, Craft Nights, Movie Nights, Co-working, Potlucks, Restaurant outings
@@ -158,10 +189,11 @@ function Home() {
       <div id="newsletter" className="newsletter-section">
         <div className="newsletter-content">
           <h2 className="newsletter-title">Our Newsletter</h2>
-          <p>Stay updated with our latest news, events, and community highlights! Every month we send out a newsletter with all the upcoming events and a recap of the previous month's events.</p>
-          <p>Check out the <a href="https://www.canva.com/design/DAGjcFWXDi0/eZ7LD-uCNwd0M6_lEESjDw/view?utm_content=DAGjcFWXDi0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h946dd6f84a" target="_blank" rel="noopener noreferrer"> Current (May) Newsletter</a></p>
-          <p>Or, check out some of our older newsletters, like the <a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" target="_blank" rel="noopener noreferrer">April Newsletter</a> and
-          <a href="https://www.canva.com/design/DAGf-0CDtI4/LFesLcVsILWGVQhgS0vGWw/view?utm_content=DAGf-0CDtI4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8acbb184d2" target="_blank" rel="noopener noreferrer"> March Newsletter</a></p>
+          <p>Stay updated with our latest news, events, and community highlights! Every month we send out a newsletter with all the upcoming events and a recap of the previous month's events.</p> 
+          <p>Check out the <a href="https://www.canva.com/design/DAGm0hRAxAg/WHMRpECUKKTIvggudI7e6g/view?utm_content=DAGm0hRAxAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h925b55a634" target="_blank" rel="noopener noreferrer"> Current (June) Newsletter</a></p>
+          <p>Or, check out some of our older newsletters, like the <a href="https://www.canva.com/design/DAGjcFWXDi0/eZ7LD-uCNwd0M6_lEESjDw/view?utm_content=DAGjcFWXDi0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h946dd6f84a" target="_blank" rel="noopener noreferrer">May Newsletter</a> </p>
+         <p><a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" target="_blank" rel="noopener noreferrer">April Newsletter</a> </p>  
+         <p><a href="https://www.canva.com/design/DAGf-0CDtI4/LFesLcVsILWGVQhgS0vGWw/view?utm_content=DAGf-0CDtI4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8acbb184d2" target="_blank" rel="noopener noreferrer">March Newsletter</a> </p>  
           <div className="email-signup"><iframe width="600" height="604" title='Email Signup' src="https://sibforms.com/serve/MUIFAPoIxaiYsNaOfWYXlUhl8vtAN1NRAImpopsucj2mDCWHaxb6XI5aiFnegh-ZrrlBfNbK221EwbLe1qvBERzUhalVpcCaMVpyh_ivZ_7yf9FquySuS3tDKTS9pzcDSUHcvV-VI7PyErLyUh4ALOa9jhDEeF7NajbbDqfdu8flA9FMLpwAWZTw9NdO5gtf3hEK7OOiw9uQfKjN"></iframe></div>
         </div>
       </div>
