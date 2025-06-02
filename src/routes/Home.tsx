@@ -88,6 +88,7 @@ function Home() {
             </div>
           </div>   
         </div>
+        </div>
 
       <div id="zine" className="zine-section">
         <div className="zine-content">
