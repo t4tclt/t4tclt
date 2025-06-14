@@ -56,7 +56,9 @@ function Nav() {
           <button onClick={() => scrollToSection('about')}>About</button>
           <button onClick={() => scrollToSection('newsletter')}>Newsletter</button>
           <button onClick={() => scrollToSection('help')}>Help</button>
+          <button onClick={() => scrollToSection('resources')}>Resources</button>
           <button onClick={() => scrollToSection('donate')}>Donate</button>
+          <button onClick={() => scrollToSection('contact')}>Contact</button>
         </div>
       </div>
     </nav>

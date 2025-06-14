@@ -183,10 +183,72 @@ function Home() {
           >
             Request Assistance
           </a>
-          
-          <p id ='surgeons'>Other Resources we've found: <a href="https://docs.google.com/spreadsheets/d/1zMl4i4fyOanl-Au_tUUpWYzWDyTrbdfz79aGTEav2gs/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer">Spreadsheet of NC Gender Affirming Surgeons</a></p>
-          <p><a href="https://docs.google.com/document/d/1U5cxmHfuz-9mLM7tsXgQSRhtNpXd1BpKzW2ILhXMq8M/edit?usp=sharing"target="_blank" rel="noopener noreferrer">SS Name and Gender Marker Change Walkthrough - NC</a></p>
-          <p><a href="https://docs.google.com/document/d/1arceK5ZsxXCTe8hDDSWS-TM4XRIREvVAjfzYhK-4-c4/edit?usp=sharing"target="_blank" rel="noopener noreferrer">NC Name Change - Checklist/Pricelist</a></p>
+        </div>
+      </div>
+
+      <div id="resources" className="resources-section">
+        <h2 className="resources-title">Resources</h2>
+        <div className="resources-content">
+          <div className="resource-category">
+            <h3 className="resource-category-title">T4T Resources</h3>
+            <div className="resource-links">
+              <a 
+                href="https://docs.google.com/document/d/1A8GYMMVjo7gPZdA1nGedNwIw0sYjvb9vDvCtCZ3m7iE/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Queer Sex and Bodily Autonomy Guide
+              </a>
+              <a 
+                href="https://docs.google.com/document/d/1RMwGjV46_AVT6jsHbFsBRZBrfDYr1WWTI_H2bvjBQz8/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Know Your Rights: Boundaries and Consent
+              </a>
+              <a 
+                href="https://docs.google.com/document/d/1eBg1U5qzwLkB7X9jueoZ2TYbx8lTuuSU4FwTFdd1ttI/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Beginner's Worksheet on Consent, Boundaries, and Red Flags in Kink
+              </a>
+              <a 
+                href="https://docs.google.com/document/d/1L0MP5RohGWxOJIDB83y_LOS3ucYIFYm4U7YtH4l7ETk/edit?usp=drivesdk" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Trans Folx Guide to Charlotte Resources
+              </a>
+            </div>
+          </div>
+
+          <div className="resource-category">
+            <h3 className="resource-category-title">Community Resources</h3>
+            <div className="resource-links">
+              <a 
+                href="https://docs.google.com/spreadsheets/d/1zMl4i4fyOanl-Au_tUUpWYzWDyTrbdfz79aGTEav2gs/edit?gid=0#gid=0" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                NC Gender Affirming Surgeons Directory
+              </a>
+              <a 
+                href="https://docs.google.com/document/d/1U5cxmHfuz-9mLM7tsXgQSRhtNpXd1BpKzW2ILhXMq8M/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                SS Name and Gender Marker Change Walkthrough - NC
+              </a>
+              <a 
+                href="https://docs.google.com/document/d/1arceK5ZsxXCTe8hDDSWS-TM4XRIREvVAjfzYhK-4-c4/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                NC Name Change - Checklist/Pricelist
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -202,6 +264,59 @@ function Home() {
           >
             Support Our Work
           </a>
+        </div>
+      </div>
+
+      <div id="contact" className="contact-section">
+        <h2 className="contact-title">Contact Us</h2>
+        <div className="contact-content">
+          <form
+            action="https://formsubmit.co/t4tcharlottenc@gmail.com"
+            method="POST"
+            className="contact-form"
+          >
+            <div className="form-group">
+              <label htmlFor="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                placeholder="Your name"
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="Your email"
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="subject">Subject</label>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                required
+                placeholder="Subject"
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                required
+                placeholder="Your message"
+                rows={5}
+              ></textarea>
+            </div>
+            <button type="submit" className="submit-button">Send Message</button>
+          </form>
         </div>
       </div>
     </div>
