@@ -63,27 +63,32 @@ function Home() {
         <div className="flyer-section">
           <div className="flyer-content">
             <img 
-              src="/assets/T4TVarietyShow.png" 
-              alt="T4T Variety Show Fundraiser Flyer" 
+              src="/assets/ZineNight.png" 
+              alt="Zine Night Event" 
               className="flyer-image"
             />
             <div className="flyer-text">
-              <h3 className="flyer-title">T4T Variety Show Fundraiser</h3>
+              <h3 className="flyer-title">Zine Night</h3>
               <div className="flyer-description">
                 <p>
-                  Come one, come all to the most delightfully queer fundraiser of the summer! Join us at NoDa Collective for an evening of talent, laughter, and community care at our T4T Variety Show Fundraiser. Expect everything from drag and poetry to live music, comedy, and unexpected performances — all brought to you by our community. <a href="https://forms.gle/iwNRBH9mWjUMpnVj9" target='_blank' rel="noopener noreferrer">Sign up to perform here!</a>
+                  For this Zine night we will be putting together doodles and magazine cutouts for the second issue of our community's zine!
+                  Come get a sneak peek of the zine and help add some art to it!
                 </p>
                 <p>
-                  All proceeds go directly toward supporting T4Tclt's mutual aid efforts, event supplies, and sustaining affirming space for our people. Bring your friends, your dollars, and your loudest cheers — and don't forget to tip the performers!
+                  Things to bring: Zines for inspiration, Old magazines to cut up, pens, markers, sketchbooks, stickers and/or a creative attitude!
+                </p>
+                <p>
+                  Gilde's private back room is our Zine making spot. Wheelchair users can access Gilde via a longer but accessible route (ramp). 
+                  There's limited free parking, food, drink, and both.
                 </p>
                 <a 
-            href="https://opencollective.com/t4t-charlotte/events/fundraiser-variety-show-fdd88ecc" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="donate-button"
-          >
-            Get Tickets Now!
-          </a>
+                  href="https://opencollective.com/t4t-charlotte" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="donate-button"
+                >
+                  Donate to Keep the Zine Running
+                </a>
               </div>
             </div>
           </div>   
@@ -164,8 +169,10 @@ function Home() {
         <div className="newsletter-content">
           <h2 className="newsletter-title">Our Newsletter</h2>
           <p>Stay updated with our latest news, events, and community highlights! Every month we send out a newsletter with all the upcoming events and a recap of the previous month's events.</p> 
-          <p>Check out the <a href="https://www.canva.com/design/DAGm0hRAxAg/WHMRpECUKKTIvggudI7e6g/view?utm_content=DAGm0hRAxAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h925b55a634" target="_blank" rel="noopener noreferrer"> Current (June) Newsletter</a></p>
-          <p>Or, check out some of our older newsletters, like the <a href="https://www.canva.com/design/DAGjcFWXDi0/eZ7LD-uCNwd0M6_lEESjDw/view?utm_content=DAGjcFWXDi0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h946dd6f84a" target="_blank" rel="noopener noreferrer">May Newsletter</a> </p>
+          <p>Check out the <a href="https://www.canva.com/design/DAGpgokk5L0/lmO41Q8VTMlu4Nf2XbD8rQ/view?utm_content=DAGpgokk5L0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h74b6676927" target="_blank" rel="noopener noreferrer"> Current July Newsletter</a></p>
+          <p>Or, check out some of our older newsletters, like the <a href="https://www.canva.com/design/DAGm0hRAxAg/WHMRpECUKKTIvggudI7e6g/view?utm_content=DAGm0hRAxAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h925b55a634" target="_blank" rel="noopener noreferrer">June Newsletter</a> </p>
+    
+          <p><a href="https://www.canva.com/design/DAGjcFWXDi0/eZ7LD-uCNwd0M6_lEESjDw/view?utm_content=DAGjcFWXDi0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h946dd6f84a" target="_blank" rel="noopener noreferrer">May Newsletter</a> </p>
          <p><a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" target="_blank" rel="noopener noreferrer">April Newsletter</a> </p>  
          <p><a href="https://www.canva.com/design/DAGf-0CDtI4/LFesLcVsILWGVQhgS0vGWw/view?utm_content=DAGf-0CDtI4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8acbb184d2" target="_blank" rel="noopener noreferrer">March Newsletter</a> </p>  
           <div className="email-signup"><iframe width="600" height="604" title='Email Signup' src="https://sibforms.com/serve/MUIFAPoIxaiYsNaOfWYXlUhl8vtAN1NRAImpopsucj2mDCWHaxb6XI5aiFnegh-ZrrlBfNbK221EwbLe1qvBERzUhalVpcCaMVpyh_ivZ_7yf9FquySuS3tDKTS9pzcDSUHcvV-VI7PyErLyUh4ALOa9jhDEeF7NajbbDqfdu8flA9FMLpwAWZTw9NdO5gtf3hEK7OOiw9uQfKjN"></iframe></div>
