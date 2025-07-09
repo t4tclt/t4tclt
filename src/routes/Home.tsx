@@ -62,36 +62,22 @@ function Home() {
         
         <div className="flyer-section">
           <div className="flyer-content">
-            <img 
-              src="/assets/ZineNight.png" 
-              alt="Zine Night Event" 
-              className="flyer-image"
-            />
+            <img src="/assets/MutualAidRaffle.png" alt="T4T Mutual Aid Raffle" className="flyer-image" />
             <div className="flyer-text">
-              <h3 className="flyer-title">Zine Night</h3>
+              <h2 className="flyer-title">T4T Mutual Aid Raffle</h2>
               <div className="flyer-description">
-                <p>
-                  For this Zine night we will be putting together doodles and magazine cutouts for the second issue of our community's zine!
-                  Come get a sneak peek of the zine and help add some art to it!
-                </p>
-                <p>
-                  Things to bring: Zines for inspiration, Old magazines to cut up, pens, markers, sketchbooks, stickers and/or a creative attitude!
-                </p>
-                <p>
-                  Gilde's private back room is our Zine making spot. Wheelchair users can access Gilde via a longer but accessible route (ramp). 
-                  There's limited free parking, food, drink, and both.
-                </p>
+                <p> Enter for a chance to win a 60 minute massage from a licensed massage therapist at Moon Massage! All proceeds go to a community member's car expenses. </p>
                 <a 
-                  href="https://opencollective.com/t4t-charlotte" 
+                  href="https://forms.gle/ihJ9spT8AKxYZ17s6" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="donate-button"
                 >
-                  Donate to Keep the Zine Running
+                  Learn More about the raffle
                 </a>
               </div>
             </div>
-          </div>   
+          </div>
         </div>
         </div>
 
