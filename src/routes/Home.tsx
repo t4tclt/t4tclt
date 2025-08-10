@@ -62,19 +62,55 @@ function Home() {
         
         <div className="flyer-section">
           <div className="flyer-content">
-            <img src="/assets/MutualAidRaffle.png" alt="T4T Mutual Aid Raffle" className="flyer-image" />
+            <img src="/assets/mutualaid1.png" alt="Urgent power bill showing $506.42 due August 5, 2025" className="flyer-image" />
             <div className="flyer-text">
-              <h2 className="flyer-title">T4T Mutual Aid Raffle</h2>
+              <h2 className="flyer-title">URGENT MUTUAL AID: $327 needed to keep power</h2>
               <div className="flyer-description">
-                <p> Enter for a chance to win a 60 minute massage from a licensed massage therapist at Moon Massage! All proceeds go to a community member's car expenses. </p>
+                <p>We have some T4T community members who are at risk of losing their power. The queer family of 3 needs $327 immediately to prevent disconnection. You can help by donating through:</p>
+                <ul>
+                  <li>Cash App: $t4tclt and note "trans power"</li>
+                  <li>Open Collective: Use the button below</li>
+                </ul>
                 <a 
-                  href="https://forms.gle/ihJ9spT8AKxYZ17s6" 
+                  href="https://opencollective.com/t4t-charlotte" 
                   target="_blank" 
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer" 
                   className="donate-button"
                 >
-                  Learn More about the raffle
+                  Donate Now to Help
                 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flyer-section">
+          <div className="flyer-content">
+            <img src="/assets/hattiesflyer.png" alt="T4T Variety Show at Hattie's" className="flyer-image" />
+            <div className="flyer-text">
+              <h2 className="flyer-title">T4T Variety Show Fundraiser</h2>
+              <div className="flyer-description">
+                <p>Join us at Hattie's, Sunday August 24th for a night that celebrates queer creativity, bold expression, and mutual support! Our variety show brings together a vibrant mix of drag, poetry, live music, and surprise performances—all hosted in one of the coziest queer spaces in town.</p>
+                <p>This is a pay-what-you-can event, with all proceeds going directly to our mutual aid fund, which helps meet urgent needs in our trans and queer community. Every dollar you give supports our rideshare program, food share program and event fees for folks right here in Charlotte. And of course, we'll have one dollar bills for you to give our drag performers during the show!</p>
+                <p>Feeling inspired? We welcome first-timers and seasoned performers alike!</p>
+                <div className="flyer-buttons">
+                  <a 
+                    href="https://forms.gle/JSYErfFw2ff41jcA8" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flyer-button signup"
+                  >
+                    Sign Up to Perform
+                  </a>
+                  <a 
+                    href="https://opencollective.com/t4t-charlotte/events/t4t-variety-show-16afa008" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flyer-button tickets"
+                  >
+                    Get Tickets
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -199,6 +235,20 @@ function Home() {
                 rel="noopener noreferrer"
               >
                 Know Your Rights: Boundaries and Consent
+              </a>
+              <a 
+                href="https://docs.google.com/document/d/1qabSHxZLsznSrTdi7WFVSe-Am-ZjY53MOYj9PHRYaV8/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Herbal Remedies Guide
+              </a>
+              <a 
+                href="https://docs.google.com/spreadsheets/d/1JJEE7FSAIjQl46QESpXExwSQr0J_SUbRFqi37jOuY9Q/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Charlotte Food Pantry List
               </a>
               <a 
                 href="https://docs.google.com/document/d/1eBg1U5qzwLkB7X9jueoZ2TYbx8lTuuSU4FwTFdd1ttI/edit?usp=sharing" 
