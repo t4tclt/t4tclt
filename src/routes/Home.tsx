@@ -62,22 +62,42 @@ function Home() {
         
         <div className="flyer-section">
           <div className="flyer-content">
-            <img src="/assets/mutualaid1.png" alt="Urgent power bill showing $506.42 due August 5, 2025" className="flyer-image" />
+            <div className="flyer-images">
+              <img src="/assets/nickmutualaid.png" alt="Mutual Aid Request for $1200 Wheelchair" className="flyer-image main-image" />
+              <img src="/assets/raffle1.png" alt="Pole Body & Arts Raffle Prize" className="flyer-image raffle-image" />
+            </div>
             <div className="flyer-text">
-              <h2 className="flyer-title">URGENT MUTUAL AID: $327 needed to keep power</h2>
+              <h2 className="flyer-title">MUTUAL AID REQUEST: $1200 needed to attain accessibility</h2>
               <div className="flyer-description">
-                <p>We have some T4T community members who are at risk of losing their power. The queer family of 3 needs $327 immediately to prevent disconnection. You can help by donating through:</p>
+                <p>Trans Disabled Community member with P.O.T.S and EDS in need of $1200 to acquire a suitable wheelchair and AAC device</p>
+                <p>Nick is a Transgender Man who is passionate about the preforming arts, and even after losing much of his abilities to do certain things, he is still passionate about achieving his dreams. Although is the young age of 20 years old, he hopes to become a local wheelchair mechanic in the future. Giving back to his community is his biggest moral, and it drives him to become better and better ever day for his friends, family and loved ones.</p>
+                <div className="raffle-info">
+                  <h3>Enter our Raffle!</h3>
+                  <div className="raffle-text">
+                    <p>Win a 10 class pack of pole classes at Pole Body & Arts in Plaza Midwood</p>
+                    <p className="raffle-value">WORTH $175</p>
+                    <p className="raffle-price">$5 per entry or $20 for 5 entries</p>
+                  </div>
+                </div>
                 <ul>
-                  <li>Cash App: $t4tclt and note "trans power"</li>
+                  <li>Cash App: $t4tclt and note "trans mobility"</li>
                   <li>Open Collective: Use the button below</li>
                 </ul>
                 <a 
-                  href="https://opencollective.com/t4t-charlotte" 
+                  href="https://opencollective.com/t4t-charlotte/projects/nicks-wheelchair/donate" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="donate-button"
                 >
                   Donate Now to Help
+                </a>
+                <a 
+                  href="https://forms.gle/okqhWcJhLEg5UcCd9" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="raffle-button"
+                >
+                  Enter the Raffle
                 </a>
               </div>
             </div>
@@ -120,27 +140,47 @@ function Home() {
       <div id="zine" className="zine-section">
         <div className="zine-content">
           <h2 className="zine-title">Check out our zine!</h2>
-          <p>We're excited to share our first zine with you! It's a collection of essays, poems, and art from the trans+ community in Charlotte. We hope you enjoy it! 
-            If you'd like to print a copy (or several to distribute), you can download the PDF below or read the digital version.
-            If you'd like to contribute to the next issue of the zine, please get in touch with us on discord.
-          </p>
-          <div className="zine-buttons">
-            <a 
-              href="/assets/T4T1-Spreads.pdf" 
-              className="zine-button digital" 
-              download="T4T-Zine.Issue-1.Digital-Version.pdf"
-              rel="noopener noreferrer"
-            >
-              Digital Version
-            </a>
-            <a 
-              href="/assets/T4T1-Booklet.pdf" 
-              className="zine-button print" 
-              download="T4T-Zine.Issue-1.Print-Version.pdf"
-              rel="noopener noreferrer"
-            >
-              Print Version
-            </a>
+          <p>We're excited to share our community zines with you! Each issue is a collection of essays, poems, and art from the trans+ community in Charlotte. If you'd like to contribute to the next issue, please get in touch with us on discord.</p>
+          
+          <div className="zine-issues">
+            <div className="zine-issue">
+              <img src="/assets/cover1.png" alt="T4T Zine Issue 1 Cover" className="zine-cover" />
+              <div className="zine-issue-details">
+                <h3>Issue One - June 2025</h3>
+                <p>Our inaugural issue featuring poetry, personal essays, and artwork exploring gender, community, and mutual aid in Charlotte.</p>
+                <div className="zine-buttons">
+                  <a 
+                    href="/assets/T4T1-Spreads.pdf" 
+                    className="zine-button digital" 
+                    download="T4T-Zine.Issue-1.Digital-Version.pdf"
+                    rel="noopener noreferrer"
+                  >
+                    Digital Version
+                  </a>
+                  <a 
+                    href="/assets/T4T1-Booklet.pdf" 
+                    className="zine-button print" 
+                    download="T4T-Zine.Issue-1.Print-Version.pdf"
+                    rel="noopener noreferrer"
+                  >
+                    Print Version
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="zine-issue">
+              <img src="/assets/cover2.png" alt="T4T Zine Issue 2 Cover" className="zine-cover" />
+              <div className="zine-issue-details">
+                <h3>Issue Two - Coming at Charlotte Pride!</h3>
+                <p>Our Pride issue celebrating queer joy, resistance, and community power. Featuring local artists, writers, and activists sharing their stories and visions for the future.</p>
+                <div className="zine-buttons">
+                  <button className="zine-button coming-soon" disabled>
+                    Coming Soon
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -191,13 +231,8 @@ function Home() {
         <div className="newsletter-content">
           <h2 className="newsletter-title">Our Newsletter</h2>
           <p>Stay updated with our latest news, events, and community highlights! Every month we send out a newsletter with all the upcoming events and a recap of the previous month's events.</p> 
-          <p>Check out the <a href="https://www.canva.com/design/DAGsJA0Mp7I/wje2JtAKOErgXZmJ3_-puA/view?utm_content=DAGsJA0Mp7I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0f27443dbf" target="_blank" rel="noopener noreferrer"> Current (August) Newsletter</a></p>
-          <p>Or, check out some of our older newsletters, like the <a href="https://www.canva.com/design/DAGpgokk5L0/lmO41Q8VTMlu4Nf2XbD8rQ/view?utm_content=DAGpgokk5L0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h74b6676927" target="_blank" rel="noopener noreferrer">July Newsletter</a></p>
-            <p><a href="https://www.canva.com/design/DAGm0hRAxAg/WHMRpECUKKTIvggudI7e6g/view?utm_content=DAGm0hRAxAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h925b55a634" target="_blank" rel="noopener noreferrer">June Newsletter</a> </p>
-    
-          <p><a href="https://www.canva.com/design/DAGjcFWXDi0/eZ7LD-uCNwd0M6_lEESjDw/view?utm_content=DAGjcFWXDi0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h946dd6f84a" target="_blank" rel="noopener noreferrer">May Newsletter</a> </p>
-         <p><a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" target="_blank" rel="noopener noreferrer">April Newsletter</a> </p>  
-         <p><a href="https://www.canva.com/design/DAGf-0CDtI4/LFesLcVsILWGVQhgS0vGWw/view?utm_content=DAGf-0CDtI4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8acbb184d2" target="_blank" rel="noopener noreferrer">March Newsletter</a> </p>  
+          <p>Check out the <a href="https://www.canva.com/design/DAGsJA0Mp7I/wje2JtAKOErgXZmJ3_-puA/view?utm_content=DAGsJA0Mp7I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0f27443dbf" target="_blank" rel="noopener noreferrer">Current (August) Newsletter</a></p>
+          <p>Previous newsletters: <a href="https://www.canva.com/design/DAGpgokk5L0/lmO41Q8VTMlu4Nf2XbD8rQ/view?utm_content=DAGpgokk5L0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h74b6676927" target="_blank" rel="noopener noreferrer">July</a>, <a href="https://www.canva.com/design/DAGm0hRAxAg/WHMRpECUKKTIvggudI7e6g/view?utm_content=DAGm0hRAxAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h925b55a634" target="_blank" rel="noopener noreferrer">June</a>, <a href="https://www.canva.com/design/DAGjcFWXDi0/eZ7LD-uCNwd0M6_lEESjDw/view?utm_content=DAGjcFWXDi0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h946dd6f84a" target="_blank" rel="noopener noreferrer">May</a>, <a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" target="_blank" rel="noopener noreferrer">April</a>, <a href="https://www.canva.com/design/DAGf-0CDtI4/LFesLcVsILWGVQhgS0vGWw/view?utm_content=DAGf-0CDtI4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8acbb184d2" target="_blank" rel="noopener noreferrer">March</a></p>
           <div className="email-signup"><iframe width="600" height="604" title='Email Signup' src="https://sibforms.com/serve/MUIFAPoIxaiYsNaOfWYXlUhl8vtAN1NRAImpopsucj2mDCWHaxb6XI5aiFnegh-ZrrlBfNbK221EwbLe1qvBERzUhalVpcCaMVpyh_ivZ_7yf9FquySuS3tDKTS9pzcDSUHcvV-VI7PyErLyUh4ALOa9jhDEeF7NajbbDqfdu8flA9FMLpwAWZTw9NdO5gtf3hEK7OOiw9uQfKjN"></iframe></div>
         </div>
       </div>
@@ -301,7 +336,7 @@ function Home() {
         <div className="donate-content">
           <p>Your donations help us continue providing resources, organizing events, and supporting our trans community in Charlotte. Every contribution makes a difference!</p>
           <a 
-            href="https://opencollective.com/t4t-charlotte" 
+            href="https://opencollective.com/t4t-charlotte/donate" 
             target="_blank" 
             rel="noopener noreferrer"
             className="donate-button"
