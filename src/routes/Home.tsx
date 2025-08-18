@@ -172,12 +172,25 @@ function Home() {
             <div className="zine-issue">
               <img src="/assets/cover2.png" alt="T4T Zine Issue 2 Cover" className="zine-cover" />
               <div className="zine-issue-details">
-                <h3>Issue Two - Coming at Charlotte Pride!</h3>
-                <p>Our Pride issue celebrating queer joy, resistance, and community power. Featuring local artists, writers, and activists sharing their stories and visions for the future.</p>
+                <h3>Issue Two - August 2025</h3>
+                <p>Our Pride issue celebrating queer joy, resistance, and community power. Featuring local artists, writers, and activists sharing their stories and visions for the future. Released at Charlotte Pride 2025!</p>
                 <div className="zine-buttons">
-                  <button className="zine-button coming-soon" disabled>
-                    Coming Soon
-                  </button>
+                  <a 
+                    href="/assets/T4T Zine Issue 2_Spreads.pdf" 
+                    className="zine-button digital" 
+                    download="T4T-Zine.Issue-2.Digital-Version.pdf"
+                    rel="noopener noreferrer"
+                  >
+                    Digital Version
+                  </a>
+                  <a 
+                    href="/assets/T4T Zine Issue 2_Booklet.pdf" 
+                    className="zine-button print" 
+                    download="T4T-Zine.Issue-2.Print-Version.pdf"
+                    rel="noopener noreferrer"
+                  >
+                    Print Version
+                  </a>
                 </div>
               </div>
             </div>
