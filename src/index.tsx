@@ -13,6 +13,7 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Events from './routes/Events';
 import Resources from './routes/Resources';
+import Zine from './routes/Zine';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/resources",
     element: <Resources/>,
+  },
+  {
+    path: "/zine",
+    element: <Zine/>,
   },
 ]);
 

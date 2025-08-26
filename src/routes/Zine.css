@@ -1,0 +1,245 @@
+.zine-page-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-padding-top: 80px;
+  position: relative;
+  background-color: #51c6f1;
+}
+
+.zine-page-container .zine-hero {
+  text-align: center;
+  padding: 120px 20px 60px;
+  color: white;
+}
+
+.zine-page-container .zine-hero-title {
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.zine-page-container .zine-hero-subtitle {
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.zine-page-container .zine-section {
+  width: 100%;
+  background-color: white;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.zine-page-container .zine-content {
+  max-width: 800px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.zine-page-container .zine-title {
+  color: #51c6f1;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.zine-page-container .zine-content p {
+  color: #4a5568;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.zine-page-container .zine-issues {
+  display: flex;
+  flex-direction: row;
+}
+
+.zine-page-container .zine-issue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.zine-page-container .zine-cover {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.zine-page-container .zine-issue-details {
+  text-align: center;
+  max-width: 500px;
+}
+
+.zine-page-container .zine-issue-details h3 {
+  color: #51c6f1;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.zine-page-container .zine-issue-details p {
+  color: #4a5568;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.zine-page-container .zine-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.zine-page-container .zine-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.zine-page-container .zine-button.digital {
+  background-color: #51c6f1;
+  color: white;
+}
+
+.zine-page-container .zine-button.digital:hover {
+  background-color: #4a9fd8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(81, 198, 241, 0.3);
+}
+
+.zine-page-container .zine-button.print {
+  background-color: #f5b0be;
+  color: white;
+}
+
+.zine-page-container .zine-button.print:hover {
+  background-color: #f39bac;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(245, 176, 190, 0.3);
+}
+
+.zine-page-container .zine-button.submit {
+  background-color: #f5b0be;
+  color: white;
+}
+
+.zine-page-container .zine-button.submit:hover {
+  background-color: #f39bac;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(245, 176, 190, 0.3);
+}
+
+.zine-page-container .zine-coming-soon {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  border: 2px dashed #51c6f1;
+}
+
+.zine-page-container .zine-coming-soon-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.zine-page-container .zine-coming-soon h3 {
+  color: #51c6f1;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.zine-page-container .zine-coming-soon p {
+  color: #4a5568;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .zine-page-container .zine-hero-title {
+    font-size: 2rem;
+  }
+  
+  .zine-page-container .zine-hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .zine-page-container .zine-section {
+    padding: 2rem 0.5rem;
+  }
+  
+  .zine-page-container .zine-content {
+    width: 95%;
+    gap: 1.5rem;
+  }
+  
+  .zine-page-container .zine-title {
+    font-size: 2rem;
+  }
+  
+  .zine-page-container .zine-content p {
+    font-size: 1rem;
+  }
+  
+  .zine-page-container .zine-issue {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+  
+  .zine-page-container .zine-issue-details h3 {
+    font-size: 1.5rem;
+  }
+  
+  .zine-page-container .zine-issue-details p {
+    font-size: 1rem;
+  }
+  
+  .zine-page-container .zine-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+  
+  .zine-page-container .zine-coming-soon {
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .zine-page-container .zine-coming-soon h3 {
+    font-size: 1.5rem;
+  }
+  
+  .zine-page-container .zine-coming-soon p {
+    font-size: 1rem;
+  }
+} 

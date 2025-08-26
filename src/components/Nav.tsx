@@ -7,14 +7,22 @@ function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      const windowHeight = window.innerHeight;
-      setIsVisible(scrollPosition > windowHeight * 0.8); // Show nav after scrolling 80% of viewport height
-    };
+    // Check if we're on the home page (has sections to scroll to)
+    const isHomePage = window.location.pathname === '/';
+    
+    if (isHomePage) {
+      const handleScroll = () => {
+        const scrollPosition = window.scrollY;
+        const windowHeight = window.innerHeight;
+        setIsVisible(scrollPosition > windowHeight * 0.8); // Show nav after scrolling 80% of viewport height
+      };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    } else {
+      // On other pages, always show the nav
+      setIsVisible(true);
+    }
   }, []);
 
   const scrollToSection = (sectionId: string) => {
@@ -25,7 +33,8 @@ function Nav() {
     }
   };
 
-  if (!isVisible) return null;
+  // Don't render scroll-to-section buttons on non-home pages
+  const isHomePage = window.location.pathname === '/';
 
   return (
     <nav className={`nav-container ${isVisible ? 'visible' : ''}`}>
@@ -35,7 +44,11 @@ function Nav() {
           alt="T4T Logo" 
           className="nav-logo" 
           onClick={() => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            if (isHomePage) {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+              window.location.href = '/';
+            }
             setIsMenuOpen(false);
           }} 
         />
@@ -51,14 +64,26 @@ function Nav() {
         </button>
 
         <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-          <button onClick={() => scrollToSection('events')}>Events</button>
-          <button onClick={() => scrollToSection('zine')}>Zine</button>
-          <button onClick={() => scrollToSection('about')}>About</button>
-          <button onClick={() => scrollToSection('newsletter')}>Newsletter</button>
-          <button onClick={() => scrollToSection('help')}>Help</button>
-          <button onClick={() => scrollToSection('resources')}>Resources</button>
-          <button onClick={() => scrollToSection('donate')}>Donate</button>
-          <button onClick={() => scrollToSection('contact')}>Contact</button>
+          {isHomePage ? (
+            <>
+              <button onClick={() => scrollToSection('events')}>Events</button>
+              <button onClick={() => scrollToSection('zine')}>Zine</button>
+              <button onClick={() => scrollToSection('about')}>About</button>
+              <button onClick={() => scrollToSection('newsletter')}>Newsletter</button>
+              <button onClick={() => scrollToSection('help')}>Help</button>
+              <a href="/resources" className="nav-link">Resources</a>
+              <button onClick={() => scrollToSection('donate')}>Donate</button>
+              <button onClick={() => scrollToSection('contact')}>Contact</button>
+            </>
+          ) : (
+            <>
+              <a href="/" className="nav-link">Home</a>
+              <a href="/about" className="nav-link">About</a>
+              <a href="/resources" className="nav-link">Resources</a>
+              <a href="/zine" className="nav-link">Zine</a>
+              
+            </>
+          )}
         </div>
       </div>
     </nav>
