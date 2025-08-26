@@ -161,7 +161,7 @@ function About() {
           <div className="about-staff-card" onClick={handleStaffCardClick}>
             <div className="about-staff-card-inner">
               <div className="about-staff-card-front">
-                <img src="/assets/ember.png" alt="Ember" className="about-staff-image" />
+                <img src="/assets/Ember.png" alt="Ember" className="about-staff-image" />
                 <div className="about-staff-hover-text">Click to learn more</div>
               </div>
               <div className="about-staff-card-back">
