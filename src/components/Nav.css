@@ -80,10 +80,24 @@
   transition: all 0.2s ease;
 }
 
-.nav-links button:hover {
+.nav-links button:hover,
+.nav-links .nav-link:hover {
   background-color: #f5b0be;
   color: white;
   transform: translateY(-2px);
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: #51c6f1;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .scrolled .nav-links button {

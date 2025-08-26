@@ -11,6 +11,7 @@ import About from './routes/About'
 import Events from './routes/Events'
 import Resources from './routes/Resources'
 import { ExternalRedirect } from './components/ExternalRedirect'
+import Zine from './routes/Zine';
 
 const router = createBrowserRouter([
   {
@@ -33,7 +34,12 @@ const router = createBrowserRouter([
     path: '/zine-submission',
     element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
   },
-])
+  {
+    path: "/zine",
+    element: <Zine/>,
+  },
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 
