@@ -6,20 +6,6 @@ import Nav from '../components/Nav';
 import { FaFacebook, FaInstagram, FaBluesky } from 'react-icons/fa6';
 
 function Home() {
-  const handleStaffCardClick = (event: React.MouseEvent<HTMLDivElement>) => {
-    const cardInner = event.currentTarget.querySelector('.staff-card-inner');
-    if (cardInner) {
-      cardInner.classList.toggle('flipped');
-    }
-  };
-
-  const handleBuddyCardClick = (event: React.MouseEvent<HTMLDivElement>) => {
-    const cardInner = event.currentTarget.querySelector('.buddy-card-inner');
-    if (cardInner) {
-      cardInner.classList.toggle('flipped');
-    }
-  };
-
   return (
     <div className="home-container">
       <Nav />
