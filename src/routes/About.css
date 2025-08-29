@@ -687,6 +687,7 @@
   }
   
   .about-page-container .about-staff-card {
+    min-height: 375px;
     height: 100%;
     padding: 1rem;
   }
