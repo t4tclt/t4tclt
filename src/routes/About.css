@@ -687,14 +687,13 @@
   }
   
   .about-page-container .about-staff-card {
-    height: 350px;
+    height: 100%;
     padding: 1rem;
   }
   
   .about-page-container .about-staff-image,
   .about-page-container .about-staff-placeholder {
     width: 120px;
-    height: 120px;
   }
   
   .about-page-container .about-staff-name {
@@ -746,7 +745,7 @@
   }
 
   .about-page-container .about-staff-card {
-    height: 450px;
+    height: 100%;
   }
 
   .about-page-container .about-staff-image,
