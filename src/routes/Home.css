@@ -1585,9 +1585,14 @@ body {
     margin: 0 auto;
   }
 
-  .flyer-image {
+  .flyer-image img {
     width: 100%;
   }
+  .flyer-section:nth-of-type(2) .flyer-imagec img,
+.flyer-section:nth-of-type(3) .flyer-image img{
+  max-width: 100%;
+  width: 100%;
+}
 }
 
 .flyer-section:nth-of-type(2) .flyer-image,
@@ -1598,6 +1603,12 @@ body {
 
 @media (max-width: 768px) {
   .flyer-section:nth-of-type(2) .flyer-image {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  
+  .flyer-section:nth-of-type(3) .flyer-image {
     width: 100%;
     max-width: 350px;
     margin: 0 auto;
