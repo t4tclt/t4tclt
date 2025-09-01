@@ -348,8 +348,8 @@
     font-size: 0.9rem;
     opacity: 0;
     transition: opacity 0.3s ease;
-    pointer-events: none;
-  }
+  pointer-events: none;
+}
 
   .about-page-container .about-staff-card:hover .about-staff-hover-text {
     opacity: 1;
@@ -389,7 +389,7 @@
   }
 
   .about-page-container .about-staff-apply-button {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     padding: 0.8rem 1.5rem;
     border-radius: 25px;
@@ -399,7 +399,8 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    margin-top: 1rem;
+    margin: 1rem auto 0 auto;
+    width: fit-content;
   }
 
   .about-page-container .about-staff-apply-button:hover {
@@ -687,14 +688,14 @@
   }
   
   .about-page-container .about-staff-card {
-    height: 350px;
+    min-height: 375px;
+    height: 100%;
     padding: 1rem;
   }
   
   .about-page-container .about-staff-image,
   .about-page-container .about-staff-placeholder {
     width: 120px;
-    height: 120px;
   }
   
   .about-page-container .about-staff-name {
@@ -746,7 +747,7 @@
   }
 
   .about-page-container .about-staff-card {
-    height: 450px;
+    height: 100%;
   }
 
   .about-page-container .about-staff-image,

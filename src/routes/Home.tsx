@@ -64,7 +64,7 @@ function Home() {
           <div className="flyer-content">
             <div className="flyer-images">
               <img src="/assets/nickmutualaid.png" alt="Mutual Aid Request for $1200 Wheelchair" className="flyer-image main-image" />
-              <img src="/assets/raffle1.png" alt="Pole Body & Arts Raffle Prize" className="flyer-image raffle-image" />
+              <img src="/assets/class.png" alt="Pole Body & Arts Raffle Prize" className="flyer-image raffle-image" />
             </div>
             <div className="flyer-text">
               <h2 className="flyer-title">MUTUAL AID REQUEST: $1200 needed to attain accessibility</h2>
@@ -72,10 +72,12 @@ function Home() {
                 <p>Trans Disabled Community member with P.O.T.S and EDS in need of $1200 to acquire a suitable wheelchair and AAC device</p>
                 <p>Nick is a Transgender Man who is passionate about the preforming arts, and even after losing much of his abilities to do certain things, he is still passionate about achieving his dreams. Although is the young age of 20 years old, he hopes to become a local wheelchair mechanic in the future. Giving back to his community is his biggest moral, and it drives him to become better and better ever day for his friends, family and loved ones.</p>
                 <div className="raffle-info">
-                  <h3>Enter our Raffle!</h3>
+                  <h3>Pole Fundraiser</h3>
                   <div className="raffle-text">
-                    <p>Win a 10 class pack of pole classes at Pole Body & Arts in Plaza Midwood</p>
-                    <p className="raffle-value">WORTH $175</p>
+                    <p>Join us Sunday 9/7 for a Beginner's Pole Dancing Class at Pole Body and Arts in Plaza Midwood (1318 Pecan Ave, Unit 220). This event is to raise awareness of the generosity of Pole Body & Arts who are donating a 10 class pack to our raffle.</p>
+                    <p>This raffle benefits Nick, who will be at the class to learn with y'all and give a little performance at the end! If you learn something you'd like to show off, you can perform as well!</p>
+                    <p><strong>Accessibility:</strong> This is a beginner's lesson, we encourage all skill levels to join us though, the space is large and open with poles throughout. There is parking all around with Pole Body & Arts being upstairs accessible via stairs and elevator.</p>
+                    <p className="raffle-value">Raffle Prize: 10 Class Pack WORTH $175</p>
                     <p className="raffle-price">$5 per entry or $20 for 5 entries</p>
                   </div>
                 </div>
@@ -106,20 +108,52 @@ function Home() {
 
         <div className="flyer-section">
           <div className="flyer-content">
-            <img src="/assets/t4tea.png" alt="T4Tea Party" className="flyer-image" />
+            <img src="/assets/starlight.png" alt="Starlight on 22nd Variety Show" className="flyer-image" />
             <div className="flyer-text">
-              <h2 className="flyer-title">T4Tea Party</h2>
+              <h2 className="flyer-title">Starlight on 22nd Variety Show</h2>
               <div className="flyer-description">
-                <p>Dress up or down and come share a cup of tea in faerie company. August 30th from 4 to 7pm Pauline's Tea Bar Apothecary will be our magical palace for fae vibes, tea and light bites! This event is pay what you can so that we can recoup the cost of the venue.</p>
-                <p>Venue Info: One entrance and venue is wheelchair accessible, bathroom is gender neutral, variety of seating and plenty of parking, overflow on the street.</p>
+                <p>Come check out a spectacular set of performers at Starlight on 22nd Thursday Sept 25th! Join us at 6 for doors, the show will start at 7! We will be taking performers even last minute, so come get inspired and take the stage!</p>
+                <p>We've had poets, drag artists, musicians and comedy at our previous shows, come see what we have in store this time!</p>
+                <p><strong>Accessibility:</strong> Starlight has limited onsite parking but a gravel lot across the street has plenty of space. There are gender neutral single stall restrooms, many different seating options, drink options and bar food.</p>
                 <div className="flyer-buttons">
                   <a 
-                    href="https://opencollective.com/t4t-charlotte/events/t4tea-party-35ec99a0" 
+                    href="https://forms.gle/u6QKCQnPEQd99jZFA" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flyer-button signup"
+                  >
+                    Sign up to Perform
+                  </a>
+                  <a 
+                    href="https://opencollective.com/t4t-charlotte/events/variety-show-420bec65" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="flyer-button tickets"
                   >
                     Get Tickets
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flyer-section">
+          <div className="flyer-content">
+            <img src="/assets/pool.png" alt="T4T Pool Party" className="flyer-image" />
+            <div className="flyer-text">
+              <h2 className="flyer-title">T4T Pool Party</h2>
+              <div className="flyer-description">
+                <p>Join us to swim, sun bathe and hang out by the pool in Mt. Holly at a private pool we rented just for us! We'll be there Sunday 9/28 from 4-7pm.</p>
+                <p>Be sure to RSVP so you have the address! Bring snacks, drinks, and stuff to put on the gas grill! We will have coolers of ice and extra swim suits in case you don't have one! Else grab one at our clothes sorting day on the 10th!</p>
+                <div className="flyer-buttons">
+                  <a 
+                    href="https://opencollective.com/t4t-charlotte/events/t4t-pool-party-2764134a" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flyer-button tickets"
+                  >
+                    RSVP Here!
                   </a>
                 </div>
               </div>

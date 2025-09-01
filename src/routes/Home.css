@@ -1363,17 +1363,20 @@ body {
   text-align: center;
   height: 100%; /* Ensure full height */
   margin: 0; /* Remove any default margins */
+  background-color: #f5b0be;
+
 }
 
-.flyer-button.signup {
+
+.flyer-button.tickets {
   background-color: #51c6f1;
   color: white;
 }
-
-.flyer-button.tickets {
+.flyer-button.signup {
   background-color: #f5b0be;
   color: white;
 }
+
 
 .flyer-button:hover {
   transform: translateY(-2px);
@@ -1564,7 +1567,7 @@ body {
 
   .raffle-image {
     width: 100%;
-    max-width: 250px;
+    max-width: 350px;
     margin: 0 auto;
   }
 }
@@ -1586,7 +1589,8 @@ body {
   }
 }
 
-.flyer-section:nth-of-type(2) .flyer-image {
+.flyer-section:nth-of-type(2) .flyer-image,
+.flyer-section:nth-of-type(3) .flyer-image {
   width: 35%;
   max-width: 350px;
 }
