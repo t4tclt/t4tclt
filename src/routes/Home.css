@@ -1283,7 +1283,8 @@ body {
   color: #ff3b30;  /* Emergency red color */
 }
 
-.flyer-section:nth-of-type(2) .flyer-title {
+.flyer-section:nth-of-type(2) .flyer-title,
+.flyer-section:nth-of-type(3) .flyer-title {
   color: #f5b0be;  /* Pink color */
   font-family: 'Pacifico', cursive;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
