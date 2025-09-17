@@ -64,23 +64,12 @@ function Home() {
           <div className="flyer-content">
             <div className="flyer-images">
               <img src="/assets/nickmutualaid.png" alt="Mutual Aid Request for $1200 Wheelchair" className="flyer-image main-image" />
-              <img src="/assets/class.png" alt="Pole Body & Arts Raffle Prize" className="flyer-image raffle-image" />
             </div>
             <div className="flyer-text">
               <h2 className="flyer-title">MUTUAL AID REQUEST: $1200 needed to attain accessibility</h2>
               <div className="flyer-description">
                 <p>Trans Disabled Community member with P.O.T.S and EDS in need of $1200 to acquire a suitable wheelchair and AAC device</p>
                 <p>Nick is a Transgender Man who is passionate about the preforming arts, and even after losing much of his abilities to do certain things, he is still passionate about achieving his dreams. Although is the young age of 20 years old, he hopes to become a local wheelchair mechanic in the future. Giving back to his community is his biggest moral, and it drives him to become better and better ever day for his friends, family and loved ones.</p>
-                <div className="raffle-info">
-                  <h3>Pole Fundraiser</h3>
-                  <div className="raffle-text">
-                    <p>Join us Sunday 9/7 for a Beginner's Pole Dancing Class at Pole Body and Arts in Plaza Midwood (1318 Pecan Ave, Unit 220). This event is to raise awareness of the generosity of Pole Body & Arts who are donating a 10 class pack to our raffle.</p>
-                    <p>This raffle benefits Nick, who will be at the class to learn with y'all and give a little performance at the end! If you learn something you'd like to show off, you can perform as well!</p>
-                    <p><strong>Accessibility:</strong> This is a beginner's lesson, we encourage all skill levels to join us though, the space is large and open with poles throughout. There is parking all around with Pole Body & Arts being upstairs accessible via stairs and elevator.</p>
-                    <p className="raffle-value">Raffle Prize: 10 Class Pack WORTH $175</p>
-                    <p className="raffle-price">$5 per entry or $20 for 5 entries</p>
-                  </div>
-                </div>
                 <ul>
                   <li>Cash App: $t4tclt and note "trans mobility"</li>
                   <li>Open Collective: Use the button below</li>

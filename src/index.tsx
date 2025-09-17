@@ -12,6 +12,8 @@ import Events from './routes/Events'
 import Resources from './routes/Resources'
 import { ExternalRedirect } from './components/ExternalRedirect'
 import Zine from './routes/Zine';
+import NotFound from './routes/NotFound';
+import Buddy from './routes/Buddy';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/zine",
     element: <Zine/>,
+  },  
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 
