@@ -82,14 +82,7 @@ function Home() {
                 >
                   Donate Now to Help
                 </a>
-                <a 
-                  href="https://forms.gle/okqhWcJhLEg5UcCd9" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="raffle-button"
-                >
-                  Enter the Raffle
-                </a>
+                
               </div>
             </div>
           </div>
