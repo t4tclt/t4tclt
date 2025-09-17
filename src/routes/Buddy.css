@@ -1,3 +1,4 @@
+/* Buddy Page Container */
 .buddy-container {
   width: 100%;
   min-height: 100vh;
@@ -7,6 +8,7 @@
   background-color: #f8f8f8;
 }
 
+/* Hero Section */
 .buddy-hero {
   width: 100%;
   background: linear-gradient(135deg, #51c6f1 0%, #f5b0be 100%);
@@ -23,7 +25,6 @@
 .buddy-hero-title {
   font-family: 'Pacifico', cursive;
   font-size: 3.5rem;
-  margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -33,12 +34,13 @@
   line-height: 1.6;
 }
 
+/* Section Layout */
 .buddy-info-section,
 .buddy-grid-section,
 .buddy-how-section {
   width: 100%;
   background-color: white;
-  padding: 4rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   justify-content: center;
 }
@@ -46,7 +48,6 @@
 .buddy-info-content,
 .buddy-grid-content,
 .buddy-how-content {
-  max-width: 1200px;
   width: 90%;
 }
 
@@ -54,24 +55,26 @@
   color: #51c6f1;
   font-family: 'Pacifico', cursive;
   font-size: 2.5rem;
+  margin-top: 1.5rem;
   margin-bottom: 2rem;
   text-align: center;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .buddy-info-content p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   color: #666;
   margin-bottom: 2rem;
   text-align: center;
 }
 
+/* Features Grid */
 .buddy-features {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 3rem 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 0;
 }
 
 .buddy-feature {
@@ -84,8 +87,7 @@
 
 .buddy-feature h3 {
   color: #51c6f1;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 1.8em;
 }
 
 .buddy-feature p {
@@ -94,6 +96,7 @@
   margin: 0;
 }
 
+/* CTA Section */
 .buddy-cta {
   background-color: #f8f8f8;
   padding: 2rem;
@@ -104,8 +107,8 @@
 
 .buddy-cta h3 {
   color: #51c6f1;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  font-family: 'Pacifico', cursive;
 }
 
 .buddy-cta p {
@@ -113,19 +116,38 @@
   margin-bottom: 2rem;
 }
 
+/* Signup Section */
+.buddy-signup-section {
+  background: linear-gradient(135deg, #51c6f1, #f5b0be);
+  padding: 3rem 1rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.buddy-signup-content {
+  margin: 0 auto;
+  padding: 2rem 0 0 0;
+}
+
+/* Buttons */
+.buddy-signup-button,
 .buddy-apply-button {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   padding: 1rem 2rem;
   border-radius: 30px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   background-color: #f5b0be;
   color: white;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
 }
 
+.buddy-signup-button:hover,
 .buddy-apply-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -134,24 +156,57 @@
   text-decoration: none;
 }
 
+.buddy-connect-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  background-color: #51c6f1;
+  color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.buddy-connect-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #3ab4e7;
+  color: white;
+  text-decoration: none;
+}
+
+/* Grid Intro */
 .buddy-grid-intro {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   color: #666;
   margin-bottom: 3rem;
 }
 
+/* Buddy Grid */
 .buddy-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  margin-top: 2rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+  max-width: 1200px;
 }
 
+/* Buddy Cards */
 .buddy-card {
-  perspective: 1000px;
-  height: 600px;
+  height: 100%;
+  width: 100%;
+  min-height: 600px;
   position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.buddy-card:hover {
+  transform: translateY(-5px);
 }
 
 .buddy-card-inner {
@@ -174,6 +229,10 @@
   transform: rotateY(180deg);
 }
 
+.buddy-card.flipped .buddy-card-inner {
+  transform: rotateY(180deg);
+}
+
 .buddy-card-front,
 .buddy-card-back {
   position: absolute;
@@ -188,11 +247,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem;
+  padding: .5rem;
+  box-sizing: border-box;
 }
 
 .buddy-card-front {
   background-color: #f8f8f8;
+  color: white;
   transform: rotateY(0deg);
 }
 
@@ -203,34 +264,37 @@
   overflow-y: auto;
 }
 
+/* Buddy Images */
 .buddy-image {
-  width: 100%;
+  width: 91%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   border-radius: 12px;
   border: none;
   box-shadow: none;
+  min-height: 400px;
+}
+
+/* Buddy Text Elements */
+.buddy-name {
+  color: #f5b0be;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  margin-top: .3em;
 }
 
 .buddy-role {
-  color: #f5b0be;
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  font-weight: bold;
-}
-
-.buddy-name {
+  font-size: 1.3rem;
+  opacity: 0.9;
   color: #51c6f1;
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-  margin-top: 1em;
+  font-weight: 600;
 }
 
 .buddy-location {
   color: #666;
   font-size: 1rem;
-  margin-bottom: 1rem;
 }
 
 .buddy-hover-text {
@@ -246,6 +310,7 @@
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
+  font-style: italic;
 }
 
 .buddy-card:hover .buddy-hover-text {
@@ -256,49 +321,37 @@
   opacity: 0;
 }
 
+/* Buddy Details */
 .buddy-details {
   text-align: left;
-  line-height: 1.4;
-  margin-bottom: 1.5rem;
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 1em 0 1em;
 }
 
 .buddy-details p {
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 .buddy-details strong {
-  color: #f5b0be;
+  color: #51c6f1;
+  font-weight: 600;
+  font-size: 1.3rem;
 }
 
-.buddy-connect-button {
-  display: inline-block;
-  text-decoration: none;
-  padding: 0.8rem 1.5rem;
-  border-radius: 25px;
-  font-size: 1rem;
-  background-color: #51c6f1;
-  color: white;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-.buddy-connect-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-color: #3ab4e7;
-  color: white;
-  text-decoration: none;
-}
-
+/* Steps Section */
 .buddy-steps {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
 }
-
+p{
+  font-size: 1.2em;
+}
 .buddy-step {
   background-color: #f8f8f8;
   padding: 2rem;
@@ -323,37 +376,33 @@
 
 .buddy-step h3 {
   color: #51c6f1;
-  font-size: 1.3rem;
-  margin-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
 .buddy-step p {
   color: #666;
   line-height: 1.6;
   margin: 0;
+  font-size: 1.5rem;
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 1024px) {
+  .buddy-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
-  .buddy-hero {
-    padding: 4rem 1rem;
-  }
-
-  .buddy-hero-title {
-    font-size: 2.5rem;
-  }
-
   .buddy-hero-subtitle {
     font-size: 1.1rem;
   }
 
-  .buddy-info-section,
-  .buddy-grid-section,
-  .buddy-how-section {
-    padding: 3rem 1rem;
-  }
-
   .buddy-section-title {
     font-size: 2rem;
+    margin-top: 1em;
   }
 
   .buddy-features {
@@ -366,10 +415,6 @@
     gap: 1.5rem;
   }
 
-  .buddy-card {
-    height: 350px;
-  }
-
   .buddy-steps {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -378,6 +423,44 @@
   .buddy-apply-button,
   .buddy-connect-button {
     padding: 0.8rem 1.6rem;
-    font-size: 1.1rem;
   }
-} 
+
+  .buddy-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .buddy-image {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+    border: none;
+    box-shadow: none;
+  }
+
+  .buddy-name {
+    font-size: 2.6rem;
+  }
+
+  .buddy-role {
+    font-size: 2.1rem;
+  }
+
+  .buddy-hover-text {
+    font-size: 1.9rem;
+  }
+
+  .buddy-details p {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    padding: 0 1em 0 1em;
+  }
+
+  .buddy-details strong {
+    font-size: 1.95rem;
+  }
+  .buddy-card {
+    min-height: 1050px;
+}
+}
