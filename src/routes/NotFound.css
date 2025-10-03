@@ -25,7 +25,7 @@
 }
 
 .not-found-logo-img {
-  width: 120px;
+  width: 250px;
   height: auto;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
 }
@@ -127,6 +127,6 @@
   }
   
   .not-found-logo-img {
-    width: 100px;
+    width: 140px;
   }
 }
