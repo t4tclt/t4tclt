@@ -63,56 +63,33 @@ function Home() {
         <div className="flyer-section">
           <div className="flyer-content">
             <div className="flyer-images">
-              <img src="/assets/nickmutualaid.png" alt="Mutual Aid Request for $1200 Wheelchair" className="flyer-image main-image" />
+              <img src="/assets/rafflesept.png" alt="September Mutual Aid Raffle for Eden's Dental Work" className="flyer-image main-image" />
             </div>
             <div className="flyer-text">
-              <h2 className="flyer-title">MUTUAL AID REQUEST: $1200 needed to attain accessibility</h2>
+              <h2 className="flyer-title">MUTUAL AID RAFFLE: Supporting Eden's Dental Work</h2>
               <div className="flyer-description">
-                <p>Trans Disabled Community member with P.O.T.S and EDS in need of $1200 to acquire a suitable wheelchair and AAC device</p>
-                <p>Nick is a Transgender Man who is passionate about the preforming arts, and even after losing much of his abilities to do certain things, he is still passionate about achieving his dreams. Although is the young age of 20 years old, he hopes to become a local wheelchair mechanic in the future. Giving back to his community is his biggest moral, and it drives him to become better and better ever day for his friends, family and loved ones.</p>
+                <p>Join us for this month's mutual aid raffle benefiting Eden's dental work! Your participation helps support our community member's essential healthcare needs.</p>
+                <p>Raffle tickets are available for $5 each or 5 for $20, and all proceeds go directly to Eden's dental care. This is a great way to support our community while having a chance to win some amazing prizes! Don't forget to fill out the form to get your entry counted!</p>
                 <ul>
-                  <li>Cash App: $t4tclt and note "trans mobility"</li>
+                  <li>Cash App: $t4tclt and note "raffle"</li>
                   <li>Open Collective: Use the button below</li>
                 </ul>
-                <a 
-                  href="https://opencollective.com/t4t-charlotte/projects/nicks-wheelchair/donate" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="donate-button"
-                >
-                  Donate Now to Help
-                </a>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="flyer-section">
-          <div className="flyer-content">
-            <img src="/assets/starlight.png" alt="Starlight on 22nd Variety Show" className="flyer-image" />
-            <div className="flyer-text">
-              <h2 className="flyer-title">Starlight on 22nd Variety Show</h2>
-              <div className="flyer-description">
-                <p>Come check out a spectacular set of performers at Starlight on 22nd Thursday Sept 25th! Join us at 6 for doors, the show will start at 7! We will be taking performers even last minute, so come get inspired and take the stage!</p>
-                <p>We've had poets, drag artists, musicians and comedy at our previous shows, come see what we have in store this time!</p>
-                <p><strong>Accessibility:</strong> Starlight has limited onsite parking but a gravel lot across the street has plenty of space. There are gender neutral single stall restrooms, many different seating options, drink options and bar food.</p>
                 <div className="flyer-buttons">
                   <a 
-                    href="https://forms.gle/u6QKCQnPEQd99jZFA" 
+                    href="https://opencollective.com/t4t-charlotte/projects/mutual-aid-raffle" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="flyer-button signup"
                   >
-                    Sign up to Perform
+                    Donate Here
                   </a>
                   <a 
-                    href="https://opencollective.com/t4t-charlotte/events/variety-show-420bec65" 
+                    href="https://forms.gle/MwPC9HmZDr4hv1Sf7" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="flyer-button tickets"
                   >
-                    Get Tickets
+                    Enter Raffle
                   </a>
                 </div>
               </div>
@@ -120,29 +97,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="flyer-section">
-          <div className="flyer-content">
-            <img src="/assets/pool.png" alt="T4T Pool Party" className="flyer-image" />
-            <div className="flyer-text">
-              <h2 className="flyer-title">T4T Pool Party</h2>
-              <div className="flyer-description">
-                <p>Join us to swim, sun bathe and hang out by the pool in Mt. Holly at a private pool we rented just for us! We'll be there Sunday 9/28 from 4-7pm.</p>
-                <p>Be sure to RSVP so you have the address! Bring snacks, drinks, and stuff to put on the gas grill! We will have coolers of ice and extra swim suits in case you don't have one! Else grab one at our clothes sorting day on the 10th!</p>
-                <div className="flyer-buttons">
-                  <a 
-                    href="https://opencollective.com/t4t-charlotte/events/t4t-pool-party-2764134a" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="flyer-button tickets"
-                  >
-                    RSVP Here!
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
+        
 
       <div id="zine" className="zine-section">
         <div className="zine-content">
@@ -211,8 +166,8 @@ function Home() {
         <div className="newsletter-content">
           <h2 className="newsletter-title">Our Newsletter</h2>
           <p>Stay updated with our latest news, events, and community highlights! Every month we send out a newsletter with all the upcoming events and a recap of the previous month's events.</p> 
-          <p>Check out the <a href="https://www.canva.com/design/DAGvt-8J-2g/Uv6yeU9YQia__j_l1rgm5Q/view?utm_content=DAGvt-8J-2g&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1d8ecd2cac" target="_blank" rel="noopener noreferrer">Current (September) Newsletter</a></p>
-          <p>Previous newsletters: <a href="https://www.canva.com/design/DAGsJA0Mp7I/wje2JtAKOErgXZmJ3_-puA/view?utm_content=DAGsJA0Mp7I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0f27443dbf" target="_blank" rel="noopener noreferrer">August</a>, <a href="https://www.canva.com/design/DAGpgokk5L0/lmO41Q8VTMlu4Nf2XbD8rQ/view?utm_content=DAGpgokk5L0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h74b6676927" target="_blank" rel="noopener noreferrer">July</a>, <a href="https://www.canva.com/design/DAGm0hRAxAg/WHMRpECUKKTIvggudI7e6g/view?utm_content=DAGm0hRAxAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h925b55a634" target="_blank" rel="noopener noreferrer">June</a>, <a href="https://www.canva.com/design/DAGjcFWXDi0/eZ7LD-uCNwd0M6_lEESjDw/view?utm_content=DAGjcFWXDi0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h946dd6f84a" target="_blank" rel="noopener noreferrer">May</a>, <a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" target="_blank" rel="noopener noreferrer">April</a>, <a href="https://www.canva.com/design/DAGf-0CDtI4/LFesLcVsILWGVQhgS0vGWw/view?utm_content=DAGf-0CDtI4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8acbb184d2" target="_blank" rel="noopener noreferrer">March</a></p>
+          <p>Check out the <a href="https://www.canva.com/design/DAGxw8KTOk8/dfNsRlVgCWenNyTh2mfP_Q/view?utm_content=DAGxw8KTOk8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9e08f9583c" target="_blank" rel="noopener noreferrer">Current (October) Newsletter</a></p>
+          <p>Previous newsletters: <a href="https://www.canva.com/design/DAGvt-8J-2g/Uv6yeU9YQia__j_l1rgm5Q/view?utm_content=DAGvt-8J-2g&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1d8ecd2cac" target="_blank" rel="noopener noreferrer">September</a>, <a href="https://www.canva.com/design/DAGsJA0Mp7I/wje2JtAKOErgXZmJ3_-puA/view?utm_content=DAGsJA0Mp7I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0f27443dbf" target="_blank" rel="noopener noreferrer">August</a>, <a href="https://www.canva.com/design/DAGpgokk5L0/lmO41Q8VTMlu4Nf2XbD8rQ/view?utm_content=DAGpgokk5L0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h74b6676927" target="_blank" rel="noopener noreferrer">July</a>, <a href="https://www.canva.com/design/DAGm0hRAxAg/WHMRpECUKKTIvggudI7e6g/view?utm_content=DAGm0hRAxAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h925b55a634" target="_blank" rel="noopener noreferrer">June</a>, <a href="https://www.canva.com/design/DAGjcFWXDi0/eZ7LD-uCNwd0M6_lEESjDw/view?utm_content=DAGjcFWXDi0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h946dd6f84a" target="_blank" rel="noopener noreferrer">May</a>, <a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" target="_blank" rel="noopener noreferrer">April</a>, <a href="https://www.canva.com/design/DAGf-0CDtI4/LFesLcVsILWGVQhgS0vGWw/view?utm_content=DAGf-0CDtI4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8acbb184d2" target="_blank" rel="noopener noreferrer">March</a></p>
           <div className="email-signup"><iframe width="600" height="604" title='Email Signup' src="https://sibforms.com/serve/MUIFAPoIxaiYsNaOfWYXlUhl8vtAN1NRAImpopsucj2mDCWHaxb6XI5aiFnegh-ZrrlBfNbK221EwbLe1qvBERzUhalVpcCaMVpyh_ivZ_7yf9FquySuS3tDKTS9pzcDSUHcvV-VI7PyErLyUh4ALOa9jhDEeF7NajbbDqfdu8flA9FMLpwAWZTw9NdO5gtf3hEK7OOiw9uQfKjN"></iframe></div>
         </div>
       </div>
@@ -297,6 +252,7 @@ function Home() {
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 }
