@@ -34,13 +34,13 @@
   line-height: 1.6;
 }
 
-/* Section Layout */
+/* Common Section Layouts */
 .buddy-info-section,
 .buddy-grid-section,
 .buddy-how-section {
   width: 100%;
   background-color: white;
-  padding: 1rem 1rem;
+  padding: 1rem;
   display: flex;
   justify-content: center;
 }
@@ -69,6 +69,10 @@
   text-align: center;
 }
 
+p {
+  font-size: 1.2em;
+}
+
 /* Features Grid */
 .buddy-features {
   display: grid;
@@ -94,17 +98,24 @@
   color: #666;
   line-height: 1.6;
   font-size: 1em;
-
   margin: 0;
 }
 
-/* CTA Section */
-.buddy-cta {
+/* CTA and Signup Sections */
+.buddy-cta,
+.buddy-signup-content {
   background-color: #f8f8f8;
   padding: 2rem;
   border-radius: 12px;
   text-align: center;
+}
+
+.buddy-cta {
   margin-top: 3rem;
+}
+
+.buddy-signup-content {
+  margin: 0 auto;
 }
 
 .buddy-cta h3 {
@@ -118,7 +129,6 @@
   margin-bottom: 2rem;
 }
 
-/* Signup Section */
 .buddy-signup-section {
   background: linear-gradient(135deg, #51c6f1, #f5b0be);
   padding: 3rem 1rem;
@@ -126,12 +136,7 @@
   margin: 2rem 0;
 }
 
-.buddy-signup-content {
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-/* Buttons */
+/* Common Pink Buttons */
 .buddy-signup-button,
 .buddy-apply-button {
   display: block;
@@ -187,28 +192,21 @@
   margin-bottom: 1rem;
 }
 
-/* Buddy Grid */
+/* Buddy Grid - Matches About.css staff-grid */
 .buddy-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 0;
-  max-width: 1200px;
 }
 
-/* Buddy Cards */
+/* Buddy Cards - Matches About.css staff-card */
 .buddy-card {
-  height: 100%;
-  width: 100%;
-  min-height: 600px;
+  perspective: 1000px;
   position: relative;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.buddy-card:hover {
-  transform: translateY(-5px);
+  min-height: 330px;
 }
 
 .buddy-card-inner {
@@ -231,13 +229,8 @@
   transform: rotateY(180deg);
 }
 
-.buddy-card.flipped .buddy-card-inner {
-  transform: rotateY(180deg);
-}
-
 .buddy-card-front,
 .buddy-card-back {
-  position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
@@ -250,12 +243,10 @@
   justify-content: center;
   align-items: center;
   padding: .5rem;
-  box-sizing: border-box;
 }
 
 .buddy-card-front {
   background-color: #f8f8f8;
-  color: white;
   transform: rotateY(0deg);
 }
 
@@ -264,14 +255,16 @@
   color: #333;
   transform: rotateY(180deg);
   overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-/* Buddy Images */
+/* Buddy Images - Matches About.css staff-image */
 .buddy-image {
   width: 91%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
   border-radius: 12px;
   border: none;
   box-shadow: none;
@@ -329,7 +322,7 @@
   width: 100%;
   flex: 1;
   overflow-y: auto;
-  padding: 0 1em 0 1em;
+  padding: 0 1em;
 }
 
 .buddy-details p {
@@ -351,9 +344,7 @@
   gap: 2rem;
   margin-top: 3rem;
 }
-p{
-  font-size: 1.2em;
-}
+
 .buddy-step {
   background-color: #f8f8f8;
   padding: 2rem;
@@ -388,9 +379,7 @@ p{
   font-size: 0.975rem;
 }
 
-
 /* Mobile Responsive */
-
 @media (max-width: 1024px) {
   .buddy-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -398,6 +387,7 @@ p{
 }
 
 @media (max-width: 768px) {
+  /* Hero and sections */
   .buddy-hero-subtitle {
     font-size: 1.1rem;
   }
@@ -407,46 +397,38 @@ p{
     margin-top: 1em;
   }
 
-  .buddy-features {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
-  .buddy-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
+  /* Common grids */
+  .buddy-features,
+  .buddy-grid,
   .buddy-steps {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 
+  /* Buttons */
   .buddy-apply-button,
   .buddy-connect-button {
     padding: 0.8rem 1.6rem;
   }
 
-  .buddy-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+  /* Cards - Matches About.css staff mobile styles */
+  .buddy-card {
+    min-height: 375px;
+    height: 100%;
+    padding: 1rem;
   }
 
   .buddy-image {
+    width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 12px;
-    border: none;
-    box-shadow: none;
   }
 
   .buddy-name {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .buddy-role {
-    font-size: 1.7rem;
+    font-size: 1.1rem;
   }
 
   .buddy-hover-text {
@@ -454,15 +436,12 @@ p{
   }
 
   .buddy-details p {
-    font-size: 1.4rem;
+    font-size: 0.85rem;
     line-height: 1.5;
-    padding: 0 1em 0 1em;
+    padding: 0 1em;
   }
 
   .buddy-details strong {
     font-size: 1.55rem;
   }
-  .buddy-card {
-    min-height: 1050px;
-}
 }
