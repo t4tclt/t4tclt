@@ -82,37 +82,14 @@ function Buddy() {
                   <h3 className="buddy-name">Echo</h3>
                   <p className="buddy-role">Discord Mod</p>
                   <div className="buddy-details">
+                  <p><strong>Pronouns:</strong> He/they</p>
                     <p><strong>Bio:</strong> Hiya! I help out with discord moderation, always feel free to reach out!</p>
                     <p><strong>Location:</strong> Harrisburg</p>
                     <p><strong>Sexuality:</strong> Gay / Demisexual / nonmonogamous</p>
                     <p><strong>Gender:</strong> Trans Mac Nonbinary / Demiboy</p>
-                    <p><strong>Pronouns:</strong> He/they</p>
                     <p><strong>Interests:</strong> Painting jackets and leather, walking my cat, rave events!</p>
                     <p><strong>Quirks:</strong> I am almost always carrying a pup hood with me at 21+ spaces &lt;3</p>
                     <p><strong>Favorite T4T events:</strong> Battle Jacket Night, Cards Against Humanity</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="buddy-card" onClick={handleBuddyCardClick}>
-              <div className="buddy-card-inner">
-                <div className="buddy-card-front">
-                  <img src="/assets/phizzi.png" alt="Phizzi" className="buddy-image" />
-                  <div className="buddy-hover-text">Click to learn more</div>
-                </div>
-                <div className="buddy-card-back">
-                  <h3 className="buddy-name">Phizzi</h3>
-                  <p className="buddy-role">Welcome Buddy</p>
-                  <div className="buddy-details">
-                    <p><strong>Pronouns:</strong> It/fae/they/he in order of preference</p>
-                    <p><strong>Bio:</strong> I am an AuDHD Disabled Genderqueer multimedia artist and community organizer with a passion for helping others.</p>
-                    <p><strong>Location:</strong> Southwest Charlotte</p>
-                    <p><strong>Sexuality:</strong> Omnisexual / Polyamorous</p>
-                    <p><strong>Gender:</strong> Genderqueer</p>
-                    <p><strong>Interests:</strong> Immersive entertainment / weird art</p>
-                    <p><strong>Quirks:</strong> tooooooo many acronyms</p>
-                    <p><strong>Favorite T4T events:</strong> Clothes swaps / Craft nights / Trivia</p>
                   </div>
                 </div>
               </div>
@@ -151,6 +128,7 @@ function Buddy() {
                   <h3 className="buddy-name">Cori</h3>
                   <p className="buddy-role">Discord Mod & Community Care Coordinator</p>
                   <div className="buddy-details">
+                    <p><strong>Pronouns:</strong> He/they</p>
                     <p><strong>Bio:</strong> What's going on! My name is Cori. I'm a Discord Mod and a Community Care Coordinator. I am also a Welcome Buddy!</p>
                     <p><strong>Location:</strong> Pineville</p>
                     <p><strong>Sexuality:</strong> Omnisexual</p>
