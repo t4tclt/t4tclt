@@ -271,6 +271,7 @@
   .about-page-container .about-staff-card {
     perspective: 1000px;
     position: relative;
+    min-height: 330px;
   }
 
   .about-page-container .about-staff-card-inner {

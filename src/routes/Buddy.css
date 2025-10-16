@@ -126,7 +126,7 @@
 
 .buddy-signup-content {
   margin: 0 auto;
-  padding: 2rem 0 0 0;
+  padding: 2rem;
 }
 
 /* Buttons */
@@ -333,7 +333,7 @@
 .buddy-details p {
   margin-bottom: 0.75rem;
   font-size: 1.2rem;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 .buddy-details strong {
@@ -440,25 +440,25 @@ p{
   }
 
   .buddy-name {
-    font-size: 2.6rem;
+    font-size: 1.8rem;
   }
 
   .buddy-role {
-    font-size: 2.1rem;
+    font-size: 1.7rem;
   }
 
   .buddy-hover-text {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
 
   .buddy-details p {
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     line-height: 1.5;
     padding: 0 1em 0 1em;
   }
 
   .buddy-details strong {
-    font-size: 1.95rem;
+    font-size: 1.55rem;
   }
   .buddy-card {
     min-height: 1050px;
