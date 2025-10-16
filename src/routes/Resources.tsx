@@ -38,6 +38,20 @@ function Resources() {
                 Herbal Remedies Guide
               </a>
               <a 
+                href="https://docs.google.com/document/d/1P4H0urHAuSWH1Dr9jHu0msuvmQgwXISLJcBiKBFwJoo/edit?usp=drive_link" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                So, You Think You're Hypermobile: A Guide to EDS
+              </a>
+              <a 
+                href="https://docs.google.com/document/d/1lZLdzquV9ct6RdcJzfPKBWpLvPu1qKC5-w0EZzrkiRQ/edit?usp=drive_link" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Trans & Neurodivergent Money Guide
+              </a>
+              <a 
                 href="https://docs.google.com/spreadsheets/d/1JJEE7FSAIjQl46QESpXExwSQr0J_SUbRFqi37jOuY9Q/edit?usp=sharing" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -127,7 +141,7 @@ function Resources() {
                 <p>Need a ride to an appointment, event, or support group? Our ride share program connects community members for safe, reliable transportation. Available for medical visits, grocery trips, community events and anything deemed necessary for your wellbeing.</p>
                 <p>Apply below for ride reimbursement or to coordinate a ride with a community member.</p>
                 <a 
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSeCvv9jomcUwf2YzDeUXVxBX0Wdi-vs4h4u7N5t4k0FXX0afw/viewform" 
+                  href="https://forms.gle/nJCf9CiNYFaavfQp8" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="program-button"
