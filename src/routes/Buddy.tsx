@@ -163,6 +163,29 @@ function Buddy() {
                 </div>
               </div>
             </div>
+
+            <div className="buddy-card" onClick={handleBuddyCardClick}>
+              <div className="buddy-card-inner">
+                <div className="buddy-card-front">
+                  <img src="/assets/nick.png" alt="Nick - Spiderman" className="buddy-image" />
+                  <div className="buddy-hover-text">Click to learn more</div>
+                </div>
+                <div className="buddy-card-back">
+                  <h3 className="buddy-name">Nick - Spiderman</h3>
+                  <p className="buddy-role">Spiderman/Welcome Buddy</p>
+                  <div className="buddy-details">
+                    <p><strong>Pronouns:</strong> He/Him</p>
+                    <p><strong>Bio:</strong> I am T4T's designated Spiderman. I am known as the group menace (AKA I have ADHD lol). I am quite the silly goose, and I am a disabled ambulatory wheelchair user fighting crime by running people over.</p>
+                    <p><strong>Location:</strong> Plaza Midwood, Charlotte</p>
+                    <p><strong>Sexuality:</strong> Pansexual Demisexual Lesbian Gay Man</p>
+                    <p><strong>Gender:</strong> Gender Anarchy but I prefer to be seen as an androgynous trans masc.</p>
+                    <p><strong>Interests:</strong> Spiderman, Disability Advocacy, LGBTQ+ stuff, Gaming.</p>
+                    <p><strong>Quirks:</strong> P.O.T.S, EDS, 'Tizm, I'm like an orange tabby in human form.</p>
+                    <p><strong>Favorite T4T events:</strong> Variety Show, Movie Night, and the cute outings we go on together.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
