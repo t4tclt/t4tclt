@@ -113,7 +113,7 @@ function About() {
               <p>Need a ride to an appointment, event, or support group? Our ride share program connects community members for safe, reliable transportation. Available for medical visits, grocery trips, community events and anything deemed necessary for your wellbeing.</p>
               <p>Apply below for ride reimbursement or to coordinate a ride with a community member.</p>
               <a 
-                href="https://docs.google.com/forms/d/e/1FAIpQLSeCvv9jomcUwf2YzDeUXVxBX0Wdi-vs4h4u7N5t4k0FXX0afw/viewform" 
+                href="https://forms.gle/nJCf9CiNYFaavfQp8" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="about-program-button"
