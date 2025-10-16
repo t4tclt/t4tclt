@@ -633,17 +633,19 @@
   }
 
   .about-page-container .about-staff-name {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   .about-page-container .about-staff-role {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 
   .about-page-container .about-staff-bio p {
-    font-size: 0.85rem;
+    font-size: 1.1rem;
   }
-  
+  .about-page-container .about-staff-bio strong {
+    font-size: 1.3rem;
+  }
   /* Contact section */
   .about-page-container .about-contact-content {
     width: 95%;
