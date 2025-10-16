@@ -340,14 +340,14 @@ p {
 
 .buddy-details p {
   margin-bottom: 0.75rem;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   line-height: 1.2;
 }
 
 .buddy-details strong {
   color: #51c6f1;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 /* Steps Section */
