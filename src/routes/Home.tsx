@@ -50,11 +50,11 @@ function Home() {
           <p>
             We're always looking to hear from folx on what type of 
             events they'd like to see and how we can best serve the community. 
-            Click the button below to give us some feedback or make requests!
+            Click the button below to learn more about T4T Charlotte and what we do!
           </p>
-          <button className="feedback-button" onClick={() => window.open('https://forms.gle/XhcRF7fgDSY7pu2p8', '_blank')}>
-            Give Feedback
-          </button>
+          <a href="/about" className="feedback-button">
+            Learn More About T4T
+          </a>
         </div>
       </div>
       <div id="events" className='calendar-container'>
@@ -67,59 +67,55 @@ function Home() {
         
         <div className="flyer-section">
           <div className="flyer-content">
-            <img 
-              src="/assets/T4TVarietyShow.png" 
-              alt="T4T Variety Show Fundraiser Flyer" 
-              className="flyer-image"
-            />
+            <div className="flyer-images">
+              <img src="/assets/rafflesept.png" alt="September Mutual Aid Raffle for Eden's Dental Work" className="flyer-image main-image" />
+            </div>
             <div className="flyer-text">
-              <h3 className="flyer-title">T4T Variety Show Fundraiser</h3>
+              <h2 className="flyer-title">MUTUAL AID RAFFLE: Supporting Eden's Dental Work</h2>
               <div className="flyer-description">
-                <p>
-                  Come one, come all to the most delightfully queer fundraiser of the summer! Join us at NoDa Collective for an evening of talent, laughter, and community care at our T4T Variety Show Fundraiser. Expect everything from drag and poetry to live music, comedy, and unexpected performances — all brought to you by our community. <a href="https://forms.gle/iwNRBH9mWjUMpnVj9" target='_blank' rel="noopener noreferrer">Sign up to perform here!</a>
-                </p>
-                <p>
-                  All proceeds go directly toward supporting T4Tclt's mutual aid efforts, event supplies, and sustaining affirming space for our people. Bring your friends, your dollars, and your loudest cheers — and don't forget to tip the performers!
-                </p>
-                <a 
-            href="https://opencollective.com/t4t-charlotte/events/fundraiser-variety-show-fdd88ecc" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="donate-button"
-          >
-            Get Tickets Now!
-          </a>
+                <p>Join us for this month's mutual aid raffle benefiting Eden's dental work! Your participation helps support our community member's essential healthcare needs.</p>
+                <p>Raffle tickets are available for $5 each or 5 for $20, and all proceeds go directly to Eden's dental care. This is a great way to support our community while having a chance to win some amazing prizes! Don't forget to fill out the form to get your entry counted!</p>
+                <ul>
+                  <li>Cash App: $t4tclt and note "raffle"</li>
+                  <li>Open Collective: Use the button below</li>
+                </ul>
+                <div className="flyer-buttons">
+                  <a 
+                    href="https://opencollective.com/t4t-charlotte/projects/mutual-aid-raffle" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flyer-button signup"
+                  >
+                    Donate Here
+                  </a>
+                  <a 
+                    href="https://forms.gle/MwPC9HmZDr4hv1Sf7" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flyer-button tickets"
+                  >
+                    Enter Raffle
+                  </a>
+                </div>
               </div>
             </div>
-          </div>   
+          </div>
         </div>
-        </div>
+
+        
 
       <div id="zine" className="zine-section">
         <div className="zine-content">
           <h2 className="zine-title">Check out our zine!</h2>
-          <p>We're excited to share our first zine with you! It's a collection of essays, poems, and art from the trans+ community in Charlotte. We hope you enjoy it! 
-            If you'd like to print a copy (or several to distribute), you can download the PDF below or read the digital version.
-            If you'd like to contribute to the next issue of the zine, please get in touch with us on discord.
-          </p>
-          <div className="zine-buttons">
-            <a 
-              href="/assets/T4T1-Spreads.pdf" 
-              className="zine-button digital" 
-              download="T4T-Zine.Issue-1.Digital-Version.pdf"
-              rel="noopener noreferrer"
-            >
-              Digital Version
+          <div className="zine-covers">
+            <a href="/assets/T4T1-Spreads.pdf" download="T4T-Zine.Issue-1.Digital-Version.pdf" rel="noopener noreferrer">
+              <img src="/assets/cover1.png" alt="T4T Zine Issue 1 Cover" className="zine-cover" />
             </a>
-            <a 
-              href="/assets/T4T1-Booklet.pdf" 
-              className="zine-button print" 
-              download="T4T-Zine.Issue-1.Print-Version.pdf"
-              rel="noopener noreferrer"
-            >
-              Print Version
+            <a href="/assets/T4T Zine Issue 2_Spreads.pdf" download="T4T-Zine.Issue-2.Digital-Version.pdf" rel="noopener noreferrer">
+              <img src="/assets/cover2.png" alt="T4T Zine Issue 2 Cover" className="zine-cover" />
             </a>
           </div>
+          <a href="/zine" className="zine-learn-more-button">Learn More!</a>
         </div>
       </div>
 
@@ -143,14 +139,14 @@ function Home() {
         <div className="summary-item left">
           <div className="summary-title">Verified Discord Community</div>
           <div className="summary-content">
-            Connect with over 400 local trans folx with location subsections and join our discord game nights
+            Connect with over 500 local trans folx with location subsections and join our discord game nights
           </div>
         </div>
         
         <div className="summary-item right">
           <div className="summary-title">Mutual Aid Opportunities</div>
           <div className="summary-content">
-            We use discord to coordinate our community into asking for and offering each other help as well as coordinate aid for our community
+            We use discord to coordinate our community into asking for and offering each other help as well as coordinate aid for our community with our food and rideshare programs
           </div>
         </div>
         <div className="summary-item left">
@@ -162,25 +158,29 @@ function Home() {
         <div className="summary-item right">
           <div className="summary-title">And More!</div>
           <div className="summary-content">
-            Speed Friending, Picnics, Craft Nights, Movie Nights, Co-working, Potlucks, Restaurant outings
+            Speed Friending, Picnics, Craft Nights, Movie Nights, Co-working, Potlucks, Restaurant outings, Skill Shares, informal meetups and more
           </div>
+        </div>
+        
+        <div className="about-learn-more">
+          <a href="/about" className="about-learn-more-button">
+            Learn More About T4T
+          </a>
         </div>
       </div>
       <div id="newsletter" className="newsletter-section">
         <div className="newsletter-content">
           <h2 className="newsletter-title">Our Newsletter</h2>
           <p>Stay updated with our latest news, events, and community highlights! Every month we send out a newsletter with all the upcoming events and a recap of the previous month's events.</p> 
-          <p>Check out the <a href="https://www.canva.com/design/DAGm0hRAxAg/WHMRpECUKKTIvggudI7e6g/view?utm_content=DAGm0hRAxAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h925b55a634" target="_blank" rel="noopener noreferrer"> Current (June) Newsletter</a></p>
-          <p>Or, check out some of our older newsletters, like the <a href="https://www.canva.com/design/DAGjcFWXDi0/eZ7LD-uCNwd0M6_lEESjDw/view?utm_content=DAGjcFWXDi0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h946dd6f84a" target="_blank" rel="noopener noreferrer">May Newsletter</a> </p>
-         <p><a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" target="_blank" rel="noopener noreferrer">April Newsletter</a> </p>  
-         <p><a href="https://www.canva.com/design/DAGf-0CDtI4/LFesLcVsILWGVQhgS0vGWw/view?utm_content=DAGf-0CDtI4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8acbb184d2" target="_blank" rel="noopener noreferrer">March Newsletter</a> </p>  
+          <p>Check out the <a href="https://www.canva.com/design/DAGxw8KTOk8/dfNsRlVgCWenNyTh2mfP_Q/view?utm_content=DAGxw8KTOk8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9e08f9583c" target="_blank" rel="noopener noreferrer">Current (October) Newsletter</a></p>
+          <p>Previous newsletters: <a href="https://www.canva.com/design/DAGvt-8J-2g/Uv6yeU9YQia__j_l1rgm5Q/view?utm_content=DAGvt-8J-2g&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1d8ecd2cac" target="_blank" rel="noopener noreferrer">September</a>, <a href="https://www.canva.com/design/DAGsJA0Mp7I/wje2JtAKOErgXZmJ3_-puA/view?utm_content=DAGsJA0Mp7I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0f27443dbf" target="_blank" rel="noopener noreferrer">August</a>, <a href="https://www.canva.com/design/DAGpgokk5L0/lmO41Q8VTMlu4Nf2XbD8rQ/view?utm_content=DAGpgokk5L0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h74b6676927" target="_blank" rel="noopener noreferrer">July</a>, <a href="https://www.canva.com/design/DAGm0hRAxAg/WHMRpECUKKTIvggudI7e6g/view?utm_content=DAGm0hRAxAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h925b55a634" target="_blank" rel="noopener noreferrer">June</a>, <a href="https://www.canva.com/design/DAGjcFWXDi0/eZ7LD-uCNwd0M6_lEESjDw/view?utm_content=DAGjcFWXDi0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h946dd6f84a" target="_blank" rel="noopener noreferrer">May</a>, <a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" target="_blank" rel="noopener noreferrer">April</a>, <a href="https://www.canva.com/design/DAGf-0CDtI4/LFesLcVsILWGVQhgS0vGWw/view?utm_content=DAGf-0CDtI4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8acbb184d2" target="_blank" rel="noopener noreferrer">March</a></p>
           <div className="email-signup"><iframe width="600" height="604" title='Email Signup' src="https://sibforms.com/serve/MUIFAPoIxaiYsNaOfWYXlUhl8vtAN1NRAImpopsucj2mDCWHaxb6XI5aiFnegh-ZrrlBfNbK221EwbLe1qvBERzUhalVpcCaMVpyh_ivZ_7yf9FquySuS3tDKTS9pzcDSUHcvV-VI7PyErLyUh4ALOa9jhDEeF7NajbbDqfdu8flA9FMLpwAWZTw9NdO5gtf3hEK7OOiw9uQfKjN"></iframe></div>
         </div>
       </div>
       <div id="help" className="help-section">
         <h2 className="help-title">Need Help?</h2>
         <div className="help-content">
-          <p>Looking for support or resources? Check out our <a href="https://docs.google.com/document/d/1L0MP5RohGWxOJIDB83y_LOS3ucYIFYm4U7YtH4l7ETk/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">resource guide</a> and click the button to fill out our form and we'll get back to you as soon as possible.</p>
+          <p>Looking for support or resources? Check out our <a href="/resources">Resources page</a> for comprehensive guides, community resources, and programs, or check out our <a href="https://docs.google.com/document/d/1L0MP5RohGWxOJIDB83y_LOS3ucYIFYm4U7YtH4l7ETk/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">resource guide</a>. Click the button below to fill out our form and we'll get back to you as soon as possible.</p>
           <a 
             href="https://docs.google.com/forms/d/e/1FAIpQLSfFXQzEQlNzwmB6pIowRXtq44etKOKZVrIs4wBof55f_gz_Jg/viewform" 
             target="_blank" 
@@ -191,79 +191,12 @@ function Home() {
           </a>
         </div>
       </div>
-
-      <div id="resources" className="resources-section">
-        <h2 className="resources-title">Resources</h2>
-        <div className="resources-content">
-          <div className="resource-category">
-            <h3 className="resource-category-title">T4T Resources</h3>
-            <div className="resource-links">
-              <a 
-                href="https://docs.google.com/document/d/1A8GYMMVjo7gPZdA1nGedNwIw0sYjvb9vDvCtCZ3m7iE/edit?usp=sharing" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                Queer Sex and Bodily Autonomy Guide
-              </a>
-              <a 
-                href="https://docs.google.com/document/d/1RMwGjV46_AVT6jsHbFsBRZBrfDYr1WWTI_H2bvjBQz8/edit?usp=sharing" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                Know Your Rights: Boundaries and Consent
-              </a>
-              <a 
-                href="https://docs.google.com/document/d/1eBg1U5qzwLkB7X9jueoZ2TYbx8lTuuSU4FwTFdd1ttI/edit?usp=sharing" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                Beginner's Worksheet on Consent, Boundaries, and Red Flags in Kink
-              </a>
-              <a 
-                href="https://docs.google.com/document/d/1L0MP5RohGWxOJIDB83y_LOS3ucYIFYm4U7YtH4l7ETk/edit?usp=drivesdk" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                Trans Folx Guide to Charlotte Resources
-              </a>
-            </div>
-          </div>
-
-          <div className="resource-category">
-            <h3 className="resource-category-title">Community Resources</h3>
-            <div className="resource-links">
-              <a 
-                href="https://docs.google.com/spreadsheets/d/1zMl4i4fyOanl-Au_tUUpWYzWDyTrbdfz79aGTEav2gs/edit?gid=0#gid=0" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                NC Gender Affirming Surgeons Directory
-              </a>
-              <a 
-                href="https://docs.google.com/document/d/1U5cxmHfuz-9mLM7tsXgQSRhtNpXd1BpKzW2ILhXMq8M/edit?usp=sharing" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                SS Name and Gender Marker Change Walkthrough - NC
-              </a>
-              <a 
-                href="https://docs.google.com/document/d/1arceK5ZsxXCTe8hDDSWS-TM4XRIREvVAjfzYhK-4-c4/edit?usp=sharing" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                NC Name Change - Checklist/Pricelist
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div id="donate" className="donate-section">
         <h2 className="donate-title">Donate to T4T</h2>
         <div className="donate-content">
           <p>Your donations help us continue providing resources, organizing events, and supporting our trans community in Charlotte. Every contribution makes a difference!</p>
           <a 
-            href="https://opencollective.com/t4t-charlotte" 
+            href="https://opencollective.com/t4t-charlotte/donate" 
             target="_blank" 
             rel="noopener noreferrer"
             className="donate-button"
@@ -325,6 +258,7 @@ function Home() {
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 }

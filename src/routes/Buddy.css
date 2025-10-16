@@ -1,0 +1,447 @@
+/* Buddy Page Container */
+.buddy-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+/* Hero Section */
+.buddy-hero {
+  width: 100%;
+  background: linear-gradient(135deg, #51c6f1 0%, #f5b0be 100%);
+  padding: 6rem 1rem;
+  text-align: center;
+  color: white;
+}
+
+.buddy-hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.buddy-hero-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.buddy-hero-subtitle {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* Common Section Layouts */
+.buddy-info-section,
+.buddy-grid-section,
+.buddy-how-section {
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.buddy-info-content,
+.buddy-grid-content,
+.buddy-how-content {
+  width: 90%;
+}
+
+.buddy-section-title {
+  color: #51c6f1;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.buddy-info-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+/* Features Grid */
+.buddy-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 0;
+}
+
+.buddy-feature {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buddy-feature h3 {
+  color: #51c6f1;
+  font-size: 1.4em;
+}
+
+.buddy-feature p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1em;
+  margin: 0;
+}
+
+/* CTA and Signup Sections */
+.buddy-cta,
+.buddy-signup-content {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.buddy-cta {
+  margin-top: 3rem;
+}
+
+.buddy-signup-content {
+  margin: 0 auto;
+}
+
+.buddy-cta h3 {
+  color: #51c6f1;
+  font-size: 2.2rem;
+  font-family: 'Pacifico', cursive;
+}
+
+.buddy-cta p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.buddy-signup-section {
+  background: linear-gradient(135deg, #51c6f1, #f5b0be);
+  padding: 3rem 1rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* Common Pink Buttons */
+.buddy-signup-button,
+.buddy-apply-button {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1.4rem;
+  background-color: #f5b0be;
+  color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.buddy-signup-button:hover,
+.buddy-apply-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f39bac;
+  color: white;
+  text-decoration: none;
+}
+
+.buddy-connect-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  background-color: #51c6f1;
+  color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.buddy-connect-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #3ab4e7;
+  color: white;
+  text-decoration: none;
+}
+
+/* Grid Intro */
+.buddy-grid-intro {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+/* Buddy Grid - Matches About.css staff-grid */
+.buddy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* Buddy Cards - Matches About.css staff-card */
+.buddy-card {
+  perspective: 1000px;
+  position: relative;
+  min-height: 330px;
+}
+
+.buddy-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  transform-origin: center;
+}
+
+.buddy-card:hover .buddy-card-inner:not(.flipped) {
+  transform: rotate(-5deg) translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.buddy-card-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.buddy-card-front,
+.buddy-card-back {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+}
+
+.buddy-card-front {
+  background-color: #f8f8f8;
+  transform: rotateY(0deg);
+}
+
+.buddy-card-back {
+  background-color: white;
+  color: #333;
+  transform: rotateY(180deg);
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Buddy Images - Matches About.css staff-image */
+.buddy-image {
+  width: 91%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  border: none;
+  box-shadow: none;
+  min-height: 400px;
+}
+
+/* Buddy Text Elements */
+.buddy-name {
+  color: #f5b0be;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  margin-top: .3em;
+}
+
+.buddy-role {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  color: #51c6f1;
+  font-weight: 600;
+}
+
+.buddy-location {
+  color: #666;
+  font-size: 1rem;
+}
+
+.buddy-hover-text {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(81, 198, 241, 0.9);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  font-style: italic;
+}
+
+.buddy-card:hover .buddy-hover-text {
+  opacity: 1;
+}
+
+.buddy-card-inner.flipped .buddy-hover-text {
+  opacity: 0;
+}
+
+/* Buddy Details */
+.buddy-details {
+  text-align: left;
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 1em;
+}
+
+.buddy-details p {
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.buddy-details strong {
+  color: #51c6f1;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+/* Steps Section */
+.buddy-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.buddy-step {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #51c6f1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto 1rem;
+}
+
+.buddy-step h3 {
+  color: #51c6f1;
+  font-size: 1.8rem;
+}
+
+.buddy-step p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.975rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 1024px) {
+  .buddy-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  /* Hero and sections */
+  .buddy-hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .buddy-section-title {
+    font-size: 2rem;
+    margin-top: 1em;
+  }
+
+  /* Common grids */
+  .buddy-features,
+  .buddy-grid,
+  .buddy-steps {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  /* Buttons */
+  .buddy-apply-button,
+  .buddy-connect-button {
+    padding: 0.8rem 1.6rem;
+  }
+
+  /* Cards - Matches About.css staff mobile styles */
+  .buddy-card {
+    min-height: 375px;
+    height: 100%;
+    padding: 1rem;
+  }
+
+  .buddy-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .buddy-name {
+    font-size: 1.5rem;
+  }
+
+  .buddy-role {
+    font-size: 1.1rem;
+  }
+
+  .buddy-hover-text {
+    font-size: 1.5rem;
+  }
+
+  .buddy-details p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    padding: 0 1em;
+  }
+
+  .buddy-details strong {
+    font-size: 1.55rem;
+  }
+}
