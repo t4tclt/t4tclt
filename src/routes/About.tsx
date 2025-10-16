@@ -257,6 +257,29 @@ function About() {
             </div>
           </div>
 
+          <div className="about-staff-card" onClick={handleStaffCardClick}>
+            <div className="about-staff-card-inner">
+              <div className="about-staff-card-front">
+                <img src="/assets/skye.png" alt="Skye" className="about-staff-image" />
+                <div className="about-staff-hover-text">Click to learn more</div>
+              </div>
+              <div className="about-staff-card-back">
+                <h3 className="about-staff-name">Skye</h3>
+                <p className="about-staff-role">Aid Coordinator</p>
+                <div className="about-staff-bio">
+                  <p><strong>Pronouns:</strong> They/he/she</p>
+                  <p><strong>Bio:</strong> I'm passionate about mutual aid, community organizing, and helping people overcome barriers to accessing resources.</p>
+                  <p><strong>Location:</strong> Charlotte</p>
+                  <p><strong>Sexuality:</strong> Asexual/sapphic</p>
+                  <p><strong>Gender:</strong> Nonbinary/genderfluid/transmasc</p>
+                  <p><strong>Interests:</strong> Volunteering, poetry, music, documentaries</p>
+                  <p><strong>Quirks:</strong> Can't do math</p>
+                  <p><strong>Favorite T4T events:</strong> Karaoke night/peer support group</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="about-staff-card">
             <div className="about-staff-card-content">
               <div className="about-staff-info-shown">
