@@ -140,6 +140,51 @@ function Buddy() {
                 </div>
               </div>
             </div>
+
+            <div className="buddy-card" onClick={handleBuddyCardClick}>
+              <div className="buddy-card-inner">
+                <div className="buddy-card-front">
+                  <img src="/assets/cori.png" alt="Cori" className="buddy-image" />
+                  <div className="buddy-hover-text">Click to learn more</div>
+                </div>
+                <div className="buddy-card-back">
+                  <h3 className="buddy-name">Cori</h3>
+                  <p className="buddy-role">Discord Mod & Community Care Coordinator</p>
+                  <div className="buddy-details">
+                    <p><strong>Bio:</strong> What's going on! My name is Cori. I'm a Discord Mod and a Community Care Coordinator. I am also a Welcome Buddy!</p>
+                    <p><strong>Location:</strong> Pineville</p>
+                    <p><strong>Sexuality:</strong> Omnisexual</p>
+                    <p><strong>Gender:</strong> Transgender Male</p>
+                    <p><strong>Interests:</strong> Piano, Guitar, Drawing, Singing, Writing, etc</p>
+                    <p><strong>Quirks:</strong> Bluey is my favorite hyperfixation!</p>
+                    <p><strong>Favorite T4T events:</strong> Food Not Bombs Picnic, Karaoke Night, and anything relating to games / crafts!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="buddy-card" onClick={handleBuddyCardClick}>
+              <div className="buddy-card-inner">
+                <div className="buddy-card-front">
+                  <img src="/assets/nicole.jpg" alt="Nicole" className="buddy-image" />
+                  <div className="buddy-hover-text">Click to learn more</div>
+                </div>
+                <div className="buddy-card-back">
+                  <h3 className="buddy-name">Nicole</h3>
+                  <p className="buddy-role">Welcome Buddy</p>
+                  <div className="buddy-details">
+                    <p><strong>Pronouns:</strong> She/Her</p>
+                    <p><strong>Bio:</strong> Creative Hobby Collector and Recovering Introvert. I am quite shy at first but I like listening to and telling stories (yes that includes a good info dump).</p>
+                    <p><strong>Location:</strong> Belmont/Mt Holy Area</p>
+                    <p><strong>Sexuality:</strong> Sapphic, Maybe Ace?</p>
+                    <p><strong>Gender:</strong> Woman (Trans)</p>
+                    <p><strong>Interests:</strong> Board Games, Lego, TTRPGs, Video Games, Programming</p>
+                    <p><strong>Quirks:</strong> Neurodivergent!?</p>
+                    <p><strong>Favorite T4T events:</strong> Board Game Nights, Social Supper</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
