@@ -50,7 +50,7 @@ function Buddy() {
             <div className="buddy-step">
               <div className="step-number">1</div>
               <h3>Browse Buddies</h3>
-              <p>Click on the buddy cards above to learn more about each person and see if they might be a good match for you</p>
+              <p>Click on the buddy cards below to learn more about each person and see if they might be a good match for you</p>
             </div>
             <div className="buddy-step">
               <div className="step-number">2</div>
@@ -206,7 +206,7 @@ function Buddy() {
 
       <div className="buddy-cta">
         <div className="buddy-cta-content">
-          <h3>Interested in becoming a Welcome Buddy?</h3>
+          <h3 className="buddy-section-title">Interested in becoming a Welcome Buddy?</h3>
           <p>Join our team of community connectors and help make T4T Charlotte an even more welcoming space!</p>
           <a 
             href="https://docs.google.com/forms/d/1DnRYsXwUgs2wWObd1PqQUAkGbMxtMpECBxg-YDKeNI8/edit" 
