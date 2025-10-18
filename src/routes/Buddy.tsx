@@ -50,7 +50,7 @@ function Buddy() {
             <div className="buddy-step">
               <div className="step-number">1</div>
               <h3>Browse Buddies</h3>
-              <p>Click on the buddy cards above to learn more about each person and see if they might be a good match for you</p>
+              <p>Click on the buddy cards below to learn more about each person and see if they might be a good match for you</p>
             </div>
             <div className="buddy-step">
               <div className="step-number">2</div>
@@ -109,7 +109,7 @@ function Buddy() {
                     <p><strong>Bio:</strong> I'm a bisexual lesbian transwoman that just recently joined T4T in April 2025. I love to volunteer and help out with events and projects.</p>
                     <p><strong>Location:</strong> Kannapolis, NC</p>
                     <p><strong>Sexuality:</strong> Bisexual lesbian</p>
-                    <p><strong>Gender:</strong> Transwoman</p>
+                    <p><strong>Gender:</strong> Trans woman</p>
                     <p><strong>Interests:</strong> Warhammer 40K, MTG, rats, DIY projects, and soulsborne games</p>
                     <p><strong>Quirks:</strong> ADHD</p>
                     <p><strong>Favorite T4T events:</strong> Social Suppers, Potlucks</p>
@@ -167,11 +167,11 @@ function Buddy() {
             <div className="buddy-card" onClick={handleBuddyCardClick}>
               <div className="buddy-card-inner">
                 <div className="buddy-card-front">
-                  <img src="/assets/nick.png" alt="Nick - Spiderman" className="buddy-image" />
+                  <img src="/assets/nick.png" alt="Nick" className="buddy-image" />
                   <div className="buddy-hover-text">Click to learn more</div>
                 </div>
                 <div className="buddy-card-back">
-                  <h3 className="buddy-name">Nick - Spiderman</h3>
+                  <h3 className="buddy-name">Nick</h3>
                   <p className="buddy-role">Spiderman/Welcome Buddy</p>
                   <div className="buddy-details">
                     <p><strong>Pronouns:</strong> He/Him</p>
@@ -206,7 +206,7 @@ function Buddy() {
 
       <div className="buddy-cta">
         <div className="buddy-cta-content">
-          <h3>Interested in becoming a Welcome Buddy?</h3>
+          <h3 className="buddy-section-title">Interested in becoming a Welcome Buddy?</h3>
           <p>Join our team of community connectors and help make T4T Charlotte an even more welcoming space!</p>
           <a 
             href="https://docs.google.com/forms/d/1DnRYsXwUgs2wWObd1PqQUAkGbMxtMpECBxg-YDKeNI8/edit" 

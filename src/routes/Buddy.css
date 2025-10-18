@@ -12,7 +12,7 @@
 .buddy-hero {
   width: 100%;
   background: linear-gradient(135deg, #51c6f1 0%, #f5b0be 100%);
-  padding: 6rem 1rem;
+  padding: 5rem 0 1em 0em;
   text-align: center;
   color: white;
 }
@@ -110,21 +110,13 @@ p {
   text-align: center;
 }
 
-.buddy-cta {
-  margin-top: 3rem;
-}
 
 .buddy-signup-content {
   margin: 0 auto;
 }
 
-.buddy-cta h3 {
-  color: #51c6f1;
-  font-size: 2.2rem;
-  font-family: 'Pacifico', cursive;
-}
-
 .buddy-cta p {
+
   color: #666;
   margin-bottom: 2rem;
 }
@@ -199,7 +191,6 @@ p {
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 0;
 }
 
 /* Buddy Cards - Matches About.css staff-card */
@@ -321,20 +312,42 @@ p {
   text-align: left;
   width: 100%;
   flex: 1;
-  overflow-y: auto;
+  overflow-y: scroll;
   padding: 0 1em;
+  scrollbar-width: thin;
+  scrollbar-color: #51c6f1 #f0f0f0;
+}
+
+/* Webkit scrollbar styling - always visible */
+.buddy-details::-webkit-scrollbar {
+  width: 8px;
+  -webkit-appearance: none;
+}
+
+.buddy-details::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.buddy-details::-webkit-scrollbar-thumb {
+  background: #51c6f1;
+  border-radius: 4px;
+}
+
+.buddy-details::-webkit-scrollbar-thumb:hover {
+  background: #3ab4e7;
 }
 
 .buddy-details p {
   margin-bottom: 0.75rem;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   line-height: 1.2;
 }
 
 .buddy-details strong {
   color: #51c6f1;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 /* Steps Section */
@@ -384,16 +397,23 @@ p {
   .buddy-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .buddy-grid-intro {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 768px) {
   /* Hero and sections */
   .buddy-hero-subtitle {
     font-size: 1.1rem;
+    margin-top: 1.5em;
+  }
+  p {
+    font-size: 1rem;
   }
 
   .buddy-section-title {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 1em;
   }
 
@@ -424,11 +444,11 @@ p {
   }
 
   .buddy-name {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .buddy-role {
-    font-size: 1.1rem;
+    font-size: 1.8rem;
   }
 
   .buddy-hover-text {
@@ -436,12 +456,24 @@ p {
   }
 
   .buddy-details p {
-    font-size: 0.85rem;
-    line-height: 1.5;
-    padding: 0 1em;
+    font-size: 1.2em;
   }
 
   .buddy-details strong {
     font-size: 1.55rem;
+  }
+  .buddy-section-title {
+    font-size: 1.7rem;
+  }
+  .buddy-signup-button,
+  .buddy-apply-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+  }
+  .buddy-grid-intro {
+    font-size: 1rem;
+  }
+  .buddy-info-content p {
+    font-size: 1rem;
   }
 }
