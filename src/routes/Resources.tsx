@@ -124,7 +124,7 @@ function Resources() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                Vanish Ink Laser Deal for T4T
+                Vanish Ink Laser Special Pricing Deal for T4T 
               </a>
             </div>
           </div>
