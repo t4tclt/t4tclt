@@ -113,7 +113,7 @@ function Home() {
                     rel="noopener noreferrer" 
                     className="flyer-button signup"
                   >
-                    Volunteer to Sign Up
+                    Sign Up to Volunteer
                   </a>
                 </div>
               </div>
