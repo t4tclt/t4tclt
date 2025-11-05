@@ -96,8 +96,31 @@ function Home() {
             </div>
           </div>
         </div>
-
         
+        <div className="flyer-section">
+          <div className="flyer-content">
+            <div className="flyer-images">
+              <img src="/assets/clothes swap.png" alt="The Quarterly Clothes Swap" className="flyer-image main-image" />
+            </div>
+            <div className="flyer-text">
+              <h2 className="flyer-title">The Quarterly Clothes Swap</h2>
+              <div className="flyer-description">
+                <p>The quarterly clothes swap is back! Come check out all of our clothes, sorted by size so that folks can easily find things. Bring clothes to swap or just come take some home! We have plenty to share so tell your friends. We will be in room 1100 of the Zeiss Building at CPCC from 11am-4pm.</p>
+                <div className="flyer-buttons">
+                  <a 
+                    href="https://forms.gle/opH55SFK2drm11EYA" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flyer-button signup"
+                  >
+                    Volunteer to Sign Up
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div id="zine" className="zine-section">
         <div className="zine-content">
@@ -252,7 +275,6 @@ function Home() {
           </form>
         </div>
       </div>
-    </div>
     </div>
   );
 }
