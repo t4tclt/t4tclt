@@ -79,11 +79,6 @@ function Resources() {
             <h3 className="resource-category-title">Community Resources</h3>
             <div className="resource-links">
               <a 
-                href="/vanish"
-              >
-                Vanish Ink Exclusive Deal with T4T for Laser Hair Removal
-              </a>
-              <a 
                 href="https://docs.google.com/spreadsheets/d/1zMl4i4fyOanl-Au_tUUpWYzWDyTrbdfz79aGTEav2gs/edit?gid=0#gid=0" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -117,6 +112,19 @@ function Resources() {
                 rel="noopener noreferrer"
               >
                 Charlotte Trans Health - Find a Provider
+              </a>
+            </div>
+          </div>
+
+          <div className="resource-category">
+            <h3 className="resource-category-title">Community Partners</h3>
+            <div className="resource-links">
+              <a 
+                href="/assets/Vanish.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Vanish Ink Laser Deal for T4T
               </a>
             </div>
           </div>
