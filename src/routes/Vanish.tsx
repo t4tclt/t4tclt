@@ -7,7 +7,7 @@ function Vanish() {
       <Nav />
       <div className="vanish-content">
         <iframe
-          src="/assets/vanish.pdf"
+          src="/assets/Vanish.pdf"
           className="vanish-pdf"
           title="Vanish Document"
         />
