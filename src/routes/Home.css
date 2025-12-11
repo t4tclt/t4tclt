@@ -364,9 +364,11 @@ body {
 }
 
 .flyer-title {
-  font-size: 2em;
-  color: #2c3e50;
+  color: #51c6f1;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .flyer-description {
@@ -1280,7 +1282,9 @@ body {
 }
 
 .flyer-section:first-of-type .flyer-title {
-  color: #ff3b30;  /* Emergency red color */
+  color: #51c6f1;  /* Blue color */
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .flyer-section:nth-of-type(2) .flyer-title,

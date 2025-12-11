@@ -63,33 +63,22 @@ function Home() {
         <div className="flyer-section">
           <div className="flyer-content">
             <div className="flyer-images">
-              <img src="/assets/rafflesept.png" alt="September Mutual Aid Raffle for Eden's Dental Work" className="flyer-image main-image" />
+              <img src="/assets/yearendsurvey.png" alt="T4T Year End Survey" className="flyer-image main-image" />
             </div>
             <div className="flyer-text">
-              <h2 className="flyer-title">MUTUAL AID RAFFLE: Supporting Eden's Dental Work</h2>
+              <h2 className="flyer-title">YEAR END SURVEY</h2>
               <div className="flyer-description">
-                <p>Join us for this month's mutual aid raffle benefiting Eden's dental work! Your participation helps support our community member's essential healthcare needs.</p>
-                <p>Raffle tickets are available for $5 each or 5 for $20, and all proceeds go directly to Eden's dental care. This is a great way to support our community while having a chance to win some amazing prizes! Don't forget to fill out the form to get your entry counted!</p>
-                <ul>
-                  <li>Cash App: $t4tclt and note "raffle"</li>
-                  <li>Open Collective: Use the button below</li>
-                </ul>
+                <p>Your feedback is essential to helping us better serve our community! We want to hear from you about your experiences with T4T this year, what worked, what didn't, and how we can improve in the future.</p>
+                <p>This survey helps us understand the impact we're making, identify areas for growth, and ensure we're meeting the needs of our community. Your responses will directly shape our programs and events in the coming year.</p>
+                <p><strong>We'll be presenting a comprehensive report in the new year</strong> based on your feedback, so please take a few minutes to share your thoughts. Every response matters and helps us build a stronger, more responsive community organization.</p>
                 <div className="flyer-buttons">
                   <a 
-                    href="https://opencollective.com/t4t-charlotte/projects/mutual-aid-raffle" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="flyer-button signup"
-                  >
-                    Donate Here
-                  </a>
-                  <a 
-                    href="https://forms.gle/MwPC9HmZDr4hv1Sf7" 
+                    href="https://forms.gle/xtddWZvz5rzZC3JF7" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="flyer-button tickets"
                   >
-                    Enter Raffle
+                    Take the Survey
                   </a>
                 </div>
               </div>
