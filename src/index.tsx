@@ -14,6 +14,7 @@ import { ExternalRedirect } from './components/ExternalRedirect'
 import Zine from './routes/Zine';
 import NotFound from './routes/NotFound';
 import Buddy from './routes/Buddy';
+import Vanish from './routes/Vanish';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
     path: '/zine-submission',
     element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
   },
+    {
+    path: '/zine-submission',
+    element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
+  },
   {
     path: "/zine",
     element: <Zine/>,
@@ -45,11 +50,14 @@ const router = createBrowserRouter([
     element: <Buddy />,
   },
   {
+    path: '/vanish',
+    element: <Vanish />,
+  },
+  {
     path: "*",
     element: <NotFound />,
   },
 ]);
-
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 

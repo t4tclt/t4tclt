@@ -115,6 +115,19 @@ function Resources() {
               </a>
             </div>
           </div>
+
+          <div className="resource-category">
+            <h3 className="resource-category-title">Community Partners</h3>
+            <div className="resource-links">
+              <a 
+                href="/assets/Vanish.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Vanish Ink Laser Special Pricing Deal for T4T 
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className="programs-section">
@@ -156,6 +169,20 @@ function Resources() {
                 <h4 className="program-title">Gender Affirming Clothes Closet</h4>
                 <p>Access free gender-affirming clothing, accessories, and binders through our community closet. We wil be accepting donations of gently used clothing starting next year and provide a safe, affirming space for trying on and selecting items that help you feel more like yourself.</p>
                 <p>Our next swap is November 15th 12-5pm at CPCC in room 1100 of the Viess Building. Check the calendar for more details and volunteer sorting days!</p>
+              </div>
+            </div>
+
+            <div className="program-card">
+              <div className="program-content">
+                <h4 className="program-title">Welcome Buddy Program</h4>
+                <p>New to T4T Charlotte? Connect with a Welcome Buddy who can help you navigate the community, answer questions, and make you feel at home. Our Welcome Buddies are friendly volunteers who provide peer support and guidance for newcomers.</p>
+                <p>Whether you're looking for event recommendations, want to know more about our programs, or just need someone to chat with, our Welcome Buddies are here to help you feel welcomed and connected.</p>
+                <a 
+                  href="/buddy" 
+                  className="program-button"
+                >
+                  Meet Our Welcome Buddies
+                </a>
               </div>
             </div>
           </div>
