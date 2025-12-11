@@ -40,9 +40,14 @@ function About() {
             events they'd like to see and how we can best serve the community. 
             Click the button below to give us some feedback or make requests!
           </p>
-          <button className="about-feedback-button" onClick={() => window.open('https://forms.gle/XhcRF7fgDSY7pu2p8', '_blank')}>
-            Give Feedback
-          </button>
+          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <button className="about-feedback-button" onClick={() => window.open('https://forms.gle/XhcRF7fgDSY7pu2p8', '_blank')}>
+              Give Feedback
+            </button>
+            <a href="/members" className="about-feedback-button" style={{ textDecoration: 'none', display: 'inline-block' }}>
+              Our Members
+            </a>
+          </div>
         </div>
       </div>
 

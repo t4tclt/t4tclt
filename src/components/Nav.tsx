@@ -79,6 +79,7 @@ function Nav() {
             <>
               <a href="/" className="nav-link">Home</a>
               <a href="/about" className="nav-link">About</a>
+              <a href="/members" className="nav-link">Our Members</a>
               <a href="/resources" className="nav-link">Resources</a>
               <a href="/zine" className="nav-link">Zine</a>
               

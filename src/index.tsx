@@ -14,6 +14,7 @@ import { ExternalRedirect } from './components/ExternalRedirect'
 import Zine from './routes/Zine';
 import NotFound from './routes/NotFound';
 import Buddy from './routes/Buddy';
+import Members from './routes/Members';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: '/buddy',
     element: <Buddy />,
+  },
+  {
+    path: '/members',
+    element: <Members />,
   },
   {
     path: "*",
