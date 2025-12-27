@@ -15,6 +15,7 @@ import Zine from './routes/Zine';
 import NotFound from './routes/NotFound';
 import Buddy from './routes/Buddy';
 import Vanish from './routes/Vanish';
+import { NEWSLETTER_LINKS } from './constants';
 
 const router = createBrowserRouter([
   {
@@ -26,32 +27,32 @@ const router = createBrowserRouter([
     element: <About />,
   },
   {
+    path: '/buddy',
+    element: <Buddy />,
+  },
+  {
     path: '/events',
     element: <Events />,
+  },
+  {
+    path: "/newsletter",
+    element: <ExternalRedirect url={NEWSLETTER_LINKS.current.url} />,
   },
   {
     path: '/resources',
     element: <Resources />,
   },
   {
-    path: '/zine-submission',
-    element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
-  },
-    {
-    path: '/zine-submission',
-    element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
+    path: '/vanish',
+    element: <Vanish />,
   },
   {
     path: "/zine",
     element: <Zine/>,
-  },  
-  {
-    path: '/buddy',
-    element: <Buddy />,
   },
   {
-    path: '/vanish',
-    element: <Vanish />,
+    path: '/zine-submission',
+    element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
   },
   {
     path: "*",
