@@ -542,8 +542,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
+  width: 80%;
+  height: 80%;
+  max-width: 400px;
+  max-height: 400px;
   border: 2px dashed #51c6f1;
   border-radius: 50%;
   opacity: 0.3;
@@ -555,6 +557,9 @@
   cursor: pointer;
   transition: transform 0.2s ease;
   z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .members-map-pin:hover {
@@ -565,22 +570,24 @@
 .members-map-pin svg {
   color: #51c6f1;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  display: block;
 }
 
 .members-map-pin-label {
   position: absolute;
-  top: -35px;
+  bottom: calc(100% + 10px);
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(255, 255, 255, 0.95);
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
   font-size: 0.75rem;
   white-space: nowrap;
   opacity: 0;
   transition: opacity 0.2s ease;
   pointer-events: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  z-index: 30;
 }
 
 .members-map-pin:hover .members-map-pin-label {
@@ -589,20 +596,24 @@
 
 .members-map-pin-count {
   position: absolute;
-  top: -15px;
+  top: -12px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #f5b0be;
   color: white;
-  width: 20px;
-  height: 20px;
+  min-width: 24px;
+  height: 24px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: bold;
   border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 15;
+  padding: 0 6px;
+  line-height: 1;
 }
 
 .members-map-legend {
@@ -637,8 +648,130 @@
   font-weight: bold;
 }
 
+/* Flyer Section */
+.members-flyer-section {
+  width: 100%;
+  margin: 40px 0;
+  padding: 2rem 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.members-flyer-content {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.members-flyer-images {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.members-flyer-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.members-flyer-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.members-flyer-title {
+  color: #51c6f1;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.members-flyer-description {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #34495e;
+}
+
+.members-flyer-description p {
+  margin-bottom: 16px;
+}
+
+.members-flyer-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.members-flyer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.members-flyer-button.tickets {
+  background-color: #51c6f1;
+  color: white;
+}
+
+.members-flyer-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: white;
+}
+
+.members-flyer-button.tickets:hover {
+  background-color: #3ab4e7;
+}
+
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
+  .members-flyer-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .members-flyer-images {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .members-flyer-image {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .members-flyer-title {
+    font-size: 2rem;
+  }
+
+  .members-flyer-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .members-flyer-button {
+    width: 100%;
+    padding: 0.8rem 1.6rem;
+    font-size: 1.1rem;
+  }
   .members-hero-title {
     font-size: 2rem;
   }

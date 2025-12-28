@@ -10,7 +10,6 @@ import {
   FaUtensils, 
   FaHeart, 
   FaGraduationCap,
-  FaMapMarkerAlt,
   FaGamepad,
   FaPalette,
   FaFilm,
@@ -32,38 +31,36 @@ interface Testimonial {
 
 function Members() {
   // Demographics data parsed from survey
-  const totalResponses = 38;
+  const totalResponses = 43;
   
   const genderIdentity = {
-    'Trans femme': 17,
+    'Trans femme': 16,
     'Non-binary': 15,
     'Trans woman': 9,
+    'Gender fluid': 7,
     'Trans masc': 6,
-    'Gender fluid': 5,
-    'Gender non-conforming': 5,
-    'Trans man': 4,
-    'Demigender': 3,
+    'Gender non-conforming': 6,
     'Questioning': 2,
+    'Demigender': 2,
+    'Trans man': 2,
     'Agender': 2,
     'Two-spirit': 1,
-    'GenderFuck': 1,
     'Cis-ish': 1,
     'Intersex': 1,
     'Plural / Other complex identities': 1
   };
 
   const sexuality = {
-    'Pansexual': 12,
-    'Queer': 10,
-    'Lesbian': 7,
-    'Bisexual': 7,
-    'Sapphic': 7,
-    'T4T': 6,
-    'Demisexual': 6,
-    'Polysexual': 4,
+    'Queer': 12,
+    'T4T': 9,
+    'Bisexual': 9,
+    'Sapphic': 8,
+    'Demisexual': 7,
+    'Pansexual': 6,
+    'Lesbian': 5,
+    'Polysexual': 3,
     'Asexual': 2,
-    'Gay': 2,
-    'Omisexual': 1,
+    'Gay': 1,
     'Questioning / Other': 2
   };
 
@@ -79,41 +76,41 @@ function Members() {
 
   const ageGroups = {
     '18-21': 1,
-    '21-25': 7,
-    '26-30': 13,
-    '31-40': 10,
+    '21-25': 8,
+    '26-30': 14,
+    '31-40': 13,
     '40+': 4
   };
 
   const disabilityStatus = {
-    'Yes': 23,
-    'No': 5,
-    'Undiagnosed or seeking diagnosis': 6,
+    'Yes': 26,
+    'Undiagnosed or seeking diagnosis': 7,
+    'No': 6,
     'Prefer not to say': 1
   };
 
   const involvementLength = {
+    '6–12 months': 12,
     'Over a year': 12,
-    '6–12 months': 11,
-    '3–6 months': 4,
-    'Less than 3 months': 9
+    'Less than 3 months': 10,
+    '3–6 months': 7
   };
 
   const heardAboutT4T = {
-    'Word of mouth/from a community member/friend': 16,
-    'Social media/online': 7,
+    'Word of mouth/from a community member/friend': 18,
+    'Social media/online': 8,
     'Carolina Trans Network Discord': 6,
-    'Therapist/Doctor/Service Provider': 2,
+    'Therapist/Doctor/Service Provider': 3,
     'Got info from T4T\'s table at a pride or vending event': 2,
     'Stumbled across T4T having an event': 1,
-    'Other/Unknown': 4
+    'Other/Unknown': 5
   };
 
   const engagementTypes = {
-    'Attend events': 32,
-    'Online community only': 9,
-    'Volunteer': 16,
-    'Receive or offer mutual aid': 16,
+    'Attend events': 25,
+    'Receive or offer mutual aid': 19,
+    'Volunteer': 17,
+    'Online community only': 8,
     'Organizer / coordinator': 8
   };
 
@@ -121,20 +118,6 @@ function Members() {
     'Yes': 23,
     'Have not tried to access resources': 12,
     'No': 1
-  };
-
-  const location = {
-    'Charlotte': 17,
-    'University area': 5,
-    'Gastonia': 3,
-    'Concord': 2,
-    'Huntersville': 2,
-    'Matthews': 1,
-    'South Carolina': 1,
-    'Hickory': 1,
-    'Rock Hill/York County': 1,
-    'Kings Mountain': 1,
-    'Locust/Albemarle/Stanly County': 1
   };
 
   const eventsAttended = {
@@ -351,6 +334,12 @@ function Members() {
     },
     {
       quote: "T4T has connected me to events and local spaces where I can feel safe to be myself and build my community since moving from another state. It's a huge weight off my shoulders to have these resources."
+    },
+    {
+      quote: "I have more access to resources and community than I've had in a long time. I was nervous about moving back to Charlotte this year and it was reassuring to meet such a welcoming group."
+    },
+    {
+      quote: "I'm finally starting to build the community and support network I was missing for so long. I've never been in a room with so many other trans people before. The group has done so much to help me feel less alone."
     }
   ];
 
@@ -492,21 +481,6 @@ function Members() {
   };
 
 
-  // Location coordinates (approximate for Charlotte area, 100-mile radius)
-  const locationCoords: Record<string, { x: number; y: number }> = {
-    'Charlotte': { x: 50, y: 50 },
-    'University area': { x: 48, y: 52 },
-    'Gastonia': { x: 42, y: 48 },
-    'Concord': { x: 52, y: 45 },
-    'Huntersville': { x: 48, y: 42 },
-    'Matthews': { x: 52, y: 52 },
-    'South Carolina': { x: 45, y: 60 },
-    'Hickory': { x: 35, y: 48 },
-    'Rock Hill/York County': { x: 40, y: 58 },
-    'Kings Mountain': { x: 38, y: 50 },
-    'Locust/Albemarle/Stanly County': { x: 55, y: 48 }
-  };
-
   const renderStatBar = ({ label, value, total, color, icon }: { label: string; value: number; total: number; color?: string; icon?: any }) => {
     const percentage = Math.round((value / total) * 100);
     
@@ -577,6 +551,32 @@ function Members() {
           <div className="members-summary-card">
             <div className="members-summary-number">{summaryStats.accessResources}%</div>
             <div className="members-summary-label">Easier Access to Support & Resources</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Year-End Survey Flyer */}
+      <div className="members-flyer-section">
+        <div className="members-flyer-content">
+          <div className="members-flyer-images">
+            <img src="/assets/yearendsurvey.png" alt="T4T Year End Survey" className="members-flyer-image main-image" />
+          </div>
+          <div className="members-flyer-text">
+            <h2 className="members-flyer-title">YEAR END SURVEY</h2>
+            <div className="members-flyer-description">
+              <p>Your feedback is incredibly important to us! Please take a few minutes to fill out our year-end survey. Your responses help us understand what we're doing well and where we can improve, directly shaping our programs and events for the coming year.</p>
+              <p>We'll be compiling all the feedback and presenting a comprehensive report in the new year to share insights and our plans moving forward. Your voice makes a difference!</p>
+              <div className="members-flyer-buttons">
+                <a 
+                  href="https://forms.gle/xtddWZvz5rzZC3JF7" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="members-flyer-button tickets"
+                >
+                  Take the Survey
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -683,48 +683,6 @@ function Members() {
               })}
             </div>
 
-          </div>
-        </div>
-      </div>
-
-      {/* Location Map Section */}
-      <div className="members-section members-section-location">
-        <h2 className="members-section-title">Where Our Members Live</h2>
-        <p className="members-section-subtitle">Where do you live?</p>
-        <div className="members-content">
-          <div className="members-map-container">
-            <div className="members-map">
-              <div className="members-map-circle"></div>
-              {Object.entries(location).map(([label, value]) => {
-                const coords = locationCoords[label];
-                if (!coords) return null;
-                return (
-                  <div
-                    key={label}
-                    className="members-map-pin"
-                    style={{ 
-                      left: `${coords.x}%`, 
-                      top: `${coords.y}%`,
-                      fontSize: `${Math.min(value * 3, 40)}px`
-                    } as React.CSSProperties}
-                    title={`${label}: ${value} member${value !== 1 ? 's' : ''}`}
-                  >
-                    <FaMapMarkerAlt style={{ fontSize: `${Math.min(value * 3, 40)}px` }} />
-                    <div className="members-map-pin-label">{label}</div>
-                    <div className="members-map-pin-count">{value}</div>
-                  </div>
-                );
-              })}
-            </div>
-            <div className="members-map-legend">
-              {Object.entries(location).map(([label, value]) => (
-                <div key={label} className="members-map-legend-item">
-                  <FaMapMarkerAlt className="members-map-legend-icon" />
-                  <span className="members-map-legend-label">{label}</span>
-                  <span className="members-map-legend-value">{value}</span>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </div>
