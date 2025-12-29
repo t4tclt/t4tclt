@@ -243,9 +243,6 @@ function Members() {
   // Testimonials - quotes from survey where permission was given
   const testimonials: Testimonial[] = [
     {
-      quote: "T4t has helped me to be more confident joining social situations. Because I know that kind and welcoming people exist."
-    },
-    {
       quote: "Being a safe place for me to explore who i really am during a time where what i thought i knew about myself was flipped upside down."
     },
     {
@@ -319,9 +316,6 @@ function Members() {
     },
     {
       quote: "Fostering local community building."
-    },
-    {
-      quote: "Seeing other people's experiences in the discord has helped me as I process my own transition."
     },
     {
       quote: "T4T has shown me that I can live in Charlotte and still be me. For a long time I thought I would have to leave this city if I truly wanted to be myself."
