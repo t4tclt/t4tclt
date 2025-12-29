@@ -4,6 +4,7 @@ import { SiEventbrite } from 'react-icons/si';
 import { MdEmail } from 'react-icons/md';
 import Nav from '../components/Nav';
 import { FaFacebook, FaInstagram, FaBluesky } from 'react-icons/fa6';
+import { NEWSLETTER_LINKS } from '../constants';
 
 function Home() {
   return (
@@ -63,33 +64,22 @@ function Home() {
         <div className="flyer-section">
           <div className="flyer-content">
             <div className="flyer-images">
-              <img src="/assets/rafflesept.png" alt="September Mutual Aid Raffle for Eden's Dental Work" className="flyer-image main-image" />
+              <img src="/assets/yearendsurvey.png" alt="T4T Year End Survey" className="flyer-image main-image" />
             </div>
             <div className="flyer-text">
-              <h2 className="flyer-title">MUTUAL AID RAFFLE: Supporting Eden's Dental Work</h2>
+              <h2 className="flyer-title">YEAR END SURVEY</h2>
               <div className="flyer-description">
-                <p>Join us for this month's mutual aid raffle benefiting Eden's dental work! Your participation helps support our community member's essential healthcare needs.</p>
-                <p>Raffle tickets are available for $5 each or 5 for $20, and all proceeds go directly to Eden's dental care. This is a great way to support our community while having a chance to win some amazing prizes! Don't forget to fill out the form to get your entry counted!</p>
-                <ul>
-                  <li>Cash App: $t4tclt and note "raffle"</li>
-                  <li>Open Collective: Use the button below</li>
-                </ul>
+                <p>Your feedback is essential to helping us better serve our community! We want to hear from you about your experiences with T4T this year, what worked, what didn't, and how we can improve in the future.</p>
+                <p>This survey helps us understand the impact we're making, identify areas for growth, and ensure we're meeting the needs of our community. Your responses will directly shape our programs and events in the coming year.</p>
+                <p><strong>We'll be presenting a comprehensive report in the new year</strong> based on your feedback, so please take a few minutes to share your thoughts. Every response matters and helps us build a stronger, more responsive community organization.</p>
                 <div className="flyer-buttons">
                   <a 
-                    href="https://opencollective.com/t4t-charlotte/projects/mutual-aid-raffle" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="flyer-button signup"
-                  >
-                    Donate Here
-                  </a>
-                  <a 
-                    href="https://forms.gle/MwPC9HmZDr4hv1Sf7" 
+                    href="https://forms.gle/xtddWZvz5rzZC3JF7" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="flyer-button tickets"
                   >
-                    Enter Raffle
+                    Take the Survey
                   </a>
                 </div>
               </div>
@@ -189,8 +179,13 @@ function Home() {
         <div className="newsletter-content">
           <h2 className="newsletter-title">Our Newsletter</h2>
           <p>Stay updated with our latest news, events, and community highlights! Every month we send out a newsletter with all the upcoming events and a recap of the previous month's events.</p> 
-          <p>Check out the <a href="https://www.canva.com/design/DAG33DWr5j0/uznZVN2tKc7vHNEta8VW3Q/view?utm_content=DAG33DWr5j0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h99f33bd92e" target="_blank" rel="noopener noreferrer">Current (December) Newsletter</a></p>
-          <p>Previous newsletters: <a href="https://www.canva.com/design/DAG1428lVz4/G6F8nwCtJguScqBrqrEP_A/view?utm_content=DAG1428lVz4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0c1901b5b2" target="_blank" rel="noopener noreferrer">November</a>, <a href="https://www.canva.com/design/DAGxw8KTOk8/dfNsRlVgCWenNyTh2mfP_Q/view?utm_content=DAGxw8KTOk8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9e08f9583c" target="_blank" rel="noopener noreferrer">October</a>, <a href="https://www.canva.com/design/DAGvt-8J-2g/Uv6yeU9YQia__j_l1rgm5Q/view?utm_content=DAGvt-8J-2g&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1d8ecd2cac" target="_blank" rel="noopener noreferrer">September</a>, <a href="https://www.canva.com/design/DAGsJA0Mp7I/wje2JtAKOErgXZmJ3_-puA/view?utm_content=DAGsJA0Mp7I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0f27443dbf" target="_blank" rel="noopener noreferrer">August</a>, <a href="https://www.canva.com/design/DAGpgokk5L0/lmO41Q8VTMlu4Nf2XbD8rQ/view?utm_content=DAGpgokk5L0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h74b6676927" target="_blank" rel="noopener noreferrer">July</a>, <a href="https://www.canva.com/design/DAGm0hRAxAg/WHMRpECUKKTIvggudI7e6g/view?utm_content=DAGm0hRAxAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h925b55a634" target="_blank" rel="noopener noreferrer">June</a>, <a href="https://www.canva.com/design/DAGjcFWXDi0/eZ7LD-uCNwd0M6_lEESjDw/view?utm_content=DAGjcFWXDi0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h946dd6f84a" target="_blank" rel="noopener noreferrer">May</a>, <a href="https://www.canva.com/design/DAGi2bdnWHY/5bkplR1OKWGAJH-2VV5rug/view?utm_content=DAGi2bdnWHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=habf49a4208" target="_blank" rel="noopener noreferrer">April</a>, <a href="https://www.canva.com/design/DAGf-0CDtI4/LFesLcVsILWGVQhgS0vGWw/view?utm_content=DAGf-0CDtI4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8acbb184d2" target="_blank" rel="noopener noreferrer">March</a></p>
+          <p>Check out the <a href={NEWSLETTER_LINKS.current.url} target="_blank" rel="noopener noreferrer">Current ({NEWSLETTER_LINKS.current.month}) Newsletter</a></p>
+          <p>Previous newsletters: {NEWSLETTER_LINKS.past.map(({ month, url }, index) => (
+            <span key={month}>
+              {index > 0 && ', '}
+              <a href={url} target="_blank" rel="noopener noreferrer">{month}</a>
+            </span>
+          ))}</p>
           <div className="email-signup"><iframe width="600" height="604" title='Email Signup' src="https://sibforms.com/serve/MUIFAPoIxaiYsNaOfWYXlUhl8vtAN1NRAImpopsucj2mDCWHaxb6XI5aiFnegh-ZrrlBfNbK221EwbLe1qvBERzUhalVpcCaMVpyh_ivZ_7yf9FquySuS3tDKTS9pzcDSUHcvV-VI7PyErLyUh4ALOa9jhDEeF7NajbbDqfdu8flA9FMLpwAWZTw9NdO5gtf3hEK7OOiw9uQfKjN"></iframe></div>
         </div>
       </div>
