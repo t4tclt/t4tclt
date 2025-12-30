@@ -521,6 +521,8 @@ function Members() {
         <h1 className="members-hero-title">Our Members</h1>
         <p className="members-hero-subtitle">A snapshot of our community based on our 2025 Year-End Survey</p>
         <p className="members-hero-note">Based on {totalResponses} survey responses</p>
+        <div className="members-hero-note">Data last updated: 12/28/2025</div>
+
       </div>
 
       {/* Summary Statistics */}

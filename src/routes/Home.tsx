@@ -81,6 +81,12 @@ function Home() {
                   >
                     Take the Survey
                   </a>
+                  <a 
+                    href="/members" 
+                    className="flyer-button signup"
+                  >
+                    View our Year End Report
+                  </a>
                 </div>
               </div>
             </div>

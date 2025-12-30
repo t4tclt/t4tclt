@@ -46,25 +46,14 @@ const router = createBrowserRouter([
   {
     path: '/vanish',
     element: <Vanish />,
+  },
   {
-    path: '/zine-submission',
-    element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
-  },
-    {
-    path: '/zine-submission',
-    element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
-  },
-    {
     path: '/zine-submission',
     element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
   },
   {
     path: "/zine",
     element: <Zine/>,
-  },
-  {
-    path: '/zine-submission',
-    element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
   },
   {
     path: '/members',
