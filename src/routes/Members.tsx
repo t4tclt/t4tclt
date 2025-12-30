@@ -665,7 +665,7 @@ function Members() {
 
             <div className="members-stat-card">
               <h3 className="members-stat-card-title">Access to Resources</h3>
-              <p className="members-stat-card-subtitle">Has T4T made it easier for you to access support or resources?</p>
+              <p className="members-stat-card-subtitle">Has T4T made it easier for you to access support or resources? You can view the resources we have created at <a href="https://t4tclt.com/resources" target="_blank" rel="noopener noreferrer">t4tclt.com/resources</a></p>
               {Object.entries(accessToResources).map(([label, value]) => {
                 let color = '#4ecdc4';
                 if (label.includes('Yes')) {
@@ -824,7 +824,7 @@ function Members() {
 
             <div className="members-reach-card members-donut-card">
               <h3 className="members-reach-card-title">Newsletter Engagement</h3>
-              <p className="members-reach-card-subtitle">Do you find the monthly newsletter helpful?</p>
+              <p className="members-reach-card-subtitle">Do you find the monthly newsletter helpful? You can view the current newsletter at <a href="https://t4tclt.com/newsletter" target="_blank" rel="noopener noreferrer">t4tclt.com/newsletter</a></p>
               {renderDonutChart({ 
                 data: newsletterHelpful, 
                 colors: ['#2ecc71', '#f39c12', '#95a5a6']
@@ -893,7 +893,7 @@ function Members() {
 
             <div className="members-reach-card members-donut-card">
               <h3 className="members-reach-card-title">Newsletter Engagement</h3>
-              <p className="members-reach-card-subtitle">Do you find the monthly newsletter helpful?</p>
+              <p className="members-reach-card-subtitle">Do you find the monthly newsletter helpful? You can view the current newsletter at <a href="https://t4tclt.com/newsletter" target="_blank" rel="noopener noreferrer">t4tclt.com/newsletter</a></p>
               {renderDonutChart({ 
                 data: newsletterHelpful, 
                 colors: ['#2ecc71', '#f39c12', '#95a5a6']
@@ -902,7 +902,7 @@ function Members() {
 
             <div className="members-reach-card">
               <h3 className="members-reach-card-title">Access to Resources</h3>
-              <p className="members-reach-card-subtitle">Has T4T made it easier for you to access support or resources?</p>
+              <p className="members-reach-card-subtitle">Has T4T made it easier for you to access support or resources? You can view the resources we have created at <a href="https://t4tclt.com/resources" target="_blank" rel="noopener noreferrer">t4tclt.com/resources</a></p>
               {Object.entries(accessToResources).map(([label, value]) => 
                 renderStatBar({ label, value, total: totalResponses })
               )}
@@ -918,7 +918,7 @@ function Members() {
         <div className="members-content">
           <div className="members-testimonials-grid">
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="members-testimonial-card">
+              <div key={index} className={`members-testimonial-card ${index % 2 === 0 ? 'members-testimonial-pink' : 'members-testimonial-blue'}`}>
                 <p className="members-testimonial-quote">"{testimonial.quote}"</p>
                 {testimonial.author && (
                   <p className="members-testimonial-author">— {testimonial.author}</p>
