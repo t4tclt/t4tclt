@@ -16,6 +16,7 @@ import NotFound from './routes/NotFound';
 import Buddy from './routes/Buddy';
 import Vanish from './routes/Vanish';
 import { NEWSLETTER_LINKS } from './constants';
+import Members from './routes/Members';
 
 const router = createBrowserRouter([
   {
@@ -47,12 +48,16 @@ const router = createBrowserRouter([
     element: <Vanish />,
   },
   {
+    path: '/zine-submission',
+    element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
+  },
+  {
     path: "/zine",
     element: <Zine/>,
   },
   {
-    path: '/zine-submission',
-    element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
+    path: '/members',
+    element: <Members />,
   },
   {
     path: "*",
