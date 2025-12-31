@@ -267,12 +267,21 @@
   padding: 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border-left: 5px solid #f5b0be;
   text-align: left;
   break-inside: avoid;
   display: inline-block;
   width: 100%;
   margin-bottom: 2rem;
+}
+
+.members-testimonial-pink {
+  border-left: 5px solid #f5b0be;
+  background-color: #fef7f8;
+}
+
+.members-testimonial-blue {
+  border-left: 5px solid #51c6f1;
+  background-color: #f0f9fc;
 }
 
 .members-testimonial-card:hover {

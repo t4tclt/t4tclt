@@ -10,10 +10,14 @@ export const COLORS = {
 
 export const NEWSLETTER_LINKS = {
   current: {
-    month: 'December',
+    month: 'January 2026',
     url: 'https://www.canva.com/design/DAG33DWr5j0/uznZVN2tKc7vHNEta8VW3Q/view?utm_content=DAG33DWr5j0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h99f33bd92e',
   },
   past: [
+    {
+      month: 'December 2025',
+    url: 'https://www.canva.com/design/DAG33DWr5j0/uznZVN2tKc7vHNEta8VW3Q/view?utm_content=DAG33DWr5j0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h99f33bd92e',
+  },
     {
       month: 'November 2025',
       url: 'https://www.canva.com/design/DAG1428lVz4/G6F8nwCtJguScqBrqrEP_A/view?utm_content=DAG1428lVz4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0c1901b5b2',
