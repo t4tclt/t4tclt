@@ -96,22 +96,14 @@ function Home() {
         <div className="flyer-section">
           <div className="flyer-content">
             <div className="flyer-images">
-              <img src="/assets/clothes swap.png" alt="The Quarterly Clothes Swap" className="flyer-image main-image" />
+              <img src="/assets/clothes swap.png" alt="The Plus sized Clothes Swap" className="flyer-image main-image" />
             </div>
             <div className="flyer-text">
-              <h2 className="flyer-title">The Quarterly Clothes Swap</h2>
+              <h2 className="flyer-title">Plus Sized Clothes Swap</h2>
               <div className="flyer-description">
-                <p>The quarterly clothes swap is back! Come check out all of our clothes, sorted by size so that folks can easily find things. Bring clothes to swap or just come take some home! We have plenty to share so tell your friends. We will be in room 1100 of the Zeiss Building at CPCC from 11am-4pm.</p>
-                <div className="flyer-buttons">
-                  <a 
-                    href="https://forms.gle/opH55SFK2drm11EYA" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="flyer-button signup"
-                  >
-                    Sign Up to Volunteer
-                  </a>
-                </div>
+              <p>The clothes swap is back, this time focused on plus sizes! Come check out our clothes size XL and above sorted by size so that folks can easily find things. Bring clothes or accessories (of any size!) to swap or just come take some home! We have plenty to share so tell your friends. We will be in the community room of the South Blvd Library from 1am-5pm.</p>
+              <p>We will be in the community room of the South Blvd Library from 1am-5pm.</p>
+              <p>There will also be a sorting day ahead of time on Thursday, January 8th from 4pm-8pm at the Independence library. If you'd like to see a specific size that day, please reach out!</p>
               </div>
             </div>
           </div>
