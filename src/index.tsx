@@ -15,7 +15,7 @@ import Zine from './routes/Zine';
 import NotFound from './routes/NotFound';
 import Buddy from './routes/Buddy';
 import Vanish from './routes/Vanish';
-import { NEWSLETTER_LINKS } from './constants';
+import { NEW_YEARS_2026_DRIVE_LINK, NEWSLETTER_LINKS } from './constants';
 import Members from './routes/Members';
 
 const router = createBrowserRouter([
@@ -38,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/newsletter",
     element: <ExternalRedirect url={NEWSLETTER_LINKS.current.url} />,
+  },
+  {
+    path: "/new-years-2026",
+    element: <ExternalRedirect url={NEW_YEARS_2026_DRIVE_LINK} />,
   },
   {
     path: '/resources',
