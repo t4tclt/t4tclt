@@ -8,6 +8,8 @@ export const COLORS = {
   SHADOW_COLOR_HOVER: 'rgba(0, 0, 0, 0.2)',
 };
 
+export const NEW_YEARS_2026_DRIVE_LINK = 'https://drive.google.com/drive/folders/1FtvfQyzMiMqVkrTXvHKMs-gAtFVxm4MN?usp=sharing'
+
 export const NEWSLETTER_LINKS = {
   current: {
     month: 'January 2026',
