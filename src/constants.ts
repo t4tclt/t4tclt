@@ -13,7 +13,7 @@ export const NEW_YEARS_2026_DRIVE_LINK = 'https://drive.google.com/drive/folders
 export const NEWSLETTER_LINKS = {
   current: {
     month: 'January 2026',
-    url: 'https://www.canva.com/design/DAG33DWr5j0/uznZVN2tKc7vHNEta8VW3Q/view?utm_content=DAG33DWr5j0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h99f33bd92e',
+    url: 'https://www.canva.com/design/DAG64JCMiFE/Fu6mPOob1v2rs97eNjorDw/view?utm_content=DAG64JCMiFE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfd05800218',
   },
   past: [
     {
