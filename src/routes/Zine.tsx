@@ -72,13 +72,7 @@ function Zine() {
           <div className="zine-coming-soon">
             <div className="zine-coming-soon-content">
               <h3>Issue Three - Coming Soon!</h3>
-              <p>We're working on our next issue and would love to feature your work! Submit your poetry, essays, artwork, or other creative pieces to be part of our trans and gender non-conforming community zine.</p>
-              <a 
-                href="/zine-submission" 
-                className="zine-button submit"
-              >
-                Submit Your Work
-              </a>
+              <p>T4T is currently not accepting submissions while we work on publishing issue 3. Check back soon for updates!</p>
             </div>
           </div>
         </div>
