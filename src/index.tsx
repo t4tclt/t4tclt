@@ -15,6 +15,7 @@ import Zine from './routes/Zine';
 import NotFound from './routes/NotFound';
 import Buddy from './routes/Buddy';
 import Vanish from './routes/Vanish';
+import Discord from './routes/Discord';
 import { NEW_YEARS_2026_DRIVE_LINK, NEWSLETTER_LINKS } from './constants';
 import Members from './routes/Members';
 
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
   {
     path: '/members',
     element: <Members />,
+  },
+  {
+    path: '/discord',
+    element: <Discord />,
   },
   {
     path: "*",

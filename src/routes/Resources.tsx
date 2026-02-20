@@ -17,6 +17,18 @@ function Resources() {
             <h3 className="resource-category-title">T4T Resources</h3>
             <div className="resource-links">
               <a 
+                href="/discord" 
+              >
+                T4TCLT Discord
+              </a>
+              <a 
+                href="https://docs.google.com/document/d/1e7wwBQRpjdZLzkCk0SfbmrDewk0zvCy58heke94fDR0/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                T4T's Transition Guide
+              </a>
+              <a 
                 href="https://docs.google.com/document/d/1A8GYMMVjo7gPZdA1nGedNwIw0sYjvb9vDvCtCZ3m7iE/edit?usp=sharing" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -136,7 +148,7 @@ function Resources() {
             <div className="program-card">
               <div className="program-content">
                 <h4 className="program-title">Food Share Program</h4>
-                <p>Our community food sharing initiative connects members who have food to share with those who need it. Join our Discord to participate in food swaps, community meals, and mutual aid support. Don't have food to share? We have a list of <a href="https://docs.google.com/spreadsheets/d/1JJEE7FSAIjQl46QESpXExwSQr0J_SUbRFqi37jOuY9Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">food banks and pantries in the area</a> that you can pick up from and share what you don't need.</p>
+                <p>Our community food sharing initiative connects members who have food to share with those who need it. Join our <a href="/discord">Discord</a> to participate in food swaps, community meals, and mutual aid support. Don't have food to share? We have a list of <a href="https://docs.google.com/spreadsheets/d/1JJEE7FSAIjQl46QESpXExwSQr0J_SUbRFqi37jOuY9Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">food banks and pantries in the area</a> that you can pick up from and share what you don't need.</p>
                 <a 
                   href="https://forms.gle/VK2iekb6TbEMfnmP6" 
                   target="_blank" 

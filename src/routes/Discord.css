@@ -1,0 +1,357 @@
+.discord-page-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-padding-top: 80px;
+  position: relative;
+  background-color: #51c6f1;
+}
+
+.discord-hero {
+  text-align: center;
+  padding: 120px 20px 60px;
+  color: white;
+}
+
+.discord-hero-title {
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.discord-hero-subtitle {
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.discord-content-section {
+  width: 100%;
+  background-color: white;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discord-content {
+  max-width: 900px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.discord-intro-section {
+  text-align: center;
+}
+
+.discord-intro-text {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.discord-section-title {
+  color: #f5b0be;
+  font-size: 1.8rem;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.discord-subsection-title {
+  color: #51c6f1;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.discord-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.discord-text {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.7;
+}
+
+.discord-text a {
+  color: #51c6f1;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.discord-text a:hover {
+  text-decoration: underline;
+}
+
+.discord-quick-links {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.discord-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.discord-links a {
+  color: #51c6f1;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  background-color: white;
+}
+
+.discord-links a:hover {
+  background-color: #f5b0be;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.discord-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.discord-feature {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #51c6f1;
+}
+
+.discord-feature-title {
+  color: #51c6f1;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.discord-feature ul {
+  margin-left: 1.5rem;
+  color: #666;
+  line-height: 1.8;
+}
+
+.discord-feature li {
+  margin-bottom: 0.5rem;
+}
+
+.discord-rules-list,
+.discord-channel-list,
+.discord-checklist,
+.discord-steps-list {
+  margin-left: 1.5rem;
+  color: #666;
+  line-height: 1.8;
+  margin-top: 0.5rem;
+}
+
+.discord-rules-list li,
+.discord-channel-list li,
+.discord-checklist li,
+.discord-steps-list li {
+  margin-bottom: 0.75rem;
+}
+
+.discord-steps-list {
+  list-style-type: decimal;
+}
+
+.discord-channel-group {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.discord-channels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.discord-channel-category {
+  background-color: #f8f8f8;
+  padding: 1.25rem;
+  border-radius: 12px;
+  border-left: 4px solid #51c6f1;
+}
+
+.discord-category-title {
+  color: #51c6f1;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.discord-channel-note {
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 0.75rem;
+  line-height: 1.5;
+}
+
+.discord-role-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.discord-role-info .discord-subsection-title {
+  margin-top: 0;
+}
+
+.discord-cta-section {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.discord-contact-section {
+  margin-top: 3rem;
+}
+
+.discord-contact-section .discord-section-title {
+  text-align: center;
+}
+
+.discord-contact-content {
+  margin-top: 1.5rem;
+}
+
+.discord-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.discord-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.discord-form-group label {
+  color: #51c6f1;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.discord-form-group input,
+.discord-form-group textarea {
+  padding: 0.75rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s ease;
+}
+
+.discord-form-group input:focus,
+.discord-form-group textarea:focus {
+  outline: none;
+  border-color: #51c6f1;
+}
+
+.discord-form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.discord-submit-button {
+  background-color: #f5b0be;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  align-self: center;
+}
+
+.discord-submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f39bac;
+}
+
+@media (max-width: 768px) {
+  .discord-hero-title {
+    font-size: 2rem;
+  }
+  
+  .discord-hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .discord-content-section {
+    padding: 2rem 0.5rem;
+  }
+  
+  .discord-content {
+    width: 95%;
+    gap: 2rem;
+  }
+
+  .discord-section-title {
+    font-size: 1.5rem;
+  }
+
+  .discord-intro-text {
+    font-size: 1rem;
+  }
+
+  .discord-feature {
+    padding: 1rem;
+  }
+
+  .discord-channels-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .discord-channel-category {
+    padding: 1rem;
+  }
+
+  .discord-contact-section {
+    margin-top: 2rem;
+  }
+
+  .discord-contact-form {
+    max-width: 100%;
+  }
+}

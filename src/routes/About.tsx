@@ -36,6 +36,9 @@ function About() {
           so come see if the vibe feels right! For lists of upcoming events, check out the calendar or monthly newsletter below. 
           </p>
           <p>
+            We also have a <a href="/discord">Discord</a> community where you can connect with other trans folx online and participate in our events and activities.
+          </p>
+          <p>
             We're always looking to hear from folx on what type of 
             events they'd like to see and how we can best serve the community. 
             Click the button below to give us some feedback or make requests!
@@ -70,20 +73,20 @@ function About() {
         <div className="about-summary-item left">
           <div className="about-summary-title">Verified Discord Community</div>
           <div className="about-summary-content">
-            Connect with over 500 local trans folx with location subsections and join our discord game nights
+            Connect with over 500 local trans folx with location subsections and join our <a href="/discord">discord game nights</a>
           </div>
         </div>
         
         <div className="about-summary-item right">
           <div className="about-summary-title">Mutual Aid Opportunities</div>
           <div className="about-summary-content">
-            We use discord to coordinate our community into asking for and offering each other help as well as coordinate aid for our community with our food and rideshare programs
+            We use <a href="/discord">discord</a> to coordinate our community into asking for and offering each other help as well as coordinate aid for our community with our food and rideshare programs
           </div>
         </div>
         <div className="about-summary-item left">
           <div className="about-summary-title">Zine</div>
           <div className="about-summary-content">
-            We have a quarterly creative zine that folks can submit to, see above for a download! We also have a resource zine for the area
+            We have a quarterly creative zine that folks can submit to, see <a href='/zine'>our zine page</a> for a download! We also have a <a href='/resources'> resource</a> zine for the area
           </div>
         </div>
         <div className="about-summary-item right">
@@ -100,7 +103,7 @@ function About() {
           <div className="about-program-card">
             <div className="about-program-content">
               <h4 className="about-program-title">Food Share Program</h4>
-              <p>Our community food sharing initiative connects members who have food to share with those who need it. Join our Discord to participate in food swaps, community meals, and mutual aid support. Don't have food to share? We have a list of <a href="https://docs.google.com/spreadsheets/d/1JJEE7FSAIjQl46QESpXExwSQr0J_SUbRFqi37jOuY9Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">food banks and pantries in the area</a> that you can pick up from and share what you don't need.</p>
+              <p>Our community food sharing initiative connects members who have food to share with those who need it. Join our <a href="/discord">Discord</a> to participate in food swaps, community meals, and mutual aid support. Don't have food to share? We have a list of <a href="https://docs.google.com/spreadsheets/d/1JJEE7FSAIjQl46QESpXExwSQr0J_SUbRFqi37jOuY9Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">food banks and pantries in the area</a> that you can pick up from and share what you don't need.</p>
               <a 
                 href="https://forms.gle/VK2iekb6TbEMfnmP6" 
                 target="_blank" 
@@ -133,6 +136,20 @@ function About() {
               <h4 className="about-program-title">Gender Affirming Clothes Closet</h4>
               <p>Access free gender-affirming clothing, accessories, and binders through our community closet. We wil be accepting donations of gently used clothing starting next year and provide a safe, affirming space for trying on and selecting items that help you feel more like yourself.</p>
               <p>Our next swap is November 15th 12-5pm at CPCC in room 1100 of the Viess Building. Check the calendar for more details and volunteer sorting days!</p>
+            </div>
+          </div>
+
+          <div className="about-program-card">
+            <div className="about-program-content">
+              <h4 className="about-program-title">Welcome Buddy Program</h4>
+              <p>New to T4T Charlotte? Connect with a Welcome Buddy who can help you navigate the community, answer questions, and make you feel at home. Our Welcome Buddies are friendly volunteers who provide peer support and guidance for newcomers.</p>
+              <p>Whether you're looking for event recommendations, want to know more about our programs, or just need someone to chat with, our Welcome Buddies are here to help you feel welcomed and connected.</p>
+              <a 
+                href="/buddy" 
+                className="about-program-button"
+              >
+                Meet Our Welcome Buddies
+              </a>
             </div>
           </div>
         </div>

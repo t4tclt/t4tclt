@@ -13,7 +13,7 @@ function Zine() {
       <div className="zine-section">
         <div className="zine-content">
           <h2 className="zine-title">Check out our zine!</h2>
-          <p>We're excited to share our community zines with you! Each issue is a collection of essays, poems, and art from the trans+ community in Charlotte. If you'd like to contribute to the next issue, please get in touch with us on discord.</p>
+          <p>We're excited to share our community zines with you! Each issue is a collection of essays, poems, and art from the trans+ community in Charlotte. If you'd like to contribute to the next issue, please get in touch with us on <a href="/discord">discord</a>.</p>
           
           <div className="zine-issues">
             <div className="zine-issue">

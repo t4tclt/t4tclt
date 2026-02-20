@@ -41,9 +41,10 @@ function Home() {
           </p>
           <p>
           Not sure if T4Tclt is right for you? Everyone is always welcome at our events, 
-          so come see if the vibe feels right! For lists of upcoming events, check out the calendar or monthly newsletter below. 
+          so come see if the vibe feels right! For lists of upcoming events, check out the <a href="#events">calendar</a> or monthly newsletter below. 
           </p>
           <p>
+            We also have a <a href="/discord">Discord</a> community where you can connect with other trans folx online and participate in our events and activities.
             We're always looking to hear from folx on what type of 
             events they'd like to see and how we can best serve the community. 
             Click the button below to learn more about T4T Charlotte and what we do!
@@ -60,6 +61,18 @@ function Home() {
           src="https://calendar.google.com/calendar/embed?src=dc8fd8df8554e9e4e5d34ea13918977ac6b9c3e617d5f701073d9af220df680e%40group.calendar.google.com&ctz=America%2FNew_York" 
           height="600"
         ></iframe>
+        
+        <div className="calendar-cta">
+          <p className="calendar-cta-text">
+            Want to learn more about our events and see what's upcoming in an easier format? Check out the{' '}
+            <a href={NEWSLETTER_LINKS.current.url} target="_blank" rel="noopener noreferrer">newsletter</a>{' '}
+            or check out our{' '}
+            <a href="/events">events page</a>.
+          </p>
+          <a href="/events" className="calendar-cta-button">
+            Learn More
+          </a>
+        </div>
         
         <div className="flyer-section">
           <div className="flyer-content">
@@ -88,22 +101,6 @@ function Home() {
                     View our Year End Report
                   </a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div className="flyer-section">
-          <div className="flyer-content">
-            <div className="flyer-images">
-              <img src="/assets/clothes swap.png" alt="The Plus sized Clothes Swap" className="flyer-image main-image" />
-            </div>
-            <div className="flyer-text">
-              <h2 className="flyer-title">Plus Sized Clothes Swap</h2>
-              <div className="flyer-description">
-              <p>The clothes swap is back, this time focused on plus sizes! Come check out our clothes size XL and above sorted by size so that folks can easily find things. Bring clothes or accessories (of any size!) to swap or just come take some home! We have plenty to share so tell your friends. We will be in the community room of the South Blvd Library from 1am-5pm.</p>
-              <p>We will be in the community room of the South Blvd Library from 1am-5pm.</p>
-              <p>There will also be a sorting day ahead of time on Thursday, January 8th from 4pm-8pm at the Independence library. If you'd like to see a specific size that day, please reach out!</p>
               </div>
             </div>
           </div>
@@ -144,14 +141,14 @@ function Home() {
         <div className="summary-item left">
           <div className="summary-title">Verified Discord Community</div>
           <div className="summary-content">
-            Connect with over 500 local trans folx with location subsections and join our discord game nights
+            Connect with over 500 local trans folx with location subsections and join our <a href="/discord">Discord</a> game nights
           </div>
         </div>
         
         <div className="summary-item right">
           <div className="summary-title">Mutual Aid Opportunities</div>
           <div className="summary-content">
-            We use discord to coordinate our community into asking for and offering each other help as well as coordinate aid for our community with our food and rideshare programs
+            We use <a href="/discord">discord</a> to coordinate our community into asking for and offering each other help as well as coordinate aid for our community with our food and rideshare programs
           </div>
         </div>
         <div className="summary-item left">
