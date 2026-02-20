@@ -55,7 +55,7 @@ function Buddy() {
             <div className="buddy-step">
               <div className="step-number">2</div>
               <h3>Connect & Sign Up</h3>
-              <p>Join our Discord server and fill out our <a href="https://docs.google.com/forms/d/1ni2Qbv4hQHcyOot5q2NXr1kjMbFM76d4roVn3LjYEWA/edit" target="_blank" rel="noopener noreferrer">Welcome Buddy application form</a> to get matched with your chosen buddy</p>
+              <p>Join our <a href="/discord">Discord server</a> and fill out our <a href="https://docs.google.com/forms/d/1ni2Qbv4hQHcyOot5q2NXr1kjMbFM76d4roVn3LjYEWA/edit" target="_blank" rel="noopener noreferrer">Welcome Buddy application form</a> to get matched with your chosen buddy</p>
             </div>
             <div className="buddy-step">
               <div className="step-number">3</div>
@@ -72,52 +72,6 @@ function Buddy() {
           <p className="buddy-grid-intro">Click on a buddy to learn more about them and see if they're a good match for you!</p>
           
           <div className="buddy-grid">
-            <div className="buddy-card" onClick={handleBuddyCardClick}>
-              <div className="buddy-card-inner">
-                <div className="buddy-card-front">
-                  <img src="/assets/echo.png" alt="Echo" className="buddy-image" />
-                  <div className="buddy-hover-text">Click to learn more</div>
-                </div>
-                <div className="buddy-card-back">
-                  <h3 className="buddy-name">Echo</h3>
-                  <p className="buddy-role">Discord Mod</p>
-                  <div className="buddy-details">
-                  <p><strong>Pronouns:</strong> He/they</p>
-                    <p><strong>Bio:</strong> Hiya! I help out with discord moderation, always feel free to reach out!</p>
-                    <p><strong>Location:</strong> Harrisburg</p>
-                    <p><strong>Sexuality:</strong> Gay / Demisexual / nonmonogamous</p>
-                    <p><strong>Gender:</strong> Trans Mac Nonbinary / Demiboy</p>
-                    <p><strong>Interests:</strong> Painting jackets and leather, walking my cat, rave events!</p>
-                    <p><strong>Quirks:</strong> I am almost always carrying a pup hood with me at 21+ spaces &lt;3</p>
-                    <p><strong>Favorite T4T events:</strong> Battle Jacket Night, Cards Against Humanity</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="buddy-card" onClick={handleBuddyCardClick}>
-              <div className="buddy-card-inner">
-                <div className="buddy-card-front">
-                  <img src="/assets/jane.png" alt="Jane" className="buddy-image" />
-                  <div className="buddy-hover-text">Click to learn more</div>
-                </div>
-                <div className="buddy-card-back">
-                  <h3 className="buddy-name">Jane</h3>
-                  <p className="buddy-role">Welcome Buddy</p>
-                  <div className="buddy-details">
-                    <p><strong>Pronouns:</strong> She/Her</p>
-                    <p><strong>Bio:</strong> I'm a bisexual lesbian transwoman that just recently joined T4T in April 2025. I love to volunteer and help out with events and projects.</p>
-                    <p><strong>Location:</strong> Kannapolis, NC</p>
-                    <p><strong>Sexuality:</strong> Bisexual lesbian</p>
-                    <p><strong>Gender:</strong> Trans woman</p>
-                    <p><strong>Interests:</strong> Warhammer 40K, MTG, rats, DIY projects, and soulsborne games</p>
-                    <p><strong>Quirks:</strong> ADHD</p>
-                    <p><strong>Favorite T4T events:</strong> Social Suppers, Potlucks</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div className="buddy-card" onClick={handleBuddyCardClick}>
               <div className="buddy-card-inner">
                 <div className="buddy-card-front">
@@ -159,29 +113,6 @@ function Buddy() {
                     <p><strong>Interests:</strong> Board Games, Lego, TTRPGs, Video Games, Programming</p>
                     <p><strong>Quirks:</strong> Neurodivergent!?</p>
                     <p><strong>Favorite T4T events:</strong> Board Game Nights, Social Supper</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="buddy-card" onClick={handleBuddyCardClick}>
-              <div className="buddy-card-inner">
-                <div className="buddy-card-front">
-                  <img src="/assets/nick.png" alt="Nick" className="buddy-image" />
-                  <div className="buddy-hover-text">Click to learn more</div>
-                </div>
-                <div className="buddy-card-back">
-                  <h3 className="buddy-name">Nick</h3>
-                  <p className="buddy-role">Spiderman/Welcome Buddy</p>
-                  <div className="buddy-details">
-                    <p><strong>Pronouns:</strong> He/Him</p>
-                    <p><strong>Bio:</strong> I am T4T's designated Spiderman. I am known as the group menace (AKA I have ADHD lol). I am quite the silly goose, and I am a disabled ambulatory wheelchair user fighting crime by running people over.</p>
-                    <p><strong>Location:</strong> Plaza Midwood, Charlotte</p>
-                    <p><strong>Sexuality:</strong> Pansexual Demisexual Lesbian Gay Man</p>
-                    <p><strong>Gender:</strong> Gender Anarchy but I prefer to be seen as an androgynous trans masc.</p>
-                    <p><strong>Interests:</strong> Spiderman, Disability Advocacy, LGBTQ+ stuff, Gaming.</p>
-                    <p><strong>Quirks:</strong> P.O.T.S, EDS, 'Tizm, I'm like an orange tabby in human form.</p>
-                    <p><strong>Favorite T4T events:</strong> Variety Show, Movie Night, and the cute outings we go on together.</p>
                   </div>
                 </div>
               </div>

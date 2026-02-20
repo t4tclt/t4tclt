@@ -279,6 +279,16 @@ body {
   line-height: 1.5;
 }
 
+.summary-content a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.summary-content a:hover {
+  text-decoration: underline;
+}
+
 .events-section {
   width: 90%;
   max-width: 800px;
@@ -327,6 +337,55 @@ body {
   border: none;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-cta {
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.calendar-cta-text {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.calendar-cta-text a {
+  color: #51c6f1;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.calendar-cta-text a:hover {
+  text-decoration: underline;
+}
+
+.calendar-cta-button {
+  display: inline-block;
+  background-color: #f5b0be;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f39bac;
+  color: white;
+  text-decoration: none;
 }
 
 .flyer-section {
