@@ -73,7 +73,7 @@ function Zine() {
               <img src="/assets/zine/issue-3/zine-3-cover.png" alt="T4T Zine Issue 3 Cover" className="zine-cover" />
               <div className="zine-issue-details">
                 <h3>Issue Three - March 2026</h3>
-                <p>Our third issue celebrating queer joy, resistance, and community power. Featuring local artists, writers, and activists sharing their stories and visions for the future. Released March 2026! Print version coming soon!</p>
+                <p>Our third issue celebrating queer joy, resistance, and community power. Featuring local artists, writers, and activists sharing their stories and visions for the future. Print version coming soon!</p>
                 <div className="zine-buttons">
                   <a 
                     href="/assets/zine/issue-3/zine-3-digital.pdf" 
