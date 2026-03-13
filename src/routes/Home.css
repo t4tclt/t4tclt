@@ -472,7 +472,7 @@ body {
   gap: 2rem;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .zine-covers a {

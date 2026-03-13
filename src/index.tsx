@@ -16,7 +16,7 @@ import NotFound from './routes/NotFound';
 import Buddy from './routes/Buddy';
 import Vanish from './routes/Vanish';
 import Discord from './routes/Discord';
-import { NEW_YEARS_2026_DRIVE_LINK, NEWSLETTER_LINKS } from './constants';
+import { NEW_YEARS_2026_DRIVE_LINK, NEWSLETTER_LINKS, ZINE_SUBMISSION_FORM_LINK } from './constants';
 import Members from './routes/Members';
 
 const router = createBrowserRouter([
@@ -54,7 +54,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/zine-submission',
-    element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
+    element: <ExternalRedirect url={ZINE_SUBMISSION_FORM_LINK} />,
   },
   {
     path: "/zine",

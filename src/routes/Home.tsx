@@ -111,11 +111,14 @@ function Home() {
         <div className="zine-content">
           <h2 className="zine-title">Check out our zine!</h2>
           <div className="zine-covers">
-            <a href="/assets/T4T1-Spreads.pdf" download="T4T-Zine.Issue-1.Digital-Version.pdf" rel="noopener noreferrer">
-              <img src="/assets/cover1.png" alt="T4T Zine Issue 1 Cover" className="zine-cover" />
+            <a href="/assets/zine/issue-1/zine-1-digital.pdf" download="T4T-Zine.Issue-1.Digital-Version.pdf" rel="noopener noreferrer">
+              <img src="/assets/zine/issue-1/zine-1-cover.png" alt="T4T Zine Issue 1 Cover" className="zine-cover" />
             </a>
-            <a href="/assets/T4T Zine Issue 2_Spreads.pdf" download="T4T-Zine.Issue-2.Digital-Version.pdf" rel="noopener noreferrer">
-              <img src="/assets/cover2.png" alt="T4T Zine Issue 2 Cover" className="zine-cover" />
+            <a href="/assets/zine/issue-2/zine-2-digital.pdf" download="T4T-Zine.Issue-2.Digital-Version.pdf" rel="noopener noreferrer">
+              <img src="/assets/zine/issue-2/zine-2-cover.png" alt="T4T Zine Issue 2 Cover" className="zine-cover" />
+            </a>
+            <a href="/assets/zine/issue-3/zine-3-digital.pdf" download="T4T-Zine.Issue-3.Digital-Version.pdf" rel="noopener noreferrer">
+              <img src="/assets/zine/issue-3/zine-3-cover.png" alt="T4T Zine Issue 3 Cover" className="zine-cover" />
             </a>
           </div>
           <a href="/zine" className="zine-learn-more-button">Learn More!</a>
