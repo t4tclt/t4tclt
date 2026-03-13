@@ -10,6 +10,8 @@ export const COLORS = {
 
 export const NEW_YEARS_2026_DRIVE_LINK = 'https://drive.google.com/drive/folders/1FtvfQyzMiMqVkrTXvHKMs-gAtFVxm4MN?usp=sharing'
 
+export const ZINE_SUBMISSION_FORM_LINK = 'https://forms.gle/UTqRWbgesWy1BXBq7'
+
 export const NEWSLETTER_LINKS = {
   current: {
     month: 'January 2026',
