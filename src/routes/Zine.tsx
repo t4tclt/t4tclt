@@ -67,12 +67,39 @@ function Zine() {
                 </div>
               </div>
             </div>
+
+            <div className="zine-issue">
+              <img src="/assets/zine3.png" alt="T4T Zine Issue 3 Cover" className="zine-cover" />
+              <div className="zine-issue-details">
+                <h3>Issue Three - March 2026</h3>
+                <p>Our latest issue featuring creative works submitted by the trans+ community in Charlotte and doodles provided by folks who attended our Zine Doodle Day.</p>
+                <div className="zine-buttons">
+                  <a 
+                    href="/assets/T4TCLT Issue 3 Zine_Booklet.pdf" 
+                    className="zine-button digital" 
+                    download="T4T-Zine.Issue-3.Print-Version.pdf"
+                    rel="noopener noreferrer"
+                  >
+                    Digital Version
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="zine-coming-soon">
             <div className="zine-coming-soon-content">
-              <h3>Issue Three - Coming Soon!</h3>
-              <p>T4T is currently not accepting submissions while we work on publishing issue 3. Check back soon for updates!</p>
+              <h3>Issue Four - Submissions Open!</h3>
+              <p>We're now accepting submissions for Issue Four! Submit your poetry, essays, artwork, or other creative pieces to be part of our trans and gender non-conforming community zine. Submissions will be accepted March to June 2026.</p>
+              <p>In the process of creating each issue of the zine, we host a Zine Doodle Day for folks to contribute art and doodles to the existing submissions as well as a Release Party to allow submitters to show off their work and allow the community to pick up a print copy!</p>
+              <a 
+                href="https://forms.gle/9BtUkn7EGaGPC3TV6" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="zine-button submit"
+              >
+                Submit Your Work
+              </a>
             </div>
           </div>
         </div>

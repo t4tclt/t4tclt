@@ -117,6 +117,9 @@ function Home() {
             <a href="/assets/T4T Zine Issue 2_Spreads.pdf" download="T4T-Zine.Issue-2.Digital-Version.pdf" rel="noopener noreferrer">
               <img src="/assets/cover2.png" alt="T4T Zine Issue 2 Cover" className="zine-cover" />
             </a>
+            <a href="/assets/T4TCLT Issue 3 Zine_Booklet.pdf" download="T4T-Zine.Issue-3.Print-Version.pdf" rel="noopener noreferrer">
+              <img src="/assets/zine3.png" alt="T4T Zine Issue 3 Cover" className="zine-cover" />
+            </a>
           </div>
           <a href="/zine" className="zine-learn-more-button">Learn More!</a>
         </div>

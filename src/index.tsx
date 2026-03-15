@@ -37,11 +37,11 @@ const router = createBrowserRouter([
     element: <Events />,
   },
   {
-    path: "/newsletter",
+    path: '/newsletter',
     element: <ExternalRedirect url={NEWSLETTER_LINKS.current.url} />,
   },
   {
-    path: "/new-years-2026",
+    path: '/new-years-2026',
     element: <ExternalRedirect url={NEW_YEARS_2026_DRIVE_LINK} />,
   },
   {
@@ -54,11 +54,11 @@ const router = createBrowserRouter([
   },
   {
     path: '/zine-submission',
-    element: <ExternalRedirect url='https://forms.gle/Z2LvMfXdCAqYtzSf6' />,
+    element: <ExternalRedirect url='https://forms.gle/9BtUkn7EGaGPC3TV6' />,
   },
   {
-    path: "/zine",
-    element: <Zine/>,
+    path: '/zine',
+    element: <Zine />,
   },
   {
     path: '/members',
@@ -69,10 +69,10 @@ const router = createBrowserRouter([
     element: <Discord />,
   },
   {
-    path: "*",
+    path: '*',
     element: <NotFound />,
   },
-]);
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 

@@ -42,7 +42,6 @@
 }
 
 .zine-page-container .zine-content {
-  max-width: 800px;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -211,7 +210,10 @@
   .zine-page-container .zine-content p {
     font-size: 1rem;
   }
-  
+  .zine-content .zine-issues {
+    flex-wrap: wrap;
+  }
+
   .zine-page-container .zine-issue {
     padding: 1.5rem;
     gap: 1.5rem;
