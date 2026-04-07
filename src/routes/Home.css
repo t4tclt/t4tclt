@@ -1635,7 +1635,11 @@ body {
     margin: 0 auto;
   }
 }
-
+@media (max-width: 870px) {
+  .flyer-image img {
+    width: 100%;
+  }
+}
 @media (max-width: 768px) {
   .flyer-content {
     flex-direction: column;

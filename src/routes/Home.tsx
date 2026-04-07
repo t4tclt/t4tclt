@@ -77,28 +77,29 @@ function Home() {
         <div className="flyer-section">
           <div className="flyer-content">
             <div className="flyer-images">
-              <img src="/assets/yearendsurvey.png" alt="T4T Year End Survey" className="flyer-image main-image" />
+              <img src="/assets/aprilswap.png" alt="T4T Clothes Swap April 19th" className="flyer-image main-image" />
             </div>
             <div className="flyer-text">
-              <h2 className="flyer-title">YEAR END SURVEY</h2>
+              <h2 className="flyer-title">CLOTHES SWAPS</h2>
               <div className="flyer-description">
-                <p>Your feedback is essential to helping us better serve our community! We want to hear from you about your experiences with T4T this year, what worked, what didn't, and how we can improve in the future.</p>
-                <p>This survey helps us understand the impact we're making, identify areas for growth, and ensure we're meeting the needs of our community. Your responses will directly shape our programs and events in the coming year.</p>
-                <p><strong>We'll be presenting a comprehensive report in the new year</strong> based on your feedback, so please take a few minutes to share your thoughts. Every response matters and helps us build a stronger, more responsive community organization.</p>
+                <p>T4TCLT's clothes swaps are free, gender-affirming clothing exchanges for trans, nonbinary, and gender-expansive people in Charlotte. We offer clothing, shoes, accessories, binders, and more in a welcoming, low-barrier space.</p>
+                <p>Our swaps are always pay-what-you-can. You do not need to donate to take what you need.</p>
+                <p><strong>Donation Sorting:</strong> April 16, 3:30–7 PM at Allegra Westbrooks Library — drop off donations or help sort ahead of the swap.</p>
+                <p><strong>Full Swap:</strong> April 19, 12–4 PM at NAMI (1930 Abbott St #403) — free clothing, accessories, plus name change & gender marker support from the Pauli Murray LGBT Bar Association.</p>
                 <div className="flyer-buttons">
                   <a 
-                    href="https://forms.gle/xtddWZvz5rzZC3JF7" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                    href="/swap" 
                     className="flyer-button tickets"
                   >
-                    Take the Survey
+                    Learn More
                   </a>
                   <a 
-                    href="/members" 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfxNWVDrRQdg9Y8ophlxUMQMsmHTnGhwiuznD40jIurQnT2Mg/viewform?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flyer-button signup"
                   >
-                    View our Year End Report
+                    Volunteer
                   </a>
                 </div>
               </div>
