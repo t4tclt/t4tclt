@@ -180,7 +180,8 @@ function Resources() {
               <div className="program-content">
                 <h4 className="program-title">Gender Affirming Clothes Closet</h4>
                 <p>Access free gender-affirming clothing, accessories, and binders through our community closet. We wil be accepting donations of gently used clothing starting next year and provide a safe, affirming space for trying on and selecting items that help you feel more like yourself.</p>
-                <p>Our next swap is November 15th 12-5pm at CPCC in room 1100 of the Viess Building. Check the calendar for more details and volunteer sorting days!</p>
+                <p>Upcoming: Donation Sorting on April 16 (3:30–7 PM), Quarterly Swap + Name Change Clinic on April 19 (12–4 PM), and Plus-Sized Swap on May 7 (1–7 PM). Check the calendar or our swap page for full details and volunteer opportunities.</p>
+                <a href="/swap" className="program-button">Learn More About Clothes Swaps</a>
               </div>
             </div>
 
