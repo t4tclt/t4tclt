@@ -77,28 +77,23 @@ function Home() {
         <div className="flyer-section">
           <div className="flyer-content">
             <div className="flyer-images">
-              <img src="/assets/yearendsurvey.png" alt="T4T Year End Survey" className="flyer-image main-image" />
+              <img src="/assets/poolparty.png" alt="T4T Pool Party" className="flyer-image main-image" />
             </div>
             <div className="flyer-text">
-              <h2 className="flyer-title">YEAR END SURVEY</h2>
+              <h2 className="flyer-title">POOL PARTY</h2>
               <div className="flyer-description">
-                <p>Your feedback is essential to helping us better serve our community! We want to hear from you about your experiences with T4T this year, what worked, what didn't, and how we can improve in the future.</p>
-                <p>This survey helps us understand the impact we're making, identify areas for growth, and ensure we're meeting the needs of our community. Your responses will directly shape our programs and events in the coming year.</p>
-                <p><strong>We'll be presenting a comprehensive report in the new year</strong> based on your feedback, so please take a few minutes to share your thoughts. Every response matters and helps us build a stronger, more responsive community organization.</p>
+                <p>Join us for our yearly pool party! We will be making hotdogs and bringing our swimsuit bin from the clothes swap. The pool is shaded after 3:30 and has pool toys for us to use, but don't forget sunscreen and a towel!</p>
+                <p>The venue has seating, but we will likely outnumber them, so bringing a chair is a good idea. We will also have coolers full of ice, waters, and soda. Please bring any snacks or drinks you may want, or some to share if you can!</p>
+                <p>The venue allows nudity (please wear bottoms) and alcohol, but please imbibe responsibly. There is only one bathroom inside, so it is advisable to wear your swimsuit under your clothes to reduce the line for changing.</p>
+                <p>RSVP on OpenCollective to receive an email with the address. Tickets are pay-what-you-can to recoup the venue costs, but it is not required to donate to attend.</p>
                 <div className="flyer-buttons">
-                  <a 
-                    href="https://forms.gle/xtddWZvz5rzZC3JF7" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                  <a
+                    href="https://opencollective.com/t4t-charlotte/events/t4t-pool-party-e01ebe5c"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flyer-button tickets"
                   >
-                    Take the Survey
-                  </a>
-                  <a 
-                    href="/members" 
-                    className="flyer-button signup"
-                  >
-                    View our Year End Report
+                    RSVP on OpenCollective
                   </a>
                 </div>
               </div>
@@ -144,7 +139,7 @@ function Home() {
         <div className="summary-item left">
           <div className="summary-title">Verified Discord Community</div>
           <div className="summary-content">
-            Connect with over 500 local trans folx with location subsections and join our <a href="/discord">Discord</a> game nights
+            Connect with over 700 local trans folx with location subsections and join our <a href="/discord">Discord</a> game nights
           </div>
         </div>
         

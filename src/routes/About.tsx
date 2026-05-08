@@ -64,16 +64,16 @@ function About() {
         </div>
         
         <div className="about-summary-item right">
-          <div className="about-summary-title">Monthly Board Game Night</div>
+          <div className="about-summary-title">Weekly Events</div>
           <div className="about-summary-content">
-            Come join us for casual board games at Hattie's every Third Friday, Craft Night every Second Saturday and Social Supper every First Saturday
+            Come join us for First Friday Movie Night, First Saturday Social Supper, Second Sunday MTG at Mighty Meeple, and Third Saturday Board Game Night at Your Local Game Store in Matthews
           </div>
         </div>
         
         <div className="about-summary-item left">
           <div className="about-summary-title">Verified Discord Community</div>
           <div className="about-summary-content">
-            Connect with over 500 local trans folx with location subsections and join our <a href="/discord">discord game nights</a>
+            Connect with over 700 local trans folx with location subsections and join our <a href="/discord">discord game nights</a>
           </div>
         </div>
         
@@ -119,23 +119,15 @@ function About() {
             <div className="about-program-content">
               <h4 className="about-program-title">Ride Share Program</h4>
               <p>Need a ride to an appointment, event, or support group? Our ride share program connects community members for safe, reliable transportation. Available for medical visits, grocery trips, community events and anything deemed necessary for your wellbeing.</p>
-              <p>Apply below for ride reimbursement or to coordinate a ride with a community member.</p>
-              <a 
-                href="https://forms.gle/nJCf9CiNYFaavfQp8" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="about-program-button"
-              >
-                Apply for a ride reimbursement
-              </a>
+              <p>Check our <a href="/discord">Discord</a> for more information on coordinating rides with community members.</p>
             </div>
           </div>
 
           <div className="about-program-card">
             <div className="about-program-content">
               <h4 className="about-program-title">Gender Affirming Clothes Closet</h4>
-              <p>Access free gender-affirming clothing, accessories, and binders through our community closet. We wil be accepting donations of gently used clothing starting next year and provide a safe, affirming space for trying on and selecting items that help you feel more like yourself.</p>
-              <p>Our next swap is November 15th 12-5pm at CPCC in room 1100 of the Viess Building. Check the calendar for more details and volunteer sorting days!</p>
+              <p>Access free gender-affirming clothing, accessories, and binders through our community closet. We accept donations of gently used clothing and provide a safe, affirming space for trying on and selecting items that help you feel more like yourself.</p>
+              <a href="/swap" className="about-program-button">Learn More</a>
             </div>
           </div>
 
@@ -225,36 +217,6 @@ function About() {
             </div>
           </div>
 
-          <div className="about-staff-card" onClick={handleStaffCardClick}>
-            <div className="about-staff-card-inner">
-              <div className="about-staff-card-front">
-                <img src="/assets/taiga.png" alt="Taiga" className="about-staff-image" />
-                <div className="about-staff-hover-text">Click to learn more</div>
-              </div>
-              <div className="about-staff-card-back">
-                <h3 className="about-staff-name">Taiga</h3>
-                <p className="about-staff-role">Zine Organizer</p>
-                <div className="about-staff-bio">
-                  <p><strong>Pronouns:</strong> She/Her, He/Him</p>
-                  <p><strong>Bio:</strong> I use my experience in media development to help produce the T4T zine. My passion is fiction writing that I self-publish. Always looking to become more inter-disciplinary.</p>
-                  <p><strong>Location:</strong> Mallard Creek, N Graham Street Area</p>
-                  <p><strong>Sexuality:</strong> Asexual, Polyamorous</p>
-                  <p><strong>Gender:</strong> Transfem, Genderfluid</p>
-                  <p><strong>Interests:</strong> TTRPGs, Classical Literature, Video Editing, Painting</p>
-                  <p><strong>Quirks:</strong> Autism, ADHD</p>
-                  <p><strong>Favorite T4T events:</strong> Social Suppers, Clothes Swaps</p>
-                  <a 
-                    href="https://linktr.ee/quillrabbit" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="about-staff-apply-button"
-                  >
-                    Check out Taiga's Writing
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div className="about-staff-card" onClick={handleStaffCardClick}>
             <div className="about-staff-card-inner">
@@ -305,26 +267,20 @@ function About() {
           <div className="about-staff-card">
             <div className="about-staff-card-content">
               <div className="about-staff-info-shown">
-                <h3 className="about-staff-name">AJ</h3>
+                <h3 className="about-staff-name">Len</h3>
                 <p className="about-staff-role">Zine Team Coordinator</p>
                 <div className="about-staff-bio">
-                  <p><strong>Pronouns:</strong> He/They/It</p>
+                  <p><strong>Pronouns:</strong> They/Them</p>
                   <p><strong>Role:</strong> Zine Team Coordinator</p>
-                  <p>AJ helps coordinate our zine production and works with contributors to create amazing community content. He is often helping with layout and making of the zine.</p>
+                  <p>Len helps coordinate our zine production and works with contributors to create amazing community content. They are often helping with layout and making of the zine.</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="about-staff-card" onClick={handleStaffCardClick}>
-            <div className="about-staff-card-inner">
-              <div className="about-staff-card-front">
-                <div className="about-staff-placeholder">
-                  <span>More Staff Coming Soon!</span>
-                </div>
-                <div className="about-staff-hover-text">More team members will be added</div>
-              </div>
-              <div className="about-staff-card-back">
+          <div className="about-staff-card">
+            <div className="about-staff-card-content">
+              <div className="about-staff-info-shown">
                 <h3 className="about-staff-name">Join Our Team</h3>
                 <p className="about-staff-role">We're Growing!</p>
                 <div className="about-staff-bio">
