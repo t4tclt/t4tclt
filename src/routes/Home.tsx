@@ -77,29 +77,23 @@ function Home() {
         <div className="flyer-section">
           <div className="flyer-content">
             <div className="flyer-images">
-              <img src="/assets/aprilswap.png" alt="T4T Clothes Swap April 19th" className="flyer-image main-image" />
+              <img src="/assets/poolparty.png" alt="T4T Pool Party" className="flyer-image main-image" />
             </div>
             <div className="flyer-text">
-              <h2 className="flyer-title">CLOTHES SWAPS</h2>
+              <h2 className="flyer-title">POOL PARTY</h2>
               <div className="flyer-description">
-                <p>T4TCLT's clothes swaps are free, gender-affirming clothing exchanges for trans, nonbinary, and gender-expansive people in Charlotte. We offer clothing, shoes, accessories, binders, and more in a welcoming, low-barrier space.</p>
-                <p>Our swaps are always pay-what-you-can. You do not need to donate to take what you need.</p>
-                <p><strong>Donation Sorting:</strong> April 16, 3:30–7 PM at Allegra Westbrooks Library — drop off donations or help sort ahead of the swap.</p>
-                <p><strong>Full Swap:</strong> April 19, 12–4 PM at NAMI (1930 Abbott St #403) — free clothing, accessories, plus name change & gender marker support from the Pauli Murray LGBT Bar Association.</p>
+                <p>Join us for our yearly pool party! We will be making hotdogs and bringing our swimsuit bin from the clothes swap. The pool is shaded after 3:30 and has pool toys for us to use, but don't forget sunscreen and a towel!</p>
+                <p>The venue has seating, but we will likely outnumber them, so bringing a chair is a good idea. We will also have coolers full of ice, waters, and soda. Please bring any snacks or drinks you may want, or some to share if you can!</p>
+                <p>The venue allows nudity (please wear bottoms) and alcohol, but please imbibe responsibly. There is only one bathroom inside, so it is advisable to wear your swimsuit under your clothes to reduce the line for changing.</p>
+                <p>RSVP on OpenCollective to receive an email with the address. Tickets are pay-what-you-can to recoup the venue costs, but it is not required to donate to attend.</p>
                 <div className="flyer-buttons">
-                  <a 
-                    href="/swap" 
-                    className="flyer-button tickets"
-                  >
-                    Learn More
-                  </a>
-                  <a 
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfxNWVDrRQdg9Y8ophlxUMQMsmHTnGhwiuznD40jIurQnT2Mg/viewform?usp=sharing"
+                  <a
+                    href="https://opencollective.com/t4t-charlotte/events/t4t-pool-party-e01ebe5c"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flyer-button signup"
+                    className="flyer-button tickets"
                   >
-                    Volunteer
+                    RSVP on OpenCollective
                   </a>
                 </div>
               </div>
@@ -145,7 +139,7 @@ function Home() {
         <div className="summary-item left">
           <div className="summary-title">Verified Discord Community</div>
           <div className="summary-content">
-            Connect with over 500 local trans folx with location subsections and join our <a href="/discord">Discord</a> game nights
+            Connect with over 700 local trans folx with location subsections and join our <a href="/discord">Discord</a> game nights
           </div>
         </div>
         

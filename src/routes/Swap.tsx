@@ -57,40 +57,13 @@ function Swap() {
             <div className="swap-events-grid">
               <div className="swap-event-card">
                 <div className="swap-event-header">
-                  <h3 className="swap-event-title">Donation Sorting</h3>
-                  <span className="swap-event-date">April 16 · 3:30–7:00 PM</span>
+                  <h3 className="swap-event-title">Clothes Sorting</h3>
+                  <span className="swap-event-date">May 28 · 3:30–7:30 PM</span>
                 </div>
                 <div className="swap-event-location">
-                  <strong>Allegra Westbrooks Library Community Room</strong>
-                  <span>2412 Beatties Ford Rd, Charlotte, NC 28216</span>
+                  <strong>South Blvd Library, Community Room</strong>
                 </div>
                 <p>Help sort donations ahead of our upcoming swaps, drop off clothes, or come by if you're looking for something specific. If there's a size or category you're especially hoping for, let us know and we can try to bring those bins.</p>
-              </div>
-
-              <div className="swap-event-card">
-                <div className="swap-event-header">
-                  <h3 className="swap-event-title">Quarterly Clothes Swap + Name Change Clinic</h3>
-                  <span className="swap-event-date">April 19 · 12:00–4:00 PM</span>
-                </div>
-                <div className="swap-event-location">
-                  <strong>NAMI</strong>
-                  <span>1930 Abbott St #403, Charlotte, NC 28203</span>
-                </div>
-                <p>Our quarterly swap returns with free clothing and accessories, plus support from the Pauli Murray LGBT Bar Association for name change and gender marker correction. There will also be a station for repairing and mending clothes.</p>
-                <p>Most of the swap will take place outside in the parking lot, with indoor support stations available.</p>
-                <p className="swap-event-note">Note: this event is not rain or shine. If weather requires a reschedule, the backup date is Sunday, April 26.</p>
-              </div>
-
-              <div className="swap-event-card swap-event-card-featured">
-                <div className="swap-event-header">
-                  <h3 className="swap-event-title">Plus-Sized Swap</h3>
-                  <span className="swap-event-date">May 7 · 1:00–7:00 PM</span>
-                </div>
-                <div className="swap-event-location">
-                  <strong>University Regional Library Community Room</strong>
-                  <span>5528 Waters Edge Village Drive, Charlotte, NC 28262</span>
-                </div>
-                <p>This swap centers clothing sized XL and up, along with accessories, shoes, undergarments, jewelry, wigs, and more.</p>
               </div>
             </div>
           </div>

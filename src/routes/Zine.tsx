@@ -99,8 +99,10 @@ function Zine() {
             <div className="zine-coming-soon-content">
               <h3>Issue Four - Coming Soon!</h3>
               <p>We're working on our next issue and would love to feature your work! Submit your poetry, essays, artwork, or other creative pieces to be part of our trans and gender non-conforming community zine.</p>
-              <a 
-                href="/zine-submission" 
+              <p>Issue Four will be released at Charlotte Pride in August! Our theme this time around is <strong>"Pride in the Darkness"</strong>.</p>
+              <p>We close submissions at the end of June or when we reach our page limit, whichever comes first. Then look out for a zine night to add doodles!</p>
+              <a
+                href="/zine-submission"
                 className="zine-button submit"
               >
                 Submit Your Work
