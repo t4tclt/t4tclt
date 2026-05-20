@@ -168,6 +168,27 @@ function Home() {
           </a>
         </div>
       </div>
+      <div className="volunteer-cta-home-section">
+        <div className="volunteer-cta-home-content">
+          <h2 className="volunteer-cta-home-title">Volunteer With Us</h2>
+          <p>T4TCLT runs entirely on community care. Whether you want to help at an event, sort donations, moderate our Discord, or take on a coordinator role, there's a place for you.</p>
+          <p>Sign up for our newsletter below to stay in the loop on upcoming opportunities, or apply directly to join our organizing team.</p>
+          <div className="volunteer-cta-home-buttons">
+            <a
+              href="https://forms.gle/4Y8V8jhguRSocQ6e9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="volunteer-cta-home-button primary"
+            >
+              Apply to be a Coordinator
+            </a>
+            <a href="/volunteer" className="volunteer-cta-home-button secondary">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div id="newsletter" className="newsletter-section">
         <div className="newsletter-content">
           <h2 className="newsletter-title">Our Newsletter</h2>

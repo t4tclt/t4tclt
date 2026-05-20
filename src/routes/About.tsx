@@ -218,28 +218,6 @@ function About() {
           </div>
 
 
-          <div className="about-staff-card" onClick={handleStaffCardClick}>
-            <div className="about-staff-card-inner">
-              <div className="about-staff-card-front">
-                <img src="/assets/Nebulae.png" alt="Nebulae" className="about-staff-image" />
-                <div className="about-staff-hover-text">Click to learn more</div>
-              </div>
-              <div className="about-staff-card-back">
-                <h3 className="about-staff-name">Nebulae</h3>
-                <p className="about-staff-role">Staff Member</p>
-                <div className="about-staff-bio">
-                  <p><strong>Pronouns:</strong> They/Them</p>
-                  <p><strong>Bio:</strong> I'm a genderfucker and cosmic collector of hobbies who enjoys mending, upcycling, and making trash art.</p>
-                  <p><strong>Location:</strong> Gastonia</p>
-                  <p><strong>Sexuality:</strong> Sapphic Queer</p>
-                  <p><strong>Gender:</strong> Shrödinger's Gender</p>
-                  <p><strong>Interests:</strong> Sewing, art, hair, makeup, gaming, horror, looking at outer space</p>
-                  <p><strong>Quirks:</strong> Little person, OCD, cat owner with cat allergies</p>
-                  <p><strong>Favorite T4T events:</strong> Board game nite, clothes swap, discord game nite</p>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div className="about-staff-card" onClick={handleStaffCardClick}>
             <div className="about-staff-card-inner">
