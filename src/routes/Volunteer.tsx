@@ -21,14 +21,16 @@ function Volunteer() {
               🌟 T4TCLT Is Looking for New Coordinators! 🌟
             </h2>
             <p>
-              We're expanding our mutual aid and event organizing teams and we'd
-              love for you to be part of it!
+              We wanted to thank everyone for being a part of this community
+              and we'd like to invite you to help us make it happen! We have
+              big visions for T4T but often get so wrapped up in day-to-day
+              running things that we can't get everything done.
             </p>
             <p>
-              T4TCLT is a trans-led collective focused on community care,
-              transformative justice, and creating gender-affirming spaces in
-              Charlotte. We're currently looking for folks to help grow and
-              sustain our work.
+              If you're looking for a low-impact way to stay updated, subscribe
+              to our volunteer role in <a href='/discord'>Discord</a>. If
+              you'd like to get more involved, we have several roles and needs
+              as a community.
             </p>
             <p>
               These are non-hierarchical, shared roles: we support each other,
@@ -38,8 +40,8 @@ function Volunteer() {
             </p>
             <p>
               <strong>
-                You don't have to be "experienced", you just have to care about
-                trans+ people and be ready to learn with us.
+                You don't have to be "experienced" — you just have to care
+                about trans+ people and be ready to learn with us.
               </strong>
             </p>
             <div className='volunteer-intro-buttons'>
@@ -88,11 +90,10 @@ function Volunteer() {
               <li>Matthews Pride</li>
             </ul>
             <p className='volunteer-pride-cta'>
-              Check our <a href='/discord'>Discord</a> or sign up below to get
-              involved with Pride tabling and outreach!
+              Next up: <strong>Pride in the Park — June 27th</strong> at Mint Museum Randolph. Sign up for a shift!
             </p>
             <a
-              href='https://forms.gle/PQEahk6QgxsZSty36'
+              href='https://forms.gle/2uGHYq6MsTQEvVD98'
               target='_blank'
               rel='noopener noreferrer'
               className='volunteer-pride-button'
@@ -139,8 +140,24 @@ function Volunteer() {
                   sorting, moving bins, and/or mending and tailoring clothes.
                   This gives you a role in our Discord to chat with the clothes
                   swap coordinators about best dates and times to help out.
-                  Driver's License and vehicle helpful but by no means required.
+                  Driver's License and vehicle helpful but by no means required
+                  — if you have a truck or van, <strong>we especially want you!</strong>
                 </p>
+              </div>
+
+              <div className='volunteer-role-card volunteer-role-card-full'>
+                <h3 className='volunteer-role-title'>Clothes Swap Coordinator</h3>
+                <p>
+                  Help keep our clothes swap running! It takes a lot of work and
+                  we'd love to have more folks interested in helping. Duties
+                  typically include:
+                </p>
+                <ul className='volunteer-role-duties'>
+                  <li>Planning sorting days and clothes swaps as a team</li>
+                  <li>Gathering volunteers for sorting and moving bins</li>
+                  <li>Directing volunteers sorting</li>
+                  <li>Organizing and tagging clothes</li>
+                </ul>
               </div>
 
               <div className='volunteer-role-card'>
@@ -207,12 +224,18 @@ function Volunteer() {
 
               <div className='volunteer-role-card'>
                 <h3 className='volunteer-role-title'>
-                  Community Care Coordinator
+                  Care Coordinator
                 </h3>
                 <span className='volunteer-role-tag'>Fully virtual</span>
                 <p>
-                  Check in on volunteers, support folks during burnout, and help
-                  organize wellness offerings or grounding practices.
+                  Monitor the community care channel and reach out to folks that
+                  are struggling, especially when someone expresses great need or
+                  suicidality. Some care coordinators also post mood check-ins.
+                </p>
+                <p className='volunteer-role-note'>
+                  This role does not require you to respond to everyone or be
+                  available at all times — it requires someone who is good at
+                  setting and holding boundaries.
                 </p>
               </div>
 
@@ -228,41 +251,56 @@ function Volunteer() {
 
               <div className='volunteer-role-card'>
                 <h3 className='volunteer-role-title'>Welcome Buddy</h3>
-                <span className='volunteer-role-tag'>Partially virtual</span>
+                <span className='volunteer-role-tag volunteer-role-tag-urgent'>Needed ASAP!</span>
                 <p>
-                  Be a soft landing for someone new. You'll connect with 1–3
-                  newcomers at a time to help them feel more comfortable
-                  entering T4Tclt spaces — chatting on Discord, planning to meet
-                  at an event, or just checking in. You don't need to be at
-                  every event or have all the answers, just be willing to say
-                  "I've got you."
+                  We are really lacking buddies right now and could use folks
+                  ASAP! Welcome Buddies are simply there to offer a friendly
+                  vibe, information, and presence. That can look like:
+                </p>
+                <ul className='volunteer-role-list'>
+                  <li>Saying hi and checking in every so often</li>
+                  <li>Answering questions about events or T4Tclt culture</li>
+                  <li>Attending an event together if you're both up for it</li>
+                  <li>Helping new folks feel seen and included</li>
+                </ul>
+                <p className='volunteer-role-note'>
+                  There's no pressure to attend every event or provide emotional
+                  labor beyond your capacity. You can always ask for help or
+                  take a break.
                 </p>
               </div>
 
               <div className='volunteer-role-card'>
                 <h3 className='volunteer-role-title'>
-                  Welcome Buddy Coordinator
+                  Welcome Coordinator
                 </h3>
-                <span className='volunteer-role-tag'>Fully virtual</span>
+                <span className='volunteer-role-tag volunteer-role-tag-urgent'>Needed ASAP!</span>
                 <p>
-                  Coordinate a culture of care. You'll match new community
-                  members with Welcome Buddies, check in on pairings, support
-                  buddies, track trends, and be a gentle point person for
-                  buddy-related questions. Great for someone organized who
-                  values relational support.
+                  We need at least one new Welcome Coordinator to ensure there
+                  is no undue burden on a single person. As a Welcome
+                  Coordinator, you match new community members to a suitable
+                  Welcome Buddy:
                 </p>
+                <ul className='volunteer-role-list'>
+                  <li>Claim incoming requests when pinged by the admin team</li>
+                  <li>Review what the new member is looking for</li>
+                  <li>Message the best-fit Welcome Buddy to check capacity</li>
+                  <li>Connect the buddy and new member once confirmed</li>
+                  <li>Check in after a couple of weeks to see how things are going</li>
+                  <li>Act as a resource and answer questions from Welcome Buddies</li>
+                </ul>
               </div>
 
               <div className='volunteer-role-card'>
                 <h3 className='volunteer-role-title'>Fundraiser Coordinator</h3>
                 <span className='volunteer-role-tag'>Fully Virtual</span>
                 <p>
-                  Play a vital role in keeping T4TCLT's work alive. From food
-                  share and rideshare programs to community events and emergency
-                  mutual aid, every part of what we do relies on what we're able
-                  to raise together. This role is about organizing creative,
-                  community-centered fundraisers — drag shows, online campaigns,
-                  raffles — and helping us sustain the care we provide.
+                  Help T4T find creative and sustainable ways to keep our work
+                  going — applying to grants, hosting raffles, auctions, you
+                  name it. Currently T4T gains most of its funds through
+                  pay-what-you-can merch tabling at Pride events. If you have
+                  something you'd like to donate for T4T to raffle or sell for
+                  mutual aid, let us know!
                 </p>
               </div>
             </div>

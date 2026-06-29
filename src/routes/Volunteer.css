@@ -165,6 +165,19 @@
   width: fit-content;
 }
 
+.volunteer-role-tag-urgent {
+  background-color: #fff0f3;
+  color: #e05a78;
+}
+
+.volunteer-role-list {
+  margin-left: 1.25rem;
+  color: #555;
+  line-height: 1.9;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
 .volunteer-role-card p {
   font-size: 0.95rem;
   color: #555;

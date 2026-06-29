@@ -35,6 +35,12 @@ const pages: SiteMapEntry[] = [
     description: 'A collection of T4T resources, local services, mutual aid programs, and community links for trans and gender-expansive folks in Charlotte.',
   },
   {
+    category: 'Main',
+    path: '/anime',
+    label: 'Trans Representation in Anime',
+    description: 'A guide to understanding gender, identity, and representation in anime and manga — with a searchable database, panel notes, and evaluation framework.',
+  },
+  {
     category: 'Community',
     path: '/discord',
     label: 'Discord',

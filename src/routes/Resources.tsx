@@ -84,6 +84,9 @@ function Resources() {
               >
                 Trans Folx Guide to Charlotte Resources
               </a>
+              <a href="/anime">
+                Trans Representation in Anime
+              </a>
             </div>
           </div>
 
