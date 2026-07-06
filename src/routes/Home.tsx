@@ -77,13 +77,13 @@ function Home() {
         <div className="flyer-section">
           <div className="flyer-content">
             <div className="flyer-images">
-              <img src="/assets/pool.png" alt="T4T Pool Party" className="flyer-image main-image" />
+              <img src="/assets/pool2.png" alt="T4T Pool Party" className="flyer-image main-image" />
             </div>
             <div className="flyer-text">
-              <h2 className="flyer-title">POOL PARTY</h2>
+              <h2 className="flyer-title">POOL PARTY 2</h2>
               <div className="flyer-description">
                 <p><strong>Saturday, July 26 · 2–8 PM</strong></p>
-                <p>Join us for our yearly pool party! We will be making hotdogs and bringing our swimsuit bin from the clothes swap. The pool is shaded after 3:30 and has pool toys for us to use, but don't forget sunscreen and a towel!</p>
+                <p>Join us for our second pool party this year! We will be making hotdogs and bringing our swimsuit bin from the clothes swap. The pool is shaded after 3:30 and has pool toys for us to use, but don't forget sunscreen and a towel!</p>
                 <p>The venue has seating, but we will likely outnumber them, so bringing a chair is a good idea. We will also have coolers full of ice, waters, and soda. Please bring any snacks or drinks you may want, or some to share if you can!</p>
                 <p>The venue allows nudity (please wear bottoms) and alcohol, but please imbibe responsibly. There is only one bathroom inside, so it is advisable to wear your swimsuit under your clothes to reduce the line for changing.</p>
                 <p>RSVP on OpenCollective to receive an email with the address. Tickets are pay-what-you-can to recoup the venue costs, but it is not required to donate to attend.</p>

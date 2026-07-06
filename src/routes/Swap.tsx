@@ -171,7 +171,7 @@ function Swap() {
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfxNWVDrRQdg9Y8ophlxUMQMsmHTnGhwiuznD40jIurQnT2Mg/viewform?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="swap-button primary"
+                className="swap-button secondary"
               >
                 Sign Up to Volunteer
               </a>

@@ -94,7 +94,7 @@
 
 .swap-band-blue .swap-section p {
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.95);
+  color: black;
   line-height: 1.8;
 }
 
@@ -387,7 +387,7 @@
 }
 
 .swap-faq-item p {
-  color: #555;
+  color: black;
   line-height: 1.7;
   margin: 0;
 }
