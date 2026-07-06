@@ -16,8 +16,13 @@ import NotFound from './routes/NotFound';
 import Buddy from './routes/Buddy';
 import Vanish from './routes/Vanish';
 import Discord from './routes/Discord';
+import Swap from './routes/Swap';
+import Volunteer from './routes/Volunteer';
+import CommunityStandards from './routes/CommunityStandards';
+import SiteMap from './routes/SiteMap';
 import { NEW_YEARS_2026_DRIVE_LINK, NEWSLETTER_LINKS, ZINE_SUBMISSION_FORM_LINK } from './constants';
 import Members from './routes/Members';
+import Anime from './routes/Anime';
 
 const router = createBrowserRouter([
   {
@@ -49,6 +54,10 @@ const router = createBrowserRouter([
     element: <Resources />,
   },
   {
+    path: '/anime',
+    element: <Anime />,
+  },
+  {
     path: '/vanish',
     element: <Vanish />,
   },
@@ -67,6 +76,22 @@ const router = createBrowserRouter([
   {
     path: '/discord',
     element: <Discord />,
+  },
+  {
+    path: '/swap',
+    element: <Swap />,
+  },
+  {
+    path: '/volunteer',
+    element: <Volunteer />,
+  },
+  {
+    path: '/community-standards',
+    element: <CommunityStandards />,
+  },
+  {
+    path: '/map',
+    element: <SiteMap />,
   },
   {
     path: "*",
