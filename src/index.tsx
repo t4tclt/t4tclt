@@ -19,6 +19,7 @@ import Discord from './routes/Discord';
 import Swap from './routes/Swap';
 import { NEW_YEARS_2026_DRIVE_LINK, NEWSLETTER_LINKS, ZINE_SUBMISSION_FORM_LINK } from './constants';
 import Members from './routes/Members';
+import Anime from './routes/Anime';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: '/resources',
     element: <Resources />,
+  },
+  {
+    path: '/anime',
+    element: <Anime />,
   },
   {
     path: '/vanish',

@@ -74,6 +74,7 @@ function Nav() {
               <a href="/resources" className="nav-link">Resources</a>
               <button onClick={() => scrollToSection('donate')}>Donate</button>
               <button onClick={() => scrollToSection('contact')}>Contact</button>
+              <a href="/map" className="nav-link">Sitemap</a>
             </>
           ) : (
             <>
@@ -82,7 +83,7 @@ function Nav() {
               <a href="/members" className="nav-link">Our Members</a>
               <a href="/resources" className="nav-link">Resources</a>
               <a href="/zine" className="nav-link">Zine</a>
-              
+              <a href="/map" className="nav-link">Sitemap</a>
             </>
           )}
         </div>
