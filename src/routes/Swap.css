@@ -29,21 +29,34 @@
   line-height: 1.6;
 }
 
-.swap-content-section {
+.swap-band {
   width: 100%;
-  background-color: white;
   padding: 4rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  scroll-margin-top: 80px;
 }
 
-.swap-content {
+.swap-band-white {
+  background-color: white;
+}
+
+.swap-band-blue {
+  background-color: #51c6f1;
+}
+
+.swap-band-upcoming {
+  border-top: 4px solid #f5b0be;
+  border-bottom: 4px solid #f5b0be;
+  background-color: #fff8f9;
+}
+
+.swap-band-inner {
   max-width: 900px;
   width: 90%;
   display: flex;
   flex-direction: column;
-  gap: 3.5rem;
 }
 
 .swap-intro {
@@ -73,9 +86,15 @@
   gap: 1rem;
 }
 
-.swap-section p {
+.swap-band-white .swap-section p {
   font-size: 1rem;
   color: #555;
+  line-height: 1.8;
+}
+
+.swap-band-blue .swap-section p {
+  font-size: 1rem;
+  color: black;
   line-height: 1.8;
 }
 
@@ -87,6 +106,15 @@
   margin-bottom: 0.5rem;
 }
 
+.swap-band-blue .swap-section-title {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.swap-band-upcoming .swap-section-title {
+  color: #f5b0be;
+}
+
 .swap-subsection-title {
   color: #51c6f1;
   font-size: 1.2rem;
@@ -94,10 +122,22 @@
   margin-bottom: 0.5rem;
 }
 
+.swap-band-blue .swap-subsection-title {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
 .swap-list {
   margin-left: 1.5rem;
-  color: #555;
   line-height: 1.9;
+}
+
+.swap-band-white .swap-list {
+  color: #555;
+}
+
+.swap-band-blue .swap-list {
+  color: rgba(255, 255, 255, 0.95);
 }
 
 .swap-list li {
@@ -143,6 +183,37 @@
   text-decoration: none;
 }
 
+.swap-upcoming-highlight {
+  background-color: white;
+  border-left: 4px solid #f5b0be;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.7;
+  box-shadow: 0 2px 8px rgba(245, 176, 190, 0.2);
+}
+
+.swap-upcoming-highlight strong {
+  color: #51c6f1;
+}
+
+.swap-no-events {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.swap-no-events a {
+  color: #51c6f1;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.swap-no-events a:hover {
+  text-decoration: underline;
+}
+
 .swap-events-grid {
   display: flex;
   flex-direction: column;
@@ -151,17 +222,32 @@
 }
 
 .swap-event-card {
-  background-color: #f8f8f8;
+  background-color: white;
   border-radius: 12px;
   padding: 1.5rem;
   border-left: 4px solid #51c6f1;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .swap-event-card-featured {
   border-left-color: #f5b0be;
+  background-color: #fff5f7;
+  box-shadow: 0 4px 16px rgba(245, 176, 190, 0.35);
+}
+
+.swap-event-next-badge {
+  align-self: flex-start;
+  background-color: #f5b0be;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
 }
 
 .swap-event-header {
@@ -189,6 +275,10 @@
   white-space: nowrap;
 }
 
+.swap-event-card-featured .swap-event-date {
+  color: #666;
+}
+
 .swap-event-location {
   display: flex;
   flex-direction: column;
@@ -204,11 +294,6 @@
   margin: 0;
 }
 
-.swap-event-note {
-  font-style: italic;
-  color: #888 !important;
-}
-
 .swap-two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -222,9 +307,15 @@
   gap: 0.75rem;
 }
 
-.swap-col p {
+.swap-band-white .swap-col p {
   font-size: 1rem;
   color: #555;
+  line-height: 1.8;
+}
+
+.swap-band-blue .swap-col p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.95);
   line-height: 1.8;
 }
 
@@ -283,7 +374,7 @@
 }
 
 .swap-faq-item {
-  background-color: #f8f8f8;
+  background-color: rgba(255, 255, 255, 0.95);
   border-radius: 8px;
   padding: 1.25rem;
 }
@@ -296,7 +387,7 @@
 }
 
 .swap-faq-item p {
-  color: #555;
+  color: black;
   line-height: 1.7;
   margin: 0;
 }
@@ -315,11 +406,18 @@
   text-align: center;
 }
 
+.swap-band-blue .swap-contact-form {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
 .swap-contact-form {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
   max-width: 600px;
+  width: 100%;
 }
 
 .swap-form-group {
@@ -384,13 +482,12 @@
     font-size: 1.1rem;
   }
 
-  .swap-content-section {
-    padding: 2rem 0.5rem;
+  .swap-band {
+    padding: 2.5rem 0.5rem;
   }
 
-  .swap-content {
+  .swap-band-inner {
     width: 95%;
-    gap: 2.5rem;
   }
 
   .swap-section-title {

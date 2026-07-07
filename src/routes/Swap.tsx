@@ -1,8 +1,39 @@
 import React from 'react';
 import './Swap.css';
 import Nav from '../components/Nav';
+import {
+  getNextSwapSortingEvent,
+  getUpcomingSwapSortingEvents,
+  SwapSortingEvent,
+} from '../utils/swap-sorting-events';
+
+function SwapEventCard({
+  event,
+  isNext,
+}: {
+  event: SwapSortingEvent;
+  isNext: boolean;
+}) {
+  return (
+    <div className={`swap-event-card${isNext ? ' swap-event-card-featured' : ''}`}>
+      {isNext && <span className="swap-event-next-badge">Next Up</span>}
+      <div className="swap-event-header">
+        <h3 className="swap-event-title">{event.title}</h3>
+        <span className="swap-event-date">{event.dateLabel}</span>
+      </div>
+      <div className="swap-event-location">
+        <strong>{event.location}</strong>
+        <span>{event.address}</span>
+      </div>
+      <p>{event.description}</p>
+    </div>
+  );
+}
 
 function Swap() {
+  const upcomingEvents = getUpcomingSwapSortingEvents();
+  const nextEvent = getNextSwapSortingEvent();
+
   return (
     <div className="swap-page-container">
       <Nav />
@@ -12,9 +43,8 @@ function Swap() {
         <p className="swap-hero-subtitle">Free, gender-affirming clothing for trans, nonbinary, and gender-expansive people in Charlotte</p>
       </div>
 
-      <div className="swap-content-section">
-        <div className="swap-content">
-
+      <div className="swap-band swap-band-white">
+        <div className="swap-band-inner">
           <div className="swap-intro">
             <p>T4TCLT's clothes swaps are one of our core mutual aid projects. We offer free clothing, shoes, accessories, binders, and other gender-affirming items in a space that is welcoming, low-barrier, and rooted in care.</p>
             <p>Our swaps are donation-based and always pay-what-you-can, if anything. You do not need to donate in order to take what you need.</p>
@@ -24,7 +54,11 @@ function Swap() {
               <a href="#volunteer" className="swap-button secondary">Volunteer for a Swap</a>
             </div>
           </div>
+        </div>
+      </div>
 
+      <div className="swap-band swap-band-blue">
+        <div className="swap-band-inner">
           <div className="swap-section">
             <h2 className="swap-section-title">What to Expect</h2>
             <p>At our swaps, you may find:</p>
@@ -38,37 +72,58 @@ function Swap() {
             </ul>
             <p>Everything is offered through a mutual aid model. Take what you need. If you are able to chip in financially, those donations go directly back into supporting future swaps and related community care efforts.</p>
           </div>
+        </div>
+      </div>
 
+      <div className="swap-band swap-band-white swap-band-upcoming" id="upcoming">
+        <div className="swap-band-inner">
+          <div className="swap-section">
+            <h2 className="swap-section-title">Upcoming Swap Opportunities</h2>
+            {nextEvent && (
+              <p className="swap-upcoming-highlight">
+                Our next sorting day is <strong>{nextEvent.dateLabel}</strong> at {nextEvent.location} ({nextEvent.address}).
+              </p>
+            )}
+            {upcomingEvents.length > 0 ? (
+              <div className="swap-events-grid">
+                {upcomingEvents.map((event) => (
+                  <SwapEventCard
+                    key={event.id}
+                    event={event}
+                    isNext={nextEvent?.id === event.id}
+                  />
+                ))}
+              </div>
+            ) : (
+              <p className="swap-no-events">No upcoming sorting days are scheduled right now. Check our <a href="/discord">Discord</a> or the calendar for future dates.</p>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <div className="swap-band swap-band-blue">
+        <div className="swap-band-inner">
           <div className="swap-section">
             <h2 className="swap-section-title">Who Is This For?</h2>
             <p>Our clothes swaps are trans-led and trans-focused, centering trans, nonbinary, and gender-expansive people. If you're questioning, exploring, or identify anywhere outside the binary, this space is for you. No proof, labels, or explanation needed.</p>
             <p>Allies are welcome too, especially to support by donating items, funds, or volunteer labor.</p>
           </div>
+        </div>
+      </div>
 
+      <div className="swap-band swap-band-white">
+        <div className="swap-band-inner">
           <div className="swap-section">
             <h2 className="swap-section-title">Rooted in Mutual Aid</h2>
             <p>This event is not just a clothing exchange. It is part of T4TCLT's broader ecosystem of care.</p>
             <p>The clothes swap helps meet material needs while also creating space for joy, gender exploration, connection, and practical support. Every sorted bin, every binder, every pair of shoes, and every kind welcome is part of building a stronger community.</p>
           </div>
+        </div>
+      </div>
 
-          <div className="swap-section" id="upcoming">
-            <h2 className="swap-section-title">Upcoming Swap Opportunities</h2>
-
-            <div className="swap-events-grid">
-              <div className="swap-event-card">
-                <div className="swap-event-header">
-                  <h3 className="swap-event-title">Clothes Sorting</h3>
-                  <span className="swap-event-date">May 28 · 3:30–7:30 PM</span>
-                </div>
-                <div className="swap-event-location">
-                  <strong>South Blvd Library, Community Room</strong>
-                </div>
-                <p>Help sort donations ahead of our upcoming swaps, drop off clothes, or come by if you're looking for something specific. If there's a size or category you're especially hoping for, let us know and we can try to bring those bins.</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="swap-section" id="volunteer">
+      <div className="swap-band swap-band-blue" id="volunteer">
+        <div className="swap-band-inner">
+          <div className="swap-section">
             <h2 className="swap-section-title">Volunteer</h2>
             <p>Clothes swaps happen because community members show up for each other. Volunteering can mean a lot of different things, and there are many ways to help before, during, and after an event.</p>
 
@@ -116,13 +171,17 @@ function Swap() {
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfxNWVDrRQdg9Y8ophlxUMQMsmHTnGhwiuznD40jIurQnT2Mg/viewform?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="swap-button primary"
+                className="swap-button secondary"
               >
                 Sign Up to Volunteer
               </a>
             </div>
           </div>
+        </div>
+      </div>
 
+      <div className="swap-band swap-band-white">
+        <div className="swap-band-inner">
           <div className="swap-section">
             <h2 className="swap-section-title">Want to Donate?</h2>
             <p>You're welcome to bring clothing donations to a swap or sorting day. Financial donations are also appreciated and help sustain future swaps and direct aid.</p>
@@ -136,7 +195,11 @@ function Swap() {
             </ul>
             <p>Items that are stained, torn, very worn, or unlikely to be used may be redirected to textile recycling, mending, washing, or re-donation.</p>
           </div>
+        </div>
+      </div>
 
+      <div className="swap-band swap-band-blue">
+        <div className="swap-band-inner">
           <div className="swap-section">
             <h2 className="swap-section-title">Learn More About Swap Logistics</h2>
             <p>Want the fuller behind-the-scenes picture? We keep a detailed procedure guide for volunteers and organizers that covers setup and layout, supply lists, inventory prep and breakdown, donation sorting guidelines, info table responsibilities, how we organize by size and category, and community agreements and values.</p>
@@ -152,7 +215,11 @@ function Swap() {
               </a>
             </div>
           </div>
+        </div>
+      </div>
 
+      <div className="swap-band swap-band-white">
+        <div className="swap-band-inner">
           <div className="swap-section">
             <h2 className="swap-section-title">Accessibility and Care</h2>
             <p>We aim for swaps to be as accessible and low-pressure as possible. Depending on the event and venue, this may include:</p>
@@ -167,7 +234,11 @@ function Swap() {
             </ul>
             <p>If you have specific access needs, reach out and we'll do our best to support you.</p>
           </div>
+        </div>
+      </div>
 
+      <div className="swap-band swap-band-blue">
+        <div className="swap-band-inner">
           <div className="swap-section">
             <h2 className="swap-section-title">FAQ</h2>
             <div className="swap-faq">
@@ -201,7 +272,11 @@ function Swap() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
 
+      <div className="swap-band swap-band-white">
+        <div className="swap-band-inner">
           <div className="swap-cta-section">
             <h2 className="swap-section-title">Get Involved</h2>
             <p>Whether you want to donate clothes, sort inventory, help at the info table, mend garments, move bins, or help organize future swaps, we'd love to have you involved.</p>
@@ -225,7 +300,11 @@ function Swap() {
               </a>
             </div>
           </div>
+        </div>
+      </div>
 
+      <div className="swap-band swap-band-blue">
+        <div className="swap-band-inner">
           <div className="swap-section">
             <h2 className="swap-section-title swap-contact-title">Contact Us</h2>
             <form
@@ -277,7 +356,6 @@ function Swap() {
               <button type="submit" className="swap-submit-button">Send Message</button>
             </form>
           </div>
-
         </div>
       </div>
     </div>
