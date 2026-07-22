@@ -264,7 +264,7 @@ function Swap() {
               </div>
               <div className="swap-faq-item">
                 <h3 className="swap-faq-question">How can I stay updated?</h3>
-                <p>Join our <a href="/discord">Discord</a>, follow us on social media, or sign up for our newsletter to hear about future swaps and other events.</p>
+                <p>Join our <a href="/discord">Discord</a>, follow us on social media, or <a href="/#newsletter">sign up for email updates</a> to hear about future swaps and other events.</p>
               </div>
               <div className="swap-faq-item">
                 <h3 className="swap-faq-question">How can I donate?</h3>

@@ -33,7 +33,7 @@ function About() {
           </p>
           <p>
           Not sure if T4Tclt is right for you? Everyone is always welcome at our events, 
-          so come see if the vibe feels right! For lists of upcoming events, check out the calendar or monthly newsletter below. 
+          so come see if the vibe feels right! For lists of upcoming events, check out the <a href="/#events">calendar</a> or sign up for <a href="/#newsletter">email updates</a> on our home page.
           </p>
           <p>
             We also have a <a href="/discord">Discord</a> community where you can connect with other trans folx online and participate in our events and activities.
@@ -150,28 +150,6 @@ function About() {
       <div className="about-staff-section">
         <h2 className="about-staff-title">Meet Our Team</h2>
         <div className="about-staff-grid">
-          <div className="about-staff-card" onClick={handleStaffCardClick}>
-            <div className="about-staff-card-inner">
-              <div className="about-staff-card-front">
-                <img src="/assets/quinn.png" alt="Quinn Fleur" className="about-staff-image" />
-                <div className="about-staff-hover-text">Click to learn more</div>
-              </div>
-              <div className="about-staff-card-back">
-                <h3 className="about-staff-name">Quinn Fleur</h3>
-                <p className="about-staff-role">T4T Organizer/Founder</p>
-                <div className="about-staff-bio">
-                  <p><strong>Bio:</strong> I am an autistic trans man who has been with T4T since the beginning! I'm an herbal kitchen witch passionate about inclusion</p>
-                  <p><strong>Location:</strong> Southeast Charlotte</p>
-                  <p><strong>Sexuality:</strong> Queer, Polyam, Aceflux</p>
-                  <p><strong>Gender:</strong> Non-binary Trans Man</p>
-                  <p><strong>Interests:</strong> Drag, community organizing</p>
-                  <p><strong>Quirks:</strong> ADHD, Autism, Ehlers Danlos Syndrome</p>
-                  <p><strong>Favorite T4T events:</strong> Craft Night, Speed Friending, Drag Shows</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div className="about-staff-card" onClick={handleStaffCardClick}>
             <div className="about-staff-card-inner">
               <div className="about-staff-card-front">

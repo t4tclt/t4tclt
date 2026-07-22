@@ -177,12 +177,12 @@ function Volunteer() {
 
               <div className='volunteer-role-card'>
                 <h3 className='volunteer-role-title'>Newsletter Coordinator</h3>
-                <span className='volunteer-role-tag'>Fully virtual</span>
+                <span className='volunteer-role-tag'>Fully virtual · Currently paused</span>
                 <p>
-                  Prepare the monthly newsletter, working with the social media
-                  and event teams to compile upcoming events, community
-                  spotlights, affirmations, and new resources. The newsletter
-                  goes out on the first of every month.
+                  This role is on hold while we transition away from our monthly
+                  newsletter. In the past, the coordinator worked with the social
+                  media and event teams to compile upcoming events, community
+                  spotlights, affirmations, and new resources.
                 </p>
               </div>
 
@@ -424,7 +424,7 @@ function Volunteer() {
           <div className='volunteer-section'>
             <h2 className='volunteer-section-title'>Stay Connected</h2>
             <p>
-              Sign up for our newsletter to stay informed about upcoming
+              Sign up for email updates to stay informed about upcoming
               volunteer opportunities and events.
             </p>
             <div className='volunteer-email-signup'>

@@ -41,7 +41,7 @@ function Home() {
           </p>
           <p>
           Not sure if T4Tclt is right for you? Everyone is always welcome at our events, 
-          so come see if the vibe feels right! For lists of upcoming events, check out the <a href="#events">calendar</a> or monthly newsletter below. 
+          so come see if the vibe feels right! For lists of upcoming events, check out the <a href="#events">calendar</a> below or sign up for email updates.
           </p>
           <p>
             We also have a <a href="/discord">Discord</a> community where you can connect with other trans folx online and participate in our events and activities.
@@ -64,10 +64,9 @@ function Home() {
         
         <div className="calendar-cta">
           <p className="calendar-cta-text">
-            Want to learn more about our events and see what's upcoming in an easier format? Check out the{' '}
-            <a href={NEWSLETTER_LINKS.current.url} target="_blank" rel="noopener noreferrer">newsletter</a>{' '}
-            or check out our{' '}
-            <a href="/events">events page</a>.
+            Want to learn more about our events and see what's upcoming? Check out our{' '}
+            <a href="/events">events page</a>{' '}
+            or <a href="#newsletter">sign up for email updates</a>.
           </p>
           <a href="/events" className="calendar-cta-button">
             Learn More
@@ -75,30 +74,10 @@ function Home() {
         </div>
         
         <div className="flyer-section">
-          <div className="flyer-content">
-            <div className="flyer-images">
-              <img src="/assets/pool2.png" alt="T4T Pool Party" className="flyer-image main-image" />
-            </div>
-            <div className="flyer-text">
-              <h2 className="flyer-title">POOL PARTY 2</h2>
-              <div className="flyer-description">
-                <p><strong>Saturday, July 26 · 2–8 PM</strong></p>
-                <p>Join us for our second pool party this year! We will be making hotdogs and bringing our swimsuit bin from the clothes swap. The pool is shaded after 3:30 and has pool toys for us to use, but don't forget sunscreen and a towel!</p>
-                <p>The venue has seating, but we will likely outnumber them, so bringing a chair is a good idea. We will also have coolers full of ice, waters, and soda. Please bring any snacks or drinks you may want, or some to share if you can!</p>
-                <p>The venue allows nudity (please wear bottoms) and alcohol, but please imbibe responsibly. There is only one bathroom inside, so it is advisable to wear your swimsuit under your clothes to reduce the line for changing.</p>
-                <p>RSVP on OpenCollective to receive an email with the address. Tickets are pay-what-you-can to recoup the venue costs, but it is not required to donate to attend.</p>
-                <div className="flyer-buttons">
-                  <a
-                    href="https://opencollective.com/t4t-charlotte/events/t4t-pool-party-2-50ce9f5e"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flyer-button tickets"
-                  >
-                    RSVP on OpenCollective
-                  </a>
-                </div>
-              </div>
-            </div>
+          <div className="flyer-updates-banner">
+            <p className="flyer-updates-text">
+              Changes in progress — join <a href="/discord">Discord</a> for updates
+            </p>
           </div>
         </div>
       </div>
@@ -173,7 +152,7 @@ function Home() {
         <div className="volunteer-cta-home-content">
           <h2 className="volunteer-cta-home-title">Volunteer With Us</h2>
           <p>T4TCLT runs entirely on community care. Whether you want to help at an event, sort donations, moderate our Discord, or take on a coordinator role, there's a place for you.</p>
-          <p>Sign up for our newsletter below to stay in the loop on upcoming opportunities, or apply directly to join our organizing team.</p>
+          <p>Sign up for email updates below to stay in the loop on upcoming opportunities, or apply directly to join our organizing team.</p>
           <div className="volunteer-cta-home-buttons">
             <a
               href="https://forms.gle/4Y8V8jhguRSocQ6e9"
@@ -192,9 +171,9 @@ function Home() {
 
       <div id="newsletter" className="newsletter-section">
         <div className="newsletter-content">
-          <h2 className="newsletter-title">Our Newsletter</h2>
-          <p>Stay updated with our latest news, events, and community highlights! Every month we send out a newsletter with all the upcoming events and a recap of the previous month's events.</p> 
-          <p>Check out the <a href={NEWSLETTER_LINKS.current.url} target="_blank" rel="noopener noreferrer">Current ({NEWSLETTER_LINKS.current.month}) Newsletter</a></p>
+          <h2 className="newsletter-title">Email Updates</h2>
+          <p>We're no longer publishing our monthly newsletter, but you can still sign up below to receive email updates about events, volunteer opportunities, and community news.</p>
+          <p>Our final newsletter was the <a href={NEWSLETTER_LINKS.current.url} target="_blank" rel="noopener noreferrer">{NEWSLETTER_LINKS.current.month} edition</a>.</p>
           <p>Previous newsletters: {NEWSLETTER_LINKS.past.map(({ month, url }, index) => (
             <span key={month}>
               {index > 0 && ', '}
