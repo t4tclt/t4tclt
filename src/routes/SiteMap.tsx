@@ -14,7 +14,7 @@ const pages: SiteMapEntry[] = [
     category: 'Main',
     path: '/',
     label: 'Home',
-    description: 'The T4TCLT homepage — upcoming events, calendar, zine previews, newsletter signup, and a quick overview of who we are.',
+    description: 'The T4TCLT homepage — upcoming events, calendar, zine previews, email updates signup, and a quick overview of who we are.',
   },
   {
     category: 'Main',

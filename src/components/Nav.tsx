@@ -69,7 +69,7 @@ function Nav() {
               <button onClick={() => scrollToSection('events')}>Events</button>
               <button onClick={() => scrollToSection('zine')}>Zine</button>
               <button onClick={() => scrollToSection('about')}>About</button>
-              <button onClick={() => scrollToSection('newsletter')}>Newsletter</button>
+              <button onClick={() => scrollToSection('newsletter')}>Email Updates</button>
               <button onClick={() => scrollToSection('help')}>Help</button>
               <a href="/resources" className="nav-link">Resources</a>
               <button onClick={() => scrollToSection('donate')}>Donate</button>

@@ -5,7 +5,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import Home from './routes/Home'
 import About from './routes/About'
 import Events from './routes/Events'
@@ -17,7 +17,7 @@ import Buddy from './routes/Buddy';
 import Vanish from './routes/Vanish';
 import Discord from './routes/Discord';
 import Swap from './routes/Swap';
-import { NEW_YEARS_2026_DRIVE_LINK, NEWSLETTER_LINKS, ZINE_SUBMISSION_FORM_LINK } from './constants';
+import { NEW_YEARS_2026_DRIVE_LINK, ZINE_SUBMISSION_FORM_LINK } from './constants';
 import Members from './routes/Members';
 import Anime from './routes/Anime';
 
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/newsletter",
-    element: <ExternalRedirect url={NEWSLETTER_LINKS.current.url} />,
+    element: <Navigate to={{ pathname: '/', hash: 'newsletter' }} replace />,
   },
   {
     path: "/new-years-2026",
